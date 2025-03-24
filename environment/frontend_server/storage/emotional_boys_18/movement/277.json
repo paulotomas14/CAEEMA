@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "working at the counter and interacting with customers (serving customers their orders) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels pride because, after witnessing  the event: [Isabella Rodriguez is preparing drinks and food orders] , they thought 'Isabella Rodriguez enjoys preparing drinks and food orders because it allows her to interact with customers and ensure they have a great experience at Hobbs Cafe'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        121,
+        45
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "waking up and completing her morning routine (eating breakfast) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:common room table because, after witnessing  the event: [common room table is idle] , they thought 'Maria Lopez would find the common room table in the Ville:Dorm appealing because it provides a space for her to study and connect with other students'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        110,
+        30
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "continuing to work on his research paper at the library (revising and editing his research paper) (reviewing his research findings) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Oak Hill College:library:library table because, after witnessing  the event: [library table is idle] , they thought 'Klaus Mueller would find the library table appealing because it provides a quiet and focused environment for him to work on his research paper'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        72,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "preparing breakfast for the family (plating the breakfast) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Isabella Rodriguez's apartment:main room:bed because, after witnessing  the event: [bed is idle] , they thought 'Pepper Robot would find the bed in Isabella Rodriguez's apartment appealing because it is a place where Pepper can recharge and rest'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:51:00"
+  }
+}

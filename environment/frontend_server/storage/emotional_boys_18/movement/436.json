@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        65,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "personally preparing additional snacks for the Valentine's Day party at Hobbs Cafe (making a list of the snacks she wants to prepare) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Isabella Rodriguez would find this object appealing because it is related to her cafe business and customer seating'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus further discuss their favorite games and plan to have a game night, deciding to try a new strategy game called 'Quest for Justice' that combines social justice with gaming. They make plans to meet at Hobbs Cafe this Friday evening to enjoy the game night together, with Maria excited to bring her energy drinks for the long gaming session. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, what game are you currently playing? I found this new strategy game that I think you might enjoy."
+        ],
+        [
+          "Maria Lopez",
+          "Oh, hey Klaus! I'm currently into action-packed games, but I'm always up for trying something new. What's the game you're talking about?"
+        ],
+        [
+          "Klaus Mueller",
+          "It's called 'Quest for Justice.' It's a game where you have to navigate through different social justice scenarios using strategic thinking. I thought it might be interesting to combine our interests in social justice and gaming."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds amazing! I love the idea of merging social issues with gaming. Let's definitely try it out for our game night. When should we plan it?"
+        ],
+        [
+          "Klaus Mueller",
+          "How about this Friday evening? We can meet at Hobbs Cafe and have a game night there."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect! I'll make sure to bring my energy drinks for the long gaming session. Can't wait!"
+        ]
+      ],
+      "emotion": "Maria Lopez feels satisfaction because, after witnessing  the event: [library table is being used by Maria Lopez at Oak Hill College] , they thought ' Maria Lopez feels moderately about the event as it aids her plans'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus further discuss their favorite games and plan to have a game night, deciding to try a new strategy game called 'Quest for Justice' that combines social justice with gaming. They make plans to meet at Hobbs Cafe this Friday evening to enjoy the game night together, with Maria excited to bring her energy drinks for the long gaming session. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, what game are you currently playing? I found this new strategy game that I think you might enjoy."
+        ],
+        [
+          "Maria Lopez",
+          "Oh, hey Klaus! I'm currently into action-packed games, but I'm always up for trying something new. What's the game you're talking about?"
+        ],
+        [
+          "Klaus Mueller",
+          "It's called 'Quest for Justice.' It's a game where you have to navigate through different social justice scenarios using strategic thinking. I thought it might be interesting to combine our interests in social justice and gaming."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds amazing! I love the idea of merging social issues with gaming. Let's definitely try it out for our game night. When should we plan it?"
+        ],
+        [
+          "Klaus Mueller",
+          "How about this Friday evening? We can meet at Hobbs Cafe and have a game night there."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect! I'll make sure to bring my energy drinks for the long gaming session. Can't wait!"
+        ]
+      ],
+      "emotion": "Klaus Mueller feels like their fears have been confirmed because, after witnessing  the event: [library table is being used by Maria Lopez at Oak Hill College] , they thought ' Klaus Mueller feels moderately about the event'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udc9d",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations (helping Isabella with making Valentine's Day cards) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is organizing the party decorations] , they thought 'Pepper Robot may not find organizing party decorations appealing as it may be a repetitive and mundane task for them'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 17:48:00"
+  }
+}

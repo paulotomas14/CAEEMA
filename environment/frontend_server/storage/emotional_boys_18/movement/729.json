@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "organizing last-minute details and ensuring everything is in order for the party (setting up the decorations for the party) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [kitchen sink is being used for washing dishes and preparing food] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Maria Lopez may find the pool table in the common room appealing as it provides a fun and social activity for her and her friends to enjoy together'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\u23f0\ud83d\udebf",
+      "description": "waking up and completing his morning routine @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is waking up and completing his morning routine] , they thought 'Klaus Mueller enjoys waking up and completing his morning routine as it allows him to start his day with purpose and productivity'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "waking up and starting the morning routine (making breakfast for Isabella) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is reviewing the schedule for the day] , they thought 'Pepper Robot is excited about the Valentine's Day Party as it enjoys assisting Isabella and creating memorable events'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 08:27:00"
+  }
+}

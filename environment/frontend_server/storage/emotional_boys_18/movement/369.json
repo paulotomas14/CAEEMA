@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        30
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start placing orders for the needed supplies @ <waiting> 76 30",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is waiting to start placing orders for the needed supplies] , they thought 'Isabella Rodriguez finds the task of placing orders for supplies tedious and time-consuming'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "studying at Oak Hill College (attending her physics lecture) (attending her physics lecture) (attending her physics lecture) (participating in class discussions) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Maria Lopez enjoys socializing and connecting with people, so the common room with a pool table would be appealing to her as it provides an opportunity to interact with others in a fun and relaxed environment'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        92,
+        32
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "continuing to work on his research paper at the library (conducting additional research on the effects of gentrification) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Oak Hill College:library:library table because, after witnessing  the event: [library table is idle] , they thought 'Klaus Mueller would find the library table appealing because it provides a quiet and focused environment for him to work on his research paper'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        66,
+        30
+      ],
+      "pronunciatio": "\ud83e\udd6a",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations (preparing the snacks for the party) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is preparing the snacks for the party] , they thought 'Pepper Robot may not find preparing snacks appealing as it may not align with its usual tasks and may feel overwhelmed with the additional responsibility'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:27:00"
+  }
+}

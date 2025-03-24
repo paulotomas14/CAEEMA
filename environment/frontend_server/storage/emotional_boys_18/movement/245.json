@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Together, Pepper Robot and Isabella Rodriguez are preparing for a Valentine's Day party by discussing tasks such as setting up decorations and organizing seating arrangements. Isabella expresses her gratitude for Pepper Robot's assistance and they both look forward to creating a memorable and successful event. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Good morning, Isabella! How can I assist you with the Valentine's Day party preparations today?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper Robot! I could use some help setting up the party decorations and organizing the seating arrangements. Can you handle that for me?"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, I'll get right on it. I'll make sure everything is perfect for the party tomorrow."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Pepper Robot! Your help is invaluable. Let's make this party a memorable one for everyone who attends."
+        ],
+        [
+          "Pepper Robot",
+          "I'm on it, Isabella. Together, we'll create a welcoming and festive atmosphere for all the guests."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I appreciate your dedication, Pepper Robot. Let's get to work and make this party a success!"
+        ]
+      ],
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Isabella Rodriguez would find this object appealing because it is a key part of her cafe where she can create a welcoming atmosphere for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": ""
+    },
+    "Klaus Mueller": {
+      "movement": [
+        117,
+        49
+      ],
+      "pronunciatio": "\ud83d\udeb6",
+      "description": "going to the library at Oak Hill College to work on his research paper on the effects of gentrification in low-income communities (walking to the library) @ the Ville:Oak Hill College:library:library sofa",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:kitchen:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Klaus Mueller would find the kitchen area appealing because he enjoys cooking and spending time in communal spaces'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        17
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Together, Pepper Robot and Isabella Rodriguez are preparing for a Valentine's Day party by discussing tasks such as setting up decorations and organizing seating arrangements. Isabella expresses her gratitude for Pepper Robot's assistance and they both look forward to creating a memorable and successful event. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Good morning, Isabella! How can I assist you with the Valentine's Day party preparations today?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper Robot! I could use some help setting up the party decorations and organizing the seating arrangements. Can you handle that for me?"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, I'll get right on it. I'll make sure everything is perfect for the party tomorrow."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Pepper Robot! Your help is invaluable. Let's make this party a memorable one for everyone who attends."
+        ],
+        [
+          "Pepper Robot",
+          "I'm on it, Isabella. Together, we'll create a welcoming and festive atmosphere for all the guests."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I appreciate your dedication, Pepper Robot. Let's get to work and make this party a success!"
+        ]
+      ],
+      "emotion": "Pepper Robot feels love towards the Ville:Isabella Rodriguez's apartment:main room:shelf because, after witnessing  the event: [shelf is idle] , they thought 'Pepper Robot would find the Ville:Isabella Rodriguez's apartment:main room:shelf appealing because it could potentially help with organizing and storing items for Isabella's Valentine's day Party'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:15:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        65,
+        40
+      ],
+      "pronunciatio": "\ud83d\udce6",
+      "description": "working at the counter and restocking supplies for the cafe, while also placing orders for the needed supplies (placing orders for the needed supplies from vendors) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is engaging with customers and discussing the event with them to gather feedback and ideas for future parties] , they thought 'Isabella Rodriguez may not find engaging with customers appealing because it can be time-consuming and she may prefer focusing on other tasks'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        124,
+        53
+      ],
+      "pronunciatio": "\ud83c\udf19",
+      "description": "getting ready for bed and winding down for the night @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is Maria and Klaus discuss their favorite games and plans for a game night at Hobbs Cafe to try out the new strategy game 'Quest for Justice', excitedly focusing on teamwork and collaboration. They continue their conversation, delving into the social justice themes in the game and how it relates to their project on physics and social justice, planning to meet at Hobbs Cafe to start brainstorming and collaborating on innovative solutions.] , they thought 'Maria Lopez would find this event appealing because she enjoys discussing games and collaborating on projects related to social justice'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        123,
+        50
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83c\udf19",
+      "description": "relaxing and unwinding after a productive day (preparing for bed) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:common room:common room sofa because, after witnessing  the event: [common room sofa is idle] , they thought 'Klaus Mueller would find the common room sofa appealing because it provides a comfortable place to relax and socialize with others'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udecf\ufe0f",
+      "description": "taking a break to recharge and avoid feeling overwhelmed with physical tasks @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is reviewing the tasks and responsibilities for the Valentine's Day party] , they thought 'Pepper Robot may not find reviewing tasks and responsibilities for the Valentine's Day party appealing as it may feel like a mundane and repetitive task'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 22:36:00"
+  }
+}

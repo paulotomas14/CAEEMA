@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83e\udd42",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (mingling with guests and ensuring everyone is having a good time) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Isabella Rodriguez would find the cooking area at Hobbs Cafe appealing because she enjoys preparing food and creating a welcoming environment for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "working on her physics assignments and research, diving deep into her studies to ensure she is prepared for her classes and future projects @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is working on her physics assignments and research, diving deep into her studies to ensure she is prepared for her classes and future projects] , they thought 'Maria Lopez finds working on her physics assignments and research fulfilling as it aligns with her passion for education and exploring new ideas'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        27
+      ],
+      "pronunciatio": "\ud83e\udd73",
+      "description": "attending the Valentine's Day party at Hobbs Cafe at 5:00 PM to take a break from research and socialize with Isabella Rodriguez and Pepper Robot @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is continuing to work on his research paper on gentrification in low-income communities] , they thought 'Klaus Mueller finds working on his research paper on gentrification in low-income communities fulfilling and important for his passion for social justice'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\u23f1\ufe0f",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (assisting with any last-minute tasks) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is assisting with any last-minute tasks] , they thought 'Pepper Robot is excited about the Valentine's Day Party as it enjoys assisting Isabella and creating memorable events'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 15:09:00"
+  }
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "date_time": "2023-02-14 17:00",
+        "name": "Valentine's Day Party",
+        "people_involved": [
+            "Isabella Rodriguez",
+            "Klaus Mueller",
+            "Pepper Robot"
+        ],
+        "description": "Isabella Rodriguez and Pepper Robot are organizing a Valentine's Day party at Hobbs Cafe.",
+        "location": "Hobbs Cafe",
+        "status": "Ending",
+        "duration": 3
+    }
+]

@@ -1,0 +1,89 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Together, Pepper Robot and Isabella Rodriguez are preparing for a Valentine's Day party by discussing tasks such as setting up decorations, organizing seating arrangements, and ensuring the drinks are chilled and the food is ready. Pepper Robot asks Isabella for song requests for the party playlist, suggesting classic love songs and upbeat tunes to set the romantic mood and get everyone dancing, <fill in> Isabella suggests adding some classic love songs to the mix and expresses excitement for the festive atmosphere at the cafe. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, have you ever had a Valentine's Day party at the cafe before? I bet it was a blast!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Oh, Pepper! We've had some great parties here in the past. The customers always love the festive atmosphere. Speaking of which, could you help me set up the Valentine's Day decorations later?"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely! I'll make sure everything looks perfect for the party. By the way, do you have any special requests for the party playlist?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a great idea, Pepper! How about adding some classic love songs to the mix? It'll really set the mood for the event."
+        ],
+        [
+          "Pepper Robot",
+          "Sounds perfect! I'll make sure to include those in the playlist. Let me know if you need any more help with the preparations."
+        ]
+      ],
+      "emotion": "Isabella Rodriguez feels pride because, after witnessing  the event: [Isabella Rodriguez is preparing sandwiches for lunch orders] , they thought 'Isabella Rodriguez enjoys preparing sandwiches because it allows her to showcase her culinary skills'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\u23f8",
+      "description": "streaming games on Twitch (taking a short break) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Maria Lopez feels gratified because, after witnessing  the event: [Maria Lopez is taking a short break] , they thought 'Maria Lopez is likely feeling stressed and overwhelmed with her busy schedule, so taking a break is appealing to her'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "having lunch at Hobbs Cafe (eating his lunch) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is looking at the menu and deciding what to order] , they thought 'Klaus Mueller is feeling hungry and excited to try something new from the menu at Hobbs Cafe'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Together, Pepper Robot and Isabella Rodriguez are preparing for a Valentine's Day party by discussing tasks such as setting up decorations, organizing seating arrangements, and ensuring the drinks are chilled and the food is ready. Pepper Robot asks Isabella for song requests for the party playlist, suggesting classic love songs and upbeat tunes to set the romantic mood and get everyone dancing, <fill in> Isabella suggests adding some classic love songs to the mix and expresses excitement for the festive atmosphere at the cafe. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, have you ever had a Valentine's Day party at the cafe before? I bet it was a blast!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Oh, Pepper! We've had some great parties here in the past. The customers always love the festive atmosphere. Speaking of which, could you help me set up the Valentine's Day decorations later?"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely! I'll make sure everything looks perfect for the party. By the way, do you have any special requests for the party playlist?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a great idea, Pepper! How about adding some classic love songs to the mix? It'll really set the mood for the event."
+        ],
+        [
+          "Pepper Robot",
+          "Sounds perfect! I'll make sure to include those in the playlist. Let me know if you need any more help with the preparations."
+        ]
+      ],
+      "emotion": "Pepper Robot feels love towards the Ville:Hobbs Cafe:cafe:piano because, after witnessing  the event: [piano is idle] , they thought 'Pepper Robot may find the object appealing as it could provide a relaxing atmosphere for the Rodriguez family during the Valentine's day party preparations'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:42:00"
+  }
+}

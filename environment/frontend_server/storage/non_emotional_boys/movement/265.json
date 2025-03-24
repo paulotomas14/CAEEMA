@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf79",
+      "description": "working at the counter and interacting with customers (preparing drinks and food orders) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        130,
+        51
+      ],
+      "pronunciatio": "\ud83e\udea5",
+      "description": "waking up and completing her morning routine (brushing her teeth) @ the Ville:Dorm for Oak Hill College:woman's bathroom:bathroom sink",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        111,
+        30
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "continuing to work on his research paper at the library (conducting additional research on the effects of gentrification) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\u2615\ufe0f",
+      "description": "preparing breakfast for the family (preparing coffee for Mr. Rodriguez) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:15:00"
+  }
+}

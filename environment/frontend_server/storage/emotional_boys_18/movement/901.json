@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\ude0a",
+      "description": "completing the cleaning up and organizing of the cafe after the party, ensuring everything is back in order by 17:00 PM. (Isabella Rodriguez smiles and enjoys the success of the Valentine's Day party) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [cafe customer seating is being set up for the Valentine's Day Party] , they thought ' Isabella Rodriguez feels excited and focused about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        81,
+        37
+      ],
+      "pronunciatio": "\ud83d\udca1",
+      "description": "collaborating with Klaus and Isabella on new ideas for the cafe, brainstorming creative ways to bring new energy and excitement to their projects (brainstorming marketing strategies for the cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is taking a short break to stretch and grab a snack] , they thought 'Maria Lopez is currently focused on her studies and projects, so taking a break may feel like a distraction to her. However, she understands the importance of self-care and may appreciate the opportunity to recharge briefly before diving back into her work'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        101,
+        33
+      ],
+      "pronunciatio": "\u2615\u2764\ufe0f",
+      "description": "attending the Valentine's Day party at Hobbs Cafe with Isabella Rodriguez and Pepper Robot to socialize and take a break from research (arriving at Hobbs Cafe for the Valentine's Day party) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Klaus Mueller feels satisfaction because, after witnessing  the event: [cafe customer seating is being occupied by various guests enjoying food and drinks] , they thought ' Klaus Mueller feels moderately about the event'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc6d",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (on the way to assisting Isabella with greeting and welcoming guests, getting ready for the party to start) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is Pepper Robot and Isabella Rodriguez reminisce about their favorite party memories, finalize preparations for the Valentine's Day party, coordinate seating arrangements, and decorations, then agree to clean up the cafe together, dividing tasks to ensure everything is sparkling and inventory is checked and restocked, all while emphasizing teamwork and finishing strong before relaxing, proving to be a great team.] , they thought 'Pepper Robot would find this event appealing because they enjoy organizing and assisting with parties'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 17:03:00"
+  }
+}

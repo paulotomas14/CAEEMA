@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "working at the counter and interacting with customers (greeting customers as they enter the cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Isabella Rodriguez enjoys the cooking area at Hobbs Cafe because she loves creating delicious dishes for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        120,
+        51
+      ],
+      "pronunciatio": "\u23f0",
+      "description": "waking up and completing her morning routine (waking up and stretching) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "emotion": ""
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing to work on his research paper at the library (reviewing his research notes on gentrification) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is starting to write the introduction of the paper] , they thought 'Klaus Mueller is excited to start writing the introduction as it allows him to delve into the topic he is passionate about'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        72,
+        14
+      ],
+      "pronunciatio": "\u23f0\ud83d\udebf",
+      "description": "waking up and completing the morning routine @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Isabella Rodriguez's apartment:main room:desk because, after witnessing  the event: [desk is idle] , they thought 'Pepper Robot would find the Ville:Isabella Rodriguez's apartment:main room:desk appealing because it is a familiar and important part of their daily routine'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:03:00"
+  }
+}

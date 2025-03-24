@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        21
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udd12",
+      "description": "getting ready for bed and winding down for the night (turning off all the lights and locking up the cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        20
+      ],
+      "pronunciatio": "\ud83c\udfae",
+      "description": "streaming games on Twitch (choosing which game to play) @ the Ville:Oak Hill College:library:library sofa",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        126,
+        46
+      ],
+      "pronunciatio": "\ud83d\udecf\ufe0f\ud83d\udcd6",
+      "description": "relaxing and unwinding after a productive day (getting into bed and reading a few more pages of his book) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf21\ufe0f",
+      "description": "getting ready for bed (setting the thermostat for the night) @ the Ville:Isabella Rodriguez's apartment:main room:closet",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 21:24:00"
+  }
+}

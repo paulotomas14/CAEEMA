@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        65,
+        30
+      ],
+      "pronunciatio": "\ud83e\udd14",
+      "description": "engaging with customers and discussing the event with them to gather feedback and ideas for future parties (asking customers about their experience at the cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": ""
+    },
+    "Maria Lopez": {
+      "movement": [
+        108,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing her studies at Oak Hill College @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "emotion": "Maria Lopez feels like their fears have been confirmed because, after witnessing  the event: [library table is occupied by Maria Lopez working on a physics problem set] , they thought ' Maria Lopez feels moderately about the event as it hinders her plans'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        103,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "relaxing and unwinding after a productive day (continuing to read the book on social justice) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Hobbs Cafe:cafe:piano because, after witnessing  the event: [piano is idle] , they thought 'Klaus Mueller may find the object appealing because Hobbs Cafe is a familiar location for him and the object may add to the ambiance of the cafe'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations (washing the dishes) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": ""
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 19:39:00"
+  }
+}

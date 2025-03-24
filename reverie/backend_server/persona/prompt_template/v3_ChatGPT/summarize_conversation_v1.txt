@@ -1,0 +1,14 @@
+summarize_conversation_v1.txt
+
+Variables:
+!<INPUT 0>! -- Prior summary 
+!<INPUT 1>! -- conversation
+
+<commentblockmarker>###</commentblockmarker>
+Prior Summary:
+!<INPUT 0>!
+
+New conversation: 
+!<INPUT 1>!
+
+Summarize the prior summary together with the new conversation. Return the new summary in two sentences:

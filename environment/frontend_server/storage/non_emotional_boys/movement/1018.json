@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\ud83c\udfa4",
+      "description": "still at the Valentine's Day Party at Hobbs Cafe (preparing to make closing announcements and thank everyone for coming) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udc83",
+      "description": "socializing with other party guests at Hobbs Cafe (participating in a group dance or activity) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83c\udfe0\ud83c\udf89",
+      "description": "Arriving home and winding down for the evening, reflecting on the successful event and looking forward to future collaborations with Isabella Rodriguez. @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        16
+      ],
+      "pronunciatio": "\ud83d\udd12",
+      "description": "helping clean up after the Valentine's Day party at Hobbs Cafe (assisting in locking up the venue) @ the Ville:Isabella Rodriguez's apartment:main room:closet",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:54:00"
+  }
+}

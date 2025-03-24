@@ -1,0 +1,129 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        29
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller and Isabella Rodriguez discuss the preparations for the Valentine's Day party at Hobbs Cafe, with a focus on decorations and the photo booth setup. They collaborate to ensure the event is inclusive, engaging, and unforgettable, and during a break, they chat about coffee preferences and consider adding a coffee bar to the event setup, while also making plans to catch up over coffee after the event. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Isabella, taking a break too?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hey Klaus, yeah, just needed a quick breather. What's your go-to coffee order?"
+        ],
+        [
+          "Klaus Mueller",
+          "I usually go for a classic latte, how about you?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm more of a cappuccino person myself. Say, have you ever tried the new blend they have here?"
+        ],
+        [
+          "Klaus Mueller",
+          "No, I haven't! Is it good?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "It's amazing, you should definitely give it a try. By the way, have you thought about adding a coffee bar to the event setup?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great idea! It would add a nice touch. Thanks for the suggestion, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Anytime, Klaus. Let's make this event unforgettable!"
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, looking forward to it. Maybe we can catch up over coffee after the event?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds like a plan, Klaus. It's a date!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\ud83d\udcbb",
+      "description": "attending her physics class at Oak Hill College (working on a group project with classmates) @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        72,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller and Isabella Rodriguez discuss the preparations for the Valentine's Day party at Hobbs Cafe, with a focus on decorations and the photo booth setup. They collaborate to ensure the event is inclusive, engaging, and unforgettable, and during a break, they chat about coffee preferences and consider adding a coffee bar to the event setup, while also making plans to catch up over coffee after the event. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Isabella, taking a break too?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hey Klaus, yeah, just needed a quick breather. What's your go-to coffee order?"
+        ],
+        [
+          "Klaus Mueller",
+          "I usually go for a classic latte, how about you?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm more of a cappuccino person myself. Say, have you ever tried the new blend they have here?"
+        ],
+        [
+          "Klaus Mueller",
+          "No, I haven't! Is it good?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "It's amazing, you should definitely give it a try. By the way, have you thought about adding a coffee bar to the event setup?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great idea! It would add a nice touch. Thanks for the suggestion, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Anytime, Klaus. Let's make this event unforgettable!"
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, looking forward to it. Maybe we can catch up over coffee after the event?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds like a plan, Klaus. It's a date!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        67,
+        46
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "continuing to assist Isabella with Valentine's Day party preparations (coordinating with vendors for food and drinks) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 11:45:00"
+  }
+}

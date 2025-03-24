@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller and Isabella Rodriguez discuss the preparations for the Valentine's Day party at Hobbs Cafe, with Klaus offering to help set up decorations and activities based on his passion for creating inclusive spaces, and Isabella appreciating his perspective on social justice and enthusiasm to make the event special for everyone. Klaus suggests brainstorming together on ways to engage all customers in the festivities, and Isabella agrees, emphasizing the importance of ensuring a memorable event. Isabella suggests incorporating interactive games or activities like a photo booth or a DIY card-making station to make the party more engaging, with Klaus excited about the photo booth idea and planning to focus on finalizing decorations while Isabella takes care of the photo booth setup. Together, they aim to make the Valentine's Day party unforgettable. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Klaus, I see you're enjoying your dinner. Have you thought about how we can make the party more engaging for everyone?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Isabella, I was actually thinking about incorporating some interactive games or activities to get everyone involved. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a great idea! Maybe we could set up a photo booth or a DIY card-making station. It would definitely add a fun element to the party."
+        ],
+        [
+          "Klaus Mueller",
+          "I love the photo booth idea! Let's make sure to have props and backdrops ready. It's going to be a hit!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely! I'll take care of the photo booth setup, and you can focus on finalizing the decorations. Together, we'll make this party unforgettable."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Isabella. Let's make this Valentine's Day party one to remember!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        116,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "hanging out at Hobbs Cafe for dinner (chatting with the server about the menu options) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller and Isabella Rodriguez discuss the preparations for the Valentine's Day party at Hobbs Cafe, with Klaus offering to help set up decorations and activities based on his passion for creating inclusive spaces, and Isabella appreciating his perspective on social justice and enthusiasm to make the event special for everyone. Klaus suggests brainstorming together on ways to engage all customers in the festivities, and Isabella agrees, emphasizing the importance of ensuring a memorable event. Isabella suggests incorporating interactive games or activities like a photo booth or a DIY card-making station to make the party more engaging, with Klaus excited about the photo booth idea and planning to focus on finalizing decorations while Isabella takes care of the photo booth setup. Together, they aim to make the Valentine's Day party unforgettable. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Klaus, I see you're enjoying your dinner. Have you thought about how we can make the party more engaging for everyone?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Isabella, I was actually thinking about incorporating some interactive games or activities to get everyone involved. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a great idea! Maybe we could set up a photo booth or a DIY card-making station. It would definitely add a fun element to the party."
+        ],
+        [
+          "Klaus Mueller",
+          "I love the photo booth idea! Let's make sure to have props and backdrops ready. It's going to be a hit!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely! I'll take care of the photo booth setup, and you can focus on finalizing the decorations. Together, we'll make this party unforgettable."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Isabella. Let's make this Valentine's Day party one to remember!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83d\udeb6",
+      "description": "continuing to assist Isabella in greeting and entertaining party guests (on the way to assisting Isabella in cleaning up after the party and saying goodbye to guests) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 18:15:00"
+  }
+}

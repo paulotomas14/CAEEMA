@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        72,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "engaging with customers and discussing the event with them to gather feedback and ideas for future parties (discussing ideas for future parties with customers) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [cafe customer seating is occupied with engaged customers] , they thought ' Isabella Rodriguez feels moderately about the event as it aligns with her plans'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udcb0",
+      "description": "hanging out at Hobbs Cafe for dinner and treating herself to her favorite meal to lift her spirits (finishing up her meal and paying the bill) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is Maria and Klaus discuss their favorite games and plan a game night at Hobbs Cafe to try out the new strategy game 'Quest for Justice' that combines social justice with gaming. They excitedly talk about focusing on teamwork and collaboration in the game while Maria plans to bring energy drinks for the long gaming session, making the upcoming game night sound epic and fun.] , they thought 'Maria Lopez would find this event appealing because she enjoys connecting with people and exploring new ideas, and the game night at Hobbs Cafe aligns with her interests in gaming and socializing'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "relaxing and unwinding after a productive day (journaling about his thoughts and ideas) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Klaus Mueller would find this object appealing because Hobbs Cafe is a familiar and comfortable place for him to eat and socialize'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "taking a break to recharge and avoid feeling overwhelmed with physical tasks @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels happy for other because, after witnessing  the event: [refrigerator is being used by Isabella to store ingredients for the party] , they thought ' Pepper Robot feels moderately about the event as it helps with plans'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 20:21:00"
+  }
+}

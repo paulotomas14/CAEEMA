@@ -1,0 +1,65 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella and Pepper continued discussing party preparations, with Pepper eagerly responding to Isabella's suggestion of creating a festive atmosphere for their Valentine's Day party, emphasizing their goal of making it a night to remember. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Pepper, let's get those decorations up and running. We need to create a festive atmosphere for our Valentine's Day party!"
+        ],
+        [
+          "Pepper Robot",
+          "Pepper Robot eagerly responds, 'Absolutely, Isabella! I'll make sure everything looks perfect for the party. Let's make it a night to remember!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcbb",
+      "description": "studying at Oak Hill College (working on a physics problem set) (working on the second problem) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper at the library (writing the introduction to the body paragraphs) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella and Pepper continued discussing party preparations, with Pepper eagerly responding to Isabella's suggestion of creating a festive atmosphere for their Valentine's Day party, emphasizing their goal of making it a night to remember. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Pepper, let's get those decorations up and running. We need to create a festive atmosphere for our Valentine's Day party!"
+        ],
+        [
+          "Pepper Robot",
+          "Pepper Robot eagerly responds, 'Absolutely, Isabella! I'll make sure everything looks perfect for the party. Let's make it a night to remember!"
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:09:00"
+  }
+}

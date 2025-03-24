@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        65,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcc4",
+      "description": "continue working at the counter and restocking supplies for the cafe (placing orders for the needed supplies) (updating the inventory spreadsheet with the new orders) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Isabella Rodriguez would find this object appealing because it is related to her cafe, which she takes pride in and enjoys managing'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udd2c",
+      "description": "continue studying at Oak Hill College to make up for the time spent at Hobbs Cafe and finish her study session for the day. (researching a topic for her physics project) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Maria Lopez feels like their fears have been confirmed because, after witnessing  the event: [library table is occupied by Maria Lopez working on a physics problem set] , they thought ' Maria Lopez feels moderately about the event as it hinders her plans'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        77,
+        29
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "relaxing and unwinding after a productive day (continuing to read the book on social justice) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Hobbs Cafe:cafe:piano because, after witnessing  the event: [piano is idle] , they thought 'Klaus Mueller may find the object appealing because Hobbs Cafe is a familiar location for him and the object may add to the ambiance of the cafe'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations (clearing the table after dinner) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [cafe customer seating is being arranged to ensure a great view of the decorations and a fun party atmosphere] , they thought ' Pepper Robot feels excited about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 19:18:00"
+  }
+}

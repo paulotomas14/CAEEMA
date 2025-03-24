@@ -1,0 +1,35 @@
+decide_to_talk_v2.txt
+
+<commentblockmarker>###</commentblockmarker>
+Task -- given context, determine whether the subject will initiate a conversation with another. They can interrupt current tasks, if politeness dictates that they should. The format of the question and your answer is the following:
+Context: [The provided context]
+Question: [The Question you must respond to]
+
+Reasoning: [Your step-by-step reasoning. Consider the characters' occupations, interests and needs when choosing whether to converse or not.]
+Final Answer: ["yes" or "no"]
+---
+EXAMPLE 1
+Context: Mary likes bugs
+Question: Should mary eat this bug?
+
+Reasoning: Mary Should not eat this bug because she likes bugs, so she wouldn't hurt them.
+Final Answer: No
+END OF EXAMPLE 1
+
+EXAMPLE 2
+Context: Mary likes eating bugs
+Question: Should mary eat this bug?
+
+Reasoning: Mary Should eat this bug because she likes to eat bugs.
+Final Answer: Yes
+END OF EXAMPLE 2
+
+
+Context: !<INPUT 0>! 
+Right now, it is !<INPUT 1>!. !<INPUT 2>! and !<INPUT 3>! last chatted at !<INPUT 4>! about !<INPUT 5>!. 
+!<INPUT 6>! 
+!<INPUT 7>! 
+
+Question: Would !<INPUT 8>! initiate a conversation with !<INPUT 9>!? 
+
+Reasoning: 

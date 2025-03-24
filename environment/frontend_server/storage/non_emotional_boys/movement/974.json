@@ -1,0 +1,113 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Isabella Rodriguez discussed adding a dance-off and photo booth to the party, complimenting each other's creativity. They then decided to organize a mini scavenger hunt, delegating tasks and ensuring the event would be unforgettable. Maria and Isabella chatted about their enjoyment of the party, with Maria expressing her love for the dance-off idea and suggesting planning something similar in the future, leading to them deciding to brainstorm ideas for their next event together and arranging a meeting at Hobbs Cafe next week to start planning. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, that party was a blast! I had so much fun dancing and mingling with everyone."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hey Maria! I'm glad you enjoyed it. Your energy really added to the party vibe. What did you enjoy most about the event?"
+        ],
+        [
+          "Maria Lopez",
+          "I loved the dance-off idea we came up with! It really got everyone moving and having a great time. Do you think we could plan something similar in the future?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Maria! I think we make a great team when it comes to event planning. How about we brainstorm some ideas for our next event together?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fantastic! I'm already buzzing with ideas. Let's make it even more unforgettable than this party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm all in! Let's meet up soon to discuss our plans and make it happen."
+        ],
+        [
+          "Maria Lopez",
+          "Definitely! How about we meet next week at Hobbs Cafe to start brainstorming?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds like a plan. I can't wait to see what we come up with together!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Isabella Rodriguez discussed adding a dance-off and photo booth to the party, complimenting each other's creativity. They then decided to organize a mini scavenger hunt, delegating tasks and ensuring the event would be unforgettable. Maria and Isabella chatted about their enjoyment of the party, with Maria expressing her love for the dance-off idea and suggesting planning something similar in the future, leading to them deciding to brainstorm ideas for their next event together and arranging a meeting at Hobbs Cafe next week to start planning. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, that party was a blast! I had so much fun dancing and mingling with everyone."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hey Maria! I'm glad you enjoyed it. Your energy really added to the party vibe. What did you enjoy most about the event?"
+        ],
+        [
+          "Maria Lopez",
+          "I loved the dance-off idea we came up with! It really got everyone moving and having a great time. Do you think we could plan something similar in the future?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Maria! I think we make a great team when it comes to event planning. How about we brainstorm some ideas for our next event together?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fantastic! I'm already buzzing with ideas. Let's make it even more unforgettable than this party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm all in! Let's meet up soon to discuss our plans and make it happen."
+        ],
+        [
+          "Maria Lopez",
+          "Definitely! How about we meet next week at Hobbs Cafe to start brainstorming?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds like a plan. I can't wait to see what we come up with together!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "still at the Valentine's Day Party at Hobbs Cafe, participating in activities and engaging with the community (joining a group game and interacting with other attendees) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        79,
+        23
+      ],
+      "pronunciatio": "\ud83c\udf81",
+      "description": "helping ensure everything runs smoothly at the party (assisting with handing out party favors or prizes) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:42:00"
+  }
+}

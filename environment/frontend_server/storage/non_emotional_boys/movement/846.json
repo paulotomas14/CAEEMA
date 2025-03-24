@@ -1,0 +1,89 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Klaus Mueller discuss the preparations for the Valentine's Day party at Hobbs Cafe, focusing on decorations, an inclusive setup, and interactive games to make the event engaging for everyone. They collaborate to ensure an unforgettable experience and emphasize their dedication to creating a welcoming space for all guests. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Klaus, how are the preparations coming along? Any ideas on how we can make the event more engaging for everyone?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Isabella, everything is going smoothly so far. I think we could set up some interactive games or activities to involve all the guests. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a great idea, Klaus! Let's make sure everyone feels included and has a memorable experience. I'll check on the photo booth setup while you finalize the decorations."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Isabella. I'll make sure everything is set up perfectly. Let's make this party unforgettable!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Klaus! I appreciate your dedication to creating a welcoming space for everyone. Let's do this!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        112,
+        47
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "continuing to work on her physics project with her classmates (researching relevant information for the project) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        74,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Klaus Mueller discuss the preparations for the Valentine's Day party at Hobbs Cafe, focusing on decorations, an inclusive setup, and interactive games to make the event engaging for everyone. They collaborate to ensure an unforgettable experience and emphasize their dedication to creating a welcoming space for all guests. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Klaus, how are the preparations coming along? Any ideas on how we can make the event more engaging for everyone?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Isabella, everything is going smoothly so far. I think we could set up some interactive games or activities to involve all the guests. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a great idea, Klaus! Let's make sure everyone feels included and has a memorable experience. I'll check on the photo booth setup while you finalize the decorations."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Isabella. I'll make sure everything is set up perfectly. Let's make this party unforgettable!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Klaus! I appreciate your dedication to creating a welcoming space for everyone. Let's do this!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcf8",
+      "description": "continuing to assist Isabella with Valentine's Day party preparations (setting up a photo booth area) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 14:18:00"
+  }
+}

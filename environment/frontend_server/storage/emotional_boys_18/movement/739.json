@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udccb",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (reviewing the party guest list and making any necessary updates) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is Isabella Rodriguez and Pepper Robot continue preparing for the Valentine's Day party, discussing tasks like setting up decorations, organizing the party playlist, and adding fairy lights for a magical touch. Pepper reminisces about a past impromptu dance party as she offers to handle the lights, ensuring the event will shine bright and be a night to remember.] , they thought 'Isabella Rodriguez may not find this event appealing as she is feeling overwhelmed with the last-minute preparations for the Valentine's Day party'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Maria Lopez may find the pool table in the common room appealing as it provides a fun and social activity for her and her friends to enjoy together'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        124,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing to work on his research paper on gentrification in low-income communities (reviewing his research notes on gentrification) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is waking up and completing his morning routine] , they thought 'Klaus Mueller enjoys waking up and completing his morning routine as it allows him to start his day with purpose and productivity'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\udecf\ufe0f",
+      "description": "completing the morning routine (making the bed) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [desk is being used by Isabella Rodriguez for preparing for the Valentine's Day party] , they thought ' Pepper Robot feels excited and motivated about this event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 08:57:00"
+  }
+}

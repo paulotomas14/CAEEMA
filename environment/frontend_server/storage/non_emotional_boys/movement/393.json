@@ -1,0 +1,65 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella and Pepper continued discussing party preparations, with Pepper eagerly responding to Isabella's suggestion of creating a festive atmosphere for their Valentine's Day party, emphasizing their goal of making it a night to remember. Isabella asked Pepper to check on the party decorations and make sure everything is set up perfectly for tomorrow, with Pepper enthusiastically agreeing to ensure everything is in place. <fill in> @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Pepper, could you please check on the party decorations and make sure everything is set up perfectly for tomorrow?"
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is in place and ready for the big day. Is there anything else you need help with?"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        118,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "studying at Oak Hill College (attending a physics lecture) (taking notes on the lecture) @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd1",
+      "description": "continuing to work on his research paper at the library (formatting his research paper according to APA guidelines) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        18
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella and Pepper continued discussing party preparations, with Pepper eagerly responding to Isabella's suggestion of creating a festive atmosphere for their Valentine's Day party, emphasizing their goal of making it a night to remember. Isabella asked Pepper to check on the party decorations and make sure everything is set up perfectly for tomorrow, with Pepper enthusiastically agreeing to ensure everything is in place. <fill in> @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Pepper, could you please check on the party decorations and make sure everything is set up perfectly for tomorrow?"
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is in place and ready for the big day. Is there anything else you need help with?"
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:39:00"
+  }
+}

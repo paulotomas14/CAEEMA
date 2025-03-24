@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (overseeing the entertainment portion of the party) (coordinating with the entertainment team to ensure everything is set up and ready) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:kitchen sink because, after witnessing  the event: [kitchen sink is idle] , they thought 'Isabella Rodriguez would find the kitchen sink appealing as it is essential for maintaining cleanliness and organization in her cafe'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        117,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus excitedly discuss their favorite games, plans for game night at Hobbs Cafe, and their joint commitment to incorporating physics principles into social justice initiatives. They brainstorm ideas for their project while preparing to try out a new social issue-themed game together at the next game night, eagerly anticipating the opportunity to collaborate and push boundaries for impactful change. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, what's your favorite game to play when you need a break from your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, I usually enjoy strategy games that challenge my thinking. How about you?"
+        ],
+        [
+          "Maria Lopez",
+          "I love exploring new games that combine social issues with gameplay. Maybe we could try out a new game together at the next game night at Hobbs Cafe?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great idea! I'm always up for trying something new. Let's plan for it soon."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome! I'll bring the energy drinks, and we can brainstorm some more ideas for our physics and social justice project while we play. It's gonna be epic!"
+        ],
+        [
+          "Klaus Mueller",
+          "I can't wait! It's always inspiring to collaborate with you, Maria. Let's make it happen."
+        ]
+      ],
+      "emotion": ""
+    },
+    "Klaus Mueller": {
+      "movement": [
+        117,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus excitedly discuss their favorite games, plans for game night at Hobbs Cafe, and their joint commitment to incorporating physics principles into social justice initiatives. They brainstorm ideas for their project while preparing to try out a new social issue-themed game together at the next game night, eagerly anticipating the opportunity to collaborate and push boundaries for impactful change. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, what's your favorite game to play when you need a break from your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, I usually enjoy strategy games that challenge my thinking. How about you?"
+        ],
+        [
+          "Maria Lopez",
+          "I love exploring new games that combine social issues with gameplay. Maybe we could try out a new game together at the next game night at Hobbs Cafe?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great idea! I'm always up for trying something new. Let's plan for it soon."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome! I'll bring the energy drinks, and we can brainstorm some more ideas for our physics and social justice project while we play. It's gonna be epic!"
+        ],
+        [
+          "Klaus Mueller",
+          "I can't wait! It's always inspiring to collaborate with you, Maria. Let's make it happen."
+        ]
+      ],
+      "emotion": "Klaus Mueller feels hate towards the Ville:Dorm for Oak Hill College:common room:common room table because, after witnessing  the event: [common room table is idle] , they thought 'Klaus Mueller would not find the common room table in the Ville:Dorm for Oak Hill College appealing because it may be a distraction from his research paper on gentrification'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (coordinating with the entertainment for the party) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Pepper Robot would find the object appealing because it is the location of the Valentine's Day Party they are organizing with Isabella'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 14:09:00"
+  }
+}

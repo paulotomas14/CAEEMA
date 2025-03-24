@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (greeting and welcoming early guests as they arrive) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [piano is in tune and ready to be played for the party] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        121,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "currently studying and working on academic projects, focusing on her physics assignments and research. She is diving deep into her studies to ensure she is prepared for her classes and future projects @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is Maria and Klaus discuss their favorite games, plans for game night at Hobbs Cafe, and the intersection of physics and social justice. They brainstorm ideas to make a positive impact together by incorporating physics principles into their social justice initiatives, excited to see where their collaboration takes them. Klaus suggests exploring using physics principles to address systemic inequalities, leading Maria to express her excitement about applying scientific concepts to social issues and their joint commitment to pushing boundaries for impactful change.] , they thought 'Maria Lopez would find this event appealing because she enjoys collaborating with Klaus on new ideas and exploring the intersection of physics and social justice'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        121,
+        45
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "taking a break for lunch and reflecting on his progress so far (cleaning up his lunch dishes) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is preparing his lunch] , they thought 'Klaus Mueller enjoys preparing his lunch as it allows him to take a break from his research and focus on a different task'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcf8",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (helping with setting up the photo booth) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is helping with setting up the photo booth] , they thought 'Pepper Robot may not find setting up the photo booth appealing as it may not align with its primary function of assisting with tasks and organizing events'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 13:03:00"
+  }
+}

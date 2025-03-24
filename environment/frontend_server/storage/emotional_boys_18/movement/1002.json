@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels like their fears have been confirmed because, after witnessing  the event: [desk is covered in notes and event planning materials] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83c\udfae",
+      "description": "currently taking a break from physics project progress review and focusing on Twitch streaming content to relieve stress and find enjoyment (engaging with her audience and playing the game) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is interacting with her viewers in the chat] , they thought 'Maria Lopez enjoys interacting with her viewers on Twitch as it allows her to connect with people and explore new ideas'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Klaus Mueller may find the pool table in the common room appealing as a way to take a break from his research and socialize with others'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcca",
+      "description": "conducting a follow-up meeting with Isabella and Klaus to evaluate the effectiveness of the new seating plan and make any necessary adjustments for future events (analyzing the data collected during the event to identify any patterns or trends) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [cafe customer seating is being prepared for the next day's operations] , they thought ' Pepper Robot feels moderately about the event as it impacts their work'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:06:00"
+  }
+}

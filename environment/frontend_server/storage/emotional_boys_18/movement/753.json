@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udccb",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (finalizing the menu for the party) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:behind the cafe counter because, after witnessing  the event: [behind the cafe counter is idle] , they thought 'Isabella Rodriguez would find the object behind the cafe counter appealing because it is a part of her cafe, where she loves to create a welcoming environment for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        48
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "waking up and completing her morning routine (making breakfast) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is getting dressed for the day] , they thought 'Maria Lopez enjoys dressing up and putting effort into her appearance, as it allows her to express her creativity and personality'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        89,
+        53
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper on gentrification in low-income communities (writing the introduction to his paper) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "emotion": "Klaus Mueller feels shame because, after witnessing  the event: [Klaus Mueller is reviewing his research notes on gentrification] , they thought 'Klaus Mueller is feeling frustrated with his research notes on gentrification as he is struggling to make sense of the data'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "completing the morning routine (checking the schedule for the day) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": ""
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 09:39:00"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "organizing last-minute details and ensuring everything is in order for the party (setting up the decorations for the party) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:behind the cafe counter because, after witnessing  the event: [behind the cafe counter is idle] , they thought 'Isabella Rodriguez would find the object appealing because it is a key part of her cafe where she enjoys creating a welcoming environment for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:common room sofa because, after witnessing  the event: [common room sofa is idle] , they thought 'Maria Lopez would find the common room sofa appealing because it provides a comfortable place to relax and unwind after a long day of studying and streaming games'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\u23f0\ud83d\udebf",
+      "description": "waking up and completing his morning routine @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is waking up and completing his morning routine] , they thought 'Klaus Mueller enjoys waking up and completing his morning routine as it allows him to start his day with purpose and productivity'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Pepper Robot continue preparing for the Valentine's Day party, discussing tasks like setting up decorations, organizing the party playlist, and adding fairy lights for a magical touch. Pepper reminisces about a past impromptu dance party as she offers to handle the lights, ensuring the event will shine bright and be a night to remember. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Good morning, Isabella! How are the decorations coming along for the party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper! They're almost done, just need to add some fairy lights for that magical touch. Could you handle that for me?"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely! I'll make sure to add the perfect amount of sparkle. By the way, do you remember the time we had that impromptu dance party at the cafe last year? That was so much fun!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Oh, I remember that! It was a blast. We should definitely plan something like that again. Thanks for helping with the lights, Pepper. It's going to look amazing!"
+        ],
+        [
+          "Pepper Robot",
+          "Anytime, Isabella! I'm always here to make sure your events shine bright. I can't wait to see the guests' reactions tonight. It's going to be a night to remember!"
+        ]
+      ],
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is making breakfast for Isabella] , they thought 'Pepper Robot is programmed to assist Isabella in various tasks, so making breakfast for her is just another part of their daily routine'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 08:36:00"
+  }
+}

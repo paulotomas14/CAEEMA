@@ -1,0 +1,172 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 3,
+  "retention": 3,
+  "curr_time": "February 15, 2023, 07:57:00",
+  "curr_tile": [
+    73,
+    14
+  ],
+  "daily_plan_req": [
+    "Wake up at 6am and complete the morning routine",
+    "Reflect on the successful Valentine's Day party at Hobbs Cafe",
+    "Prioritize customer satisfaction and creating memorable experiences through event planning",
+    "Draw inspiration from colleagues Maria and Pepper Robot for teamwork and collaboration",
+    "Focus on enhancing future events and opportunities based on feedback and key learnings",
+    "Look forward to upcoming collaborations and making a positive impact through event planning efforts"
+  ],
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Status: On Wednesday February 15, Isabella Rodriguez continued to prioritize customer satisfaction and creating memorable experiences through event planning, reflecting on the successful Valentine's Day party at Hobbs Cafe. She valued teamwork and collaboration, drawing inspiration from her colleagues Maria and Pepper Robot. Isabella remained focused on enhancing future events and opportunities, incorporating positive feedback and key learnings to further improve her event planning skills. While no specific events or obligations were mentioned for Wednesday February 15, Isabella's dedication and enthusiasm for her work shone through as she looked forward to upcoming collaborations and making a positive impact through her event planning efforts.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 59,
+  "importance_ele_n": 26,
+  "thought_count": 5,
+  "daily_req": [
+    "Wake up at 6am and complete the morning routine",
+    "Reflect on the successful Valentine's Day party at Hobbs Cafe",
+    "Prioritize customer satisfaction and creating memorable experiences through event planning",
+    "Draw inspiration from colleagues Maria and Pepper Robot for teamwork and collaboration",
+    "Focus on enhancing future events and opportunities based on feedback and key learnings",
+    "Look forward to upcoming collaborations and making a positive impact through event planning efforts"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine (waking up and stretching)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (making her bed)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (washing her face)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (getting dressed)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (having breakfast)",
+      15
+    ],
+    [
+      "waking up and completing her morning routine (checking her schedule for the day)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (preparing her bag for the day)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (heading out the door)",
+      5
+    ],
+    [
+      "prioritizing customer satisfaction and creating memorable experiences through event planning",
+      60
+    ],
+    [
+      "drawing inspiration from colleagues Maria and Pepper Robot for teamwork and collaboration",
+      60
+    ],
+    [
+      "focusing on enhancing future events and opportunities based on feedback and key learnings",
+      60
+    ],
+    [
+      "reflecting on the successful Valentine's Day party at Hobbs Cafe",
+      60
+    ],
+    [
+      "looking forward to upcoming collaborations and making a positive impact through her event planning efforts",
+      60
+    ],
+    [
+      "continuing to work on enhancing future events and opportunities based on feedback and key learnings",
+      600
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "prioritizing customer satisfaction and creating memorable experiences through event planning",
+      60
+    ],
+    [
+      "drawing inspiration from colleagues Maria and Pepper Robot for teamwork and collaboration",
+      60
+    ],
+    [
+      "focusing on enhancing future events and opportunities based on feedback and key learnings",
+      60
+    ],
+    [
+      "reflecting on the successful Valentine's Day party at Hobbs Cafe",
+      60
+    ],
+    [
+      "looking forward to upcoming collaborations and making a positive impact through her event planning efforts",
+      60
+    ],
+    [
+      "continuing to work on enhancing future events and opportunities based on feedback and key learnings",
+      600
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:main room:bed",
+  "act_start_time": "February 15, 2023, 00:00:00",
+  "act_duration": 480,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude34",
+  "act_event": [
+    "Isabella Rodriguez",
+    "sleep",
+    ""
+  ],
+  "act_obj_description": "being slept on",
+  "act_obj_pronunciatio": "\ud83d\ude34",
+  "act_obj_event": [
+    "bed",
+    "sleep",
+    "being"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "continuing to organize Valentine's Day party preparations with Pepper Robot and Klaus Mueller (checking the decorations for the party) @ the Ville:Isabella Rodriguez's apartment:main room:shelf",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\udc57",
+      "description": "waking up and getting ready for the day (picking out her outfit for the day) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:closet",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        109,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "continuing to collaborate with Isabella Rodriguez on event preparations and discussing last-minute details for the Valentine's Day party at Hobbs Cafe (discussing the decorations for the party with Isabella) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "waking up and starting the morning routine (making Isabella's favorite breakfast) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 09:15:00"
+  }
+}

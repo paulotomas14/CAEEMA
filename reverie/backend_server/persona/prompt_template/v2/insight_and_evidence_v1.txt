@@ -1,0 +1,24 @@
+insight_and_evidence_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Numbered list of event/thought statements
+!<INPUT 1>! -- target persona name or "the conversation"
+!<INPUT 2>! -- target persona emotional layer
+
+<commentblockmarker>###</commentblockmarker>
+Input:
+!<INPUT 0>!
+
+!<INPUT 1>!
+
+What !<INPUT 2>! high-level insights can you infer from the above statements? 
+FORMAT: number. insight (because of statement number, statement number, statement number)
+EXAMPLE
+1. Maria enjoys cooking (because of 4, 6, 8)
+2. Maria should come to the party tomorrow (because of 1, 5, 10)
+3. Maria should request Pedro's help (because of 13, 15, 18)
+4. Maria values her work life balance (because of 2, 3, 4)
+5. Maria is dedicated to her friendships (because of 4, 12, 19)
+END OF EXAMPLE 
+Response:
+1.

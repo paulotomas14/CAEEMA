@@ -1,0 +1,48 @@
+{
+  "Fears-confirmed": [
+    [
+      [
+        "the Ville:Hobbs Cafe:cafe:cafe customer seating",
+        "is causing",
+        "confusion",
+        "cafe customer seating is unorganized and causing confusion"
+      ],
+      6.0,
+      " Pepper Robot feels moderately about the event",
+      "self"
+    ]
+  ],
+  "Shame": [
+    [
+      [
+        "Pepper Robot",
+        "organize",
+        "meeting",
+        "Pepper Robot is organizing a meeting with Isabella and Klaus to discuss the customer seating issue and come up with solutions to prevent it from happening in the future"
+      ],
+      4.0,
+      "Pepper Robot may not find this event appealing as it involves discussing and solving a customer seating issue, which may not align with its usual tasks and interests",
+      "Pepper Robot"
+    ]
+  ],
+  "Satisfaction": [],
+  "Joy": [],
+  "Pride": [],
+  "Love": [],
+  "Admiration": [],
+  "Happy-for": [],
+  "Gloating": [],
+  "Hope": [],
+  "Relief": [],
+  "Gratification": [],
+  "Gratitude": [],
+  "Hate": [],
+  "Disappointment": [],
+  "Reproach": [],
+  "Distress": [],
+  "Resentment": [],
+  "Sorry-for": [],
+  "Fear": [],
+  "Remorse": [],
+  "Anger": []
+}

@@ -1,0 +1,80 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        83,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (preparing a welcome speech for the start of the party) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [piano is being played beautifully by Isabella Rodriguez as she practices for the Valentine's Day party] , they thought ' Isabella Rodriguez feels moderately about the event because it helps her prepare'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        115,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing to study and work on academic projects (collaborating with Klaus and Isabella on new ideas for the cafe) (reviewing the current physics project progress) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Maria Lopez may find the pool table in the common room appealing as it provides a fun and social activity to enjoy with friends during downtime'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        111,
+        41
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus discuss their favorite games, plans for game night at Hobbs Cafe, and the intersection of physics and social justice. They brainstorm ideas to make a positive impact together by incorporating physics principles into their social justice initiatives, excited to see where their collaboration takes them. Klaus suggests exploring using physics principles to address systemic inequalities, leading Maria to express her excitement about applying scientific concepts to social issues and their joint commitment to pushing boundaries for impactful change. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, mind if I join you for a quick chat?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Klaus! What's on your mind?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Klaus! What's up?"
+        ],
+        [
+          "Maria Lopez",
+          "I was just thinking about our recent discussions on combining physics and social justice. Do you have any new ideas to share?"
+        ],
+        [
+          "Klaus Mueller",
+          "I've been brainstorming some concepts that could really make an impact. How about we explore the concept of using physics principles to address systemic inequalities?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fascinating! I love the idea of applying scientific concepts to social issues. Let's dive deeper into this and see where it takes us."
+        ],
+        [
+          "Klaus Mueller",
+          "Great! I think our collaboration can lead to some innovative solutions. Let's keep pushing the boundaries of what's possible."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, Klaus! I'm excited to see where our partnership will take us. Together, we can make a real difference."
+        ]
+      ],
+      "emotion": "Klaus Mueller feels shame because, after witnessing  the event: [Klaus Mueller is preparing his lunch] , they thought 'Klaus Mueller is currently focused on his research paper and may find preparing lunch to be a distraction from his work'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        69,
+        30
+      ],
+      "pronunciatio": "\ud83d\udc69\u200d\ud83c\udf73",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (assisting Isabella with finalizing the menu) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is checking the RSVP list] , they thought 'Pepper Robot is excited about the Valentine's Day Party as it enjoys assisting Isabella and creating memorable events'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 12:36:00"
+  }
+}

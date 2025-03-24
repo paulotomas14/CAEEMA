@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        16
+      ],
+      "pronunciatio": "\ud83e\uddf3",
+      "description": "heading home and getting ready for bed (gathering her belongings) @ the Ville:Isabella Rodriguez's apartment:main room:closet",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Klaus Mueller plan to collaborate on a physics and technology project to address energy distribution in low-income communities, and also discuss streaming indie games with social justice themes on Twitch. In a new conversation, Maria suggests attending a social justice seminar to further explore the impact of technology on social justice issues, and Klaus agrees to join and share their perspectives. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, have you read that article on social justice I mentioned earlier? I'd love to hear your thoughts on it."
+        ],
+        [
+          "Klaus Mueller",
+          "Oh, I haven't had a chance to read it yet. What did it discuss?"
+        ],
+        [
+          "Maria Lopez",
+          "It focused on the impact of technology on social justice issues. I found it really interesting and thought-provoking."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds fascinating. I believe technology can play a crucial role in addressing social inequalities. What are your thoughts on the matter?"
+        ],
+        [
+          "Maria Lopez",
+          "I completely agree! I think we should attend that social justice seminar next week to learn more and discuss how we can make a difference."
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great idea, Maria. I'm looking forward to it. Let's make sure we're both there to share our perspectives."
+        ]
+      ],
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        117,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Klaus Mueller plan to collaborate on a physics and technology project to address energy distribution in low-income communities, and also discuss streaming indie games with social justice themes on Twitch. In a new conversation, Maria suggests attending a social justice seminar to further explore the impact of technology on social justice issues, and Klaus agrees to join and share their perspectives. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, have you read that article on social justice I mentioned earlier? I'd love to hear your thoughts on it."
+        ],
+        [
+          "Klaus Mueller",
+          "Oh, I haven't had a chance to read it yet. What did it discuss?"
+        ],
+        [
+          "Maria Lopez",
+          "It focused on the impact of technology on social justice issues. I found it really interesting and thought-provoking."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds fascinating. I believe technology can play a crucial role in addressing social inequalities. What are your thoughts on the matter?"
+        ],
+        [
+          "Maria Lopez",
+          "I completely agree! I think we should attend that social justice seminar next week to learn more and discuss how we can make a difference."
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great idea, Maria. I'm looking forward to it. Let's make sure we're both there to share our perspectives."
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "continuing to help clean up and get the house ready for bed (checking the bedrooms for any mess) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 20:27:00"
+  }
+}

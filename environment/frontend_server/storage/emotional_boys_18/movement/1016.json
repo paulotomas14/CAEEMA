@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels like their fears have been confirmed because, after witnessing  the event: [desk is covered in notes and event planning materials] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        109,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "currently collaborating with Klaus and Isabella on new ideas for the cafe, brainstorming creative ways to bring new energy and excitement to their projects (sharing her thoughts and listening to feedback from Klaus and Isabella) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Maria Lopez feels joyfull because, after witnessing  the event: [common room sofa is being sat on by Maria Lopez] , they thought ' Maria Lopez feels neutral about this event'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        46
+      ],
+      "pronunciatio": "\u270d\ufe0f",
+      "description": "continuing to work on his research paper on gentrification in low-income communities (writing the introduction of the paper) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "emotion": "Klaus Mueller feels satisfaction because, after witnessing  the event: [common room table is in use by Klaus Mueller who is working on his research paper on gentrification in low-income communities] , they thought ' Klaus Mueller feels moderately about the event'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "organizing a meeting with Isabella and Klaus to discuss the customer seating issue and come up with solutions to prevent it from happening in the future @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Pepper Robot feels hate towards the Ville:Hobbs Cafe:cafe:behind the cafe counter because, after witnessing  the event: [behind the cafe counter is idle] , they thought 'Pepper Robot is not fond of the object behind the cafe counter as it is causing seating conflicts and negative feelings among customers'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:48:00"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\ude4f",
+      "description": "attending the Valentine's Day Party at Hobbs Cafe (thanking guests for attending and ensuring they had a great time) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez suggests starting a dance-off at the party, with Isabella Rodriguez agreeing and praising Maria's energy. They both express excitement for the dance-off and compliment each other on their contributions to the event. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Isabella, this party is amazing! How about we start a dance-off to get everyone moving?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Maria, that's a fantastic idea! Your energy is contagious. Let's get the music pumping and start the dance-off!"
+        ],
+        [
+          "Maria Lopez",
+          "I'm glad you're on board! Let's show everyone how to have a great time at a party!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Maria! Your enthusiasm is exactly what this party needed. Thank you for bringing such a fun idea to the table."
+        ],
+        [
+          "Maria Lopez",
+          "Thank you for hosting such a wonderful event, Isabella. I'm having a blast!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "at the Valentine's Day Party at Hobbs Cafe, mingling with guests and enjoying the event (helping with setting up decorations or food stations) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        72,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "attending the Valentine's Day party at Hobbs Cafe (socializing with guests and engaging in conversations) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 17:48:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        65,
+        30
+      ],
+      "pronunciatio": "\ud83d\udce6",
+      "description": "gathering party materials and preparing for the Valentine's Day party tomorrow (checking inventory for party supplies) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is waiting to start placing orders for the needed supplies] , they thought 'Isabella Rodriguez may not find the task of placing orders for supplies appealing because it can be time-consuming and tedious'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        118,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "studying at Oak Hill College (attending her physics lecture) (attending her physics lecture) (attending her physics lecture) (reviewing her notes) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Oak Hill College:library:library sofa because, after witnessing  the event: [library sofa is idle] , they thought 'Maria Lopez would find the library sofa appealing because she spends a lot of time studying and hanging out at Hobbs Cafe'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        80,
+        40
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper at the library (writing the introduction of his research paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is conducting additional research on the effects of gentrification] , they thought 'Klaus Mueller is passionate about social justice and exploring different perspectives, so conducting additional research on the effects of gentrification would be appealing to him as it aligns with his interests'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        62,
+        34
+      ],
+      "pronunciatio": "\ud83e\udd73",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [supply store product shelf is well-stocked with a variety of snacks and party supplies] , they thought ' Pepper Robot feels moderately about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:51:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udd0a\ud83d\udca1",
+      "description": "focusing on preparing for the Valentine's Day party at Hobbs Cafe at 5:00 PM (checking the sound system and lighting for the event) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [kitchen sink is being used for washing dishes and preparing food] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:common room sofa because, after witnessing  the event: [common room sofa is idle] , they thought 'Maria Lopez would find the common room sofa appealing because it provides a comfortable place to relax and unwind after a long day of studying and streaming games'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        126,
+        50
+      ],
+      "pronunciatio": "\u23f0\ud83d\udebf",
+      "description": "waking up and completing his morning routine @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": "Klaus Mueller feels hate towards the Ville:Dorm for Oak Hill College:common room:common room table because, after witnessing  the event: [common room table is idle] , they thought 'Klaus Mueller would not find the common room table in the Ville:Dorm appealing because it may be a distraction from his research paper on gentrification'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is reviewing the current schedule] , they thought 'Pepper Robot is excited about attending the Valentine's Day Party and helping create a memorable event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 07:54:00"
+  }
+}

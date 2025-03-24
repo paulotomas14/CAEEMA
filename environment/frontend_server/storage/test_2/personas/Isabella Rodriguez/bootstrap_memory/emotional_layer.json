@@ -1,0 +1,59 @@
+{
+  "Love": [
+    [
+      [
+        "the Ville:Hobbs Cafe:cafe:piano",
+        "is",
+        "idle",
+        "piano is idle"
+      ],
+      2.0,
+      "Isabella Rodriguez would find the piano appealing because she enjoys creating a welcoming and relaxing atmosphere at Hobbs Cafe, and having a piano would add to the ambiance",
+      "the Ville:Hobbs Cafe:cafe:piano"
+    ],
+    [
+      [
+        "the Ville:Hobbs Cafe:cafe:cafe customer seating",
+        "is",
+        "idle",
+        "cafe customer seating is idle"
+      ],
+      2.0,
+      "Isabella Rodriguez would find this object appealing because she loves creating a welcoming atmosphere for her customers",
+      "the Ville:Hobbs Cafe:cafe:cafe customer seating"
+    ]
+  ],
+  "Satisfaction": [
+    [
+      [
+        "the Ville:Hobbs Cafe:cafe:cafe customer seating",
+        "be used",
+        "Isabella Rodriguez",
+        "cafe customer seating is being used by Isabella Rodriguez for preparing for the Valentine's Day party"
+      ],
+      2.0,
+      " Isabella Rodriguez feels excited about the event",
+      "self"
+    ]
+  ],
+  "Joy": [],
+  "Happy-for": [],
+  "Gloating": [],
+  "Hope": [],
+  "Relief": [],
+  "Pride": [],
+  "Admiration": [],
+  "Gratification": [],
+  "Gratitude": [],
+  "Distress": [],
+  "Resentment": [],
+  "Sorry-for": [],
+  "Fear": [],
+  "Disappointment": [],
+  "Fears-confirmed": [],
+  "Shame": [],
+  "Reproach": [],
+  "Hate": [],
+  "Remorse": [],
+  "Anger": []
+}

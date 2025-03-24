@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        62,
+        30
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "wrapping up the Valentine's Day party at Hobbs Cafe and reflecting on its success (cleaning up the party area) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [cafe customer seating is arranged neatly and invitingly for the guests] , they thought ' Isabella Rodriguez feels positively about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        77,
+        26
+      ],
+      "pronunciatio": "\ud83d\ude0c",
+      "description": "taking a break to relax and unwind in between studying and Twitch streaming, maintaining a balance between work and self-care to avoid feeling overwhelmed with chores and responsibilities (taking a deep breath and stretching her body) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "emotion": "Maria Lopez feels satisfaction because, after witnessing  the event: [refrigerator is being used frequently to store and cool all the snacks and drinks for the Valentine's Day Party at Hobbs Cafe] , they thought ' Maria Lopez feels excited about the event'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "collaborating with classmates on a group project for his sociology class (discussing the project topic with his classmates) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Klaus Mueller would find the object appealing because it is a cafe where he can socialize and take a break from his research work'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        81,
+        25
+      ],
+      "pronunciatio": "\ud83c\udfb6",
+      "description": "attending the Valentine's Day Party at Hobbs Cafe (assisting Isabella and Klaus in setting up decorations) (assisting with music selection) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [cafe customer seating is being arranged] , they thought ' Pepper Robot feels moderately about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 18:24:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "cleaning up and organizing the cafe after the party (coordinating with the kitchen staff on the menu for the party) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Isabella Rodriguez would find the cafe customer seating appealing because it provides a comfortable and welcoming environment for her customers to relax and enjoy themselves'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc65",
+      "description": "taking a break from her physics project progress review and focusing on Twitch streaming content to relieve stress and find enjoyment (interacting with her viewers) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is working on her physics assignments and research, diving deep into her studies to ensure she is prepared for her classes and future projects] , they thought 'Maria Lopez finds the event of working on her physics assignments and research appealing because she values education and prioritizes her academics'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        95,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper on gentrification in low-income communities (outlining the structure of his paper) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels satisfaction because, after witnessing  the event: [cafe customer seating is being occupied by Klaus Mueller at the Valentine's Day party] , they thought ' Klaus Mueller feels moderately about the event'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\u2615",
+      "description": "taking a break @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is assisting with any last-minute tasks] , they thought 'Pepper Robot is excited about the Valentine's Day Party as it enjoys assisting Isabella and creating memorable events'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 15:54:00"
+  }
+}

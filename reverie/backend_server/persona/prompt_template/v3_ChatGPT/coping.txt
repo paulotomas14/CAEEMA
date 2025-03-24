@@ -1,0 +1,31 @@
+Variables: 
+!<INPUT 0>! -- persona iss
+!<INPUT 1>! -- plan
+!<INPUT 2>! -- predominant emotion description
+!<INPUT 3>! -- potential coping strategies
+
+<commentblockmarker>###</commentblockmarker>
+
+ ---- YOU ARE ----
+!<INPUT 0>!
+
+ ---- YOUR PLAN IS ----
+
+!<INPUT 1>!
+
+ ---- YOUR FEELINGS ARE ----
+!<INPUT 2>!
+
+!<INPUT 3>!
+
+ ---- YOUR TASK IS ----
+Given your plan, your characteristics, and your current emotional state, please choose, among the available coping strategies, the ones whose activation conditions are satisfied.
+Please respond in the following format:
+Thought Process: A step by step reasoning process as to why the activation conditions were met, given the context.
+Final Answer: the numbers of the chosen coping startegies, separated by comas 
+EXAMPLE:
+Thought Process:
+The coping strategies whose activation conditions are met are 1. "Planning", and 5. "Denial", because, given Anna's emotional state she feels that the past event had an undesirable effect( which triggers Denial). However, her future plans are still very desirable to her(which triggers Planning).
+Final Answer: 1, 5
+END OF EXAMPLE.
+Thought Process: 

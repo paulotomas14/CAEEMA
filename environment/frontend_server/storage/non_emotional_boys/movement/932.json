@@ -1,0 +1,105 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez suggests starting a dance-off at the party, with Isabella Rodriguez agreeing and praising Maria's energy. They both express excitement for the dance-off and compliment each other on their contributions to the event. Maria then compliments Isabella on the decorations and suggests adding a photo booth with props, which Isabella appreciates and praises Maria's creativity, leading to them both discussing making the party unforgettable. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Isabella, the decorations look amazing! You've really outdone yourself with this party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Maria! I wanted to create a special atmosphere for everyone. Your energy is contagious, by the way."
+        ],
+        [
+          "Maria Lopez",
+          "I'm glad you think so! It's all about creating memorable experiences, right?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely! Speaking of which, do you have any ideas to make the party even more exciting?"
+        ],
+        [
+          "Maria Lopez",
+          "I was thinking we could set up a photo booth with props for guests to enjoy. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea! Your creativity is really shining through. Thank you for the suggestion, Maria."
+        ],
+        [
+          "Maria Lopez",
+          "Of course, Isabella! I'm here to help in any way I can. Let's make this party unforgettable!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez suggests starting a dance-off at the party, with Isabella Rodriguez agreeing and praising Maria's energy. They both express excitement for the dance-off and compliment each other on their contributions to the event. Maria then compliments Isabella on the decorations and suggests adding a photo booth with props, which Isabella appreciates and praises Maria's creativity, leading to them both discussing making the party unforgettable. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Isabella, the decorations look amazing! You've really outdone yourself with this party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Maria! I wanted to create a special atmosphere for everyone. Your energy is contagious, by the way."
+        ],
+        [
+          "Maria Lopez",
+          "I'm glad you think so! It's all about creating memorable experiences, right?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely! Speaking of which, do you have any ideas to make the party even more exciting?"
+        ],
+        [
+          "Maria Lopez",
+          "I was thinking we could set up a photo booth with props for guests to enjoy. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea! Your creativity is really shining through. Thank you for the suggestion, Maria."
+        ],
+        [
+          "Maria Lopez",
+          "Of course, Isabella! I'm here to help in any way I can. Let's make this party unforgettable!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "still at the Valentine's Day Party at Hobbs Cafe, socializing with colleagues and enjoying the festivities (engaging in conversations with colleagues about social justice topics) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "helping ensure everything runs smoothly at the party (assisting with setting up decorations) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 18:36:00"
+  }
+}

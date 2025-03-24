@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf79",
+      "description": "working at the counter and interacting with customers (preparing drinks and food orders) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:piano because, after witnessing  the event: [piano is idle] , they thought 'Isabella Rodriguez would find the piano appealing because it adds a cozy and welcoming atmosphere to Hobbs Cafe'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        124,
+        52
+      ],
+      "pronunciatio": "\ud83d\udc55",
+      "description": "waking up and completing her morning routine (getting dressed for the day) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:closet",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:Maria Lopez's room:closet because, after witnessing  the event: [closet is idle] , they thought 'Maria Lopez spends a lot of time in her room studying and gaming, so having a well-organized closet is important to her for easy access to her belongings'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        114,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper at the library (writing the introduction to his research paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is reviewing his research notes on gentrification] , they thought 'Klaus Mueller would find this event appealing because he is passionate about social justice and enjoys exploring different perspectives'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        72,
+        14
+      ],
+      "pronunciatio": "\u23f0\ud83d\udebf",
+      "description": "waking up and completing the morning routine @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Isabella Rodriguez's apartment:main room:bed because, after witnessing  the event: [bed is idle] , they thought 'Pepper Robot would find the object appealing because it is where Isabella sleeps, and Pepper Robot is programmed to assist the Rodriguez family'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:24:00"
+  }
+}

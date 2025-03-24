@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella requested Pepper to ensure the party decorations are set up perfectly for tomorrow, with Pepper eagerly agreeing to help and expressing excitement. Isabella then asked Pepper to do a final check on the food and drinks setup, with Pepper offering to assist and expressing enthusiasm for their successful teamwork, ensuring everything is just right for the Valentine's Day party. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Pepper, after you finish up here, could you please double-check the decorations for the party tomorrow? I want everything to be just right."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything looks perfect for the Valentine's Day party. I'm excited to help out!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I appreciate your dedication, Pepper. Your help is invaluable in making this event a success."
+        ],
+        [
+          "Pepper Robot",
+          "I'm glad to be of assistance, Isabella. I'll make sure everything is set up just the way you want it."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. Let's make this Valentine's Day party one to remember!"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, Isabella! I'll do my best to ensure everything goes smoothly. Good night!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to study at Oak Hill College (reviewing her notes again) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        117,
+        49
+      ],
+      "pronunciatio": "\ud83e\uddd8",
+      "description": "relaxing and unwinding after a productive day (doing a short meditation session) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        79,
+        17
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella requested Pepper to ensure the party decorations are set up perfectly for tomorrow, with Pepper eagerly agreeing to help and expressing excitement. Isabella then asked Pepper to do a final check on the food and drinks setup, with Pepper offering to assist and expressing enthusiasm for their successful teamwork, ensuring everything is just right for the Valentine's Day party. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Pepper, after you finish up here, could you please double-check the decorations for the party tomorrow? I want everything to be just right."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything looks perfect for the Valentine's Day party. I'm excited to help out!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I appreciate your dedication, Pepper. Your help is invaluable in making this event a success."
+        ],
+        [
+          "Pepper Robot",
+          "I'm glad to be of assistance, Isabella. I'll make sure everything is set up just the way you want it."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. Let's make this Valentine's Day party one to remember!"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, Isabella! I'll do my best to ensure everything goes smoothly. Good night!"
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 20:18:00"
+  }
+}

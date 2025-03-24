@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udc65",
+      "description": "working at the counter and serving lunch to customers (checking in with customers to ensure they are satisfied with their meals) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:behind the cafe counter because, after witnessing  the event: [behind the cafe counter is idle] , they thought 'Isabella Rodriguez would find the object appealing because it represents her cafe, which she takes pride in'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing her study session at Oak Hill College @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Maria Lopez feels satisfaction because, after witnessing  the event: [library table is being utilized for research paper revision and formatting] , they thought ' Maria Lopez feels moderately about the event as it helps her with her academic work'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper at the library (revising and editing his research paper) (formatting his research paper according to APA guidelines) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels like their fears have been confirmed because, after witnessing  the event: [library table is being used by Maria Lopez at Oak Hill College] , they thought ' Klaus Mueller feels mildly annoyed by the event'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udd04",
+      "description": "taking a break to recharge and avoid feeling overwhelmed with physical tasks (updating its software) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Isabella Rodriguez's apartment:main room:closet because, after witnessing  the event: [closet is idle] , they thought 'Pepper Robot may find the closet in Isabella Rodriguez's apartment appealing as it could contain items needed for the Valentine's Day party preparations'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:51:00"
+  }
+}

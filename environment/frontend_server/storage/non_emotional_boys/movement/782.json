@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Isabella discussed tasks for the Valentine's Day party preparations, including centerpieces, lighting, and music playlist. They also planned to add fairy lights around the photo booth, ensure enough props are available, and use a heart-shaped backdrop for the photos to create a whimsical and unforgettable atmosphere for the guests. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, how do you feel about adding some fairy lights around the photo booth for a magical touch?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Pepper! Let's make sure to create a whimsical atmosphere for the guests. Could you also check if we have enough props for the booth?"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, I'll take care of that right away. By the way, have you thought about the placement of the backdrop for the photos?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I was thinking of using the heart-shaped backdrop to keep with the Valentine's Day theme. What do you think?"
+        ],
+        [
+          "Pepper Robot",
+          "Sounds perfect! I'll make sure everything is set up just the way you envision it."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. Your attention to detail is truly appreciated. Together, we'll make this party unforgettable for everyone."
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        120,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcf1",
+      "description": "getting breakfast and checking her emails (checking her social media notifications) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        64,
+        30
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "taking a break and grabbing a coffee to recharge before diving back into the event preparations (taking a walk around the campus to clear his mind) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        77,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Isabella discussed tasks for the Valentine's Day party preparations, including centerpieces, lighting, and music playlist. They also planned to add fairy lights around the photo booth, ensure enough props are available, and use a heart-shaped backdrop for the photos to create a whimsical and unforgettable atmosphere for the guests. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, how do you feel about adding some fairy lights around the photo booth for a magical touch?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Pepper! Let's make sure to create a whimsical atmosphere for the guests. Could you also check if we have enough props for the booth?"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, I'll take care of that right away. By the way, have you thought about the placement of the backdrop for the photos?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I was thinking of using the heart-shaped backdrop to keep with the Valentine's Day theme. What do you think?"
+        ],
+        [
+          "Pepper Robot",
+          "Sounds perfect! I'll make sure everything is set up just the way you envision it."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. Your attention to detail is truly appreciated. Together, we'll make this party unforgettable for everyone."
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 11:06:00"
+  }
+}

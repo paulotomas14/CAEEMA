@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        72,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [cafe customer seating is being occupied by Isabella Rodriguez] , they thought ' Isabella Rodriguez feels excited about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:common room sofa because, after witnessing  the event: [common room sofa is idle] , they thought 'Maria Lopez would find the common room sofa appealing because it provides a comfortable place to relax and unwind after a long day of studying and streaming games'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        129,
+        46
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": "Klaus Mueller feels satisfaction because, after witnessing  the event: [bed is being slept on] , they thought ' Klaus Mueller feels moderately about the event'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is reviewing the current schedule] , they thought 'Pepper Robot is excited about attending the Valentine's Day Party and helping create a memorable event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 04:42:00"
+  }
+}

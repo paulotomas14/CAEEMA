@@ -1,0 +1,65 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Maria Lopez discussed adding a dance-off and photo booth to the party, organizing a mini scavenger hunt, and enjoying the event. Now, Isabella suggested taking a break from the party to chat about their next project at Oak Hill College, with Maria expressing interest in making the event even more engaging and suggesting they step aside for a moment to brainstorm ideas. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Maria, I see you're having a blast with the guests. How about we take a quick breather and chat about our next project at Oak Hill College?"
+        ],
+        [
+          "Maria Lopez",
+          "Isabella, that sounds like a great idea! I'd love to hear your thoughts on how we can make the event even more engaging. Let's step aside for a moment."
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Maria Lopez discussed adding a dance-off and photo booth to the party, organizing a mini scavenger hunt, and enjoying the event. Now, Isabella suggested taking a break from the party to chat about their next project at Oak Hill College, with Maria expressing interest in making the event even more engaging and suggesting they step aside for a moment to brainstorm ideas. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Maria, I see you're having a blast with the guests. How about we take a quick breather and chat about our next project at Oak Hill College?"
+        ],
+        [
+          "Maria Lopez",
+          "Isabella, that sounds like a great idea! I'd love to hear your thoughts on how we can make the event even more engaging. Let's step aside for a moment."
+        ]
+      ],
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "heading home to rest after a successful event (helping with clean-up at the event) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        32
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "helping clean up after the Valentine's Day party at Hobbs Cafe (assisting in clearing tables and chairs) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 21:51:00"
+  }
+}

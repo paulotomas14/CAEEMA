@@ -1,0 +1,65 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Klaus Mueller discuss preparations for the Valentine's Day party at Hobbs Cafe and agree to organize a community outreach event to support local causes, brainstorming creative ideas for an inclusive themed party and expressing excitement to collaborate further. Klaus suggests the idea of giving back to the community through the event, which Isabella enthusiastically supports, highlighting their mutual dedication to creating meaningful and impactful experiences together. Klaus Mueller compliments Isabella on her oversight of the food and drink service at the event, with Isabella expressing gratitude and focusing on the importance of creating a welcoming atmosphere for all guests. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Isabella, I must say, you're doing an incredible job overseeing the food and drink service here. The guests seem to be enjoying themselves."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Klaus! It's all about creating a welcoming atmosphere for everyone. What's on your mind?"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        82,
+        21
+      ],
+      "pronunciatio": "\ud83c\udfae",
+      "description": "socializing with other party guests at Hobbs Cafe (joining a group for a fun activity or game) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Klaus Mueller discuss preparations for the Valentine's Day party at Hobbs Cafe and agree to organize a community outreach event to support local causes, brainstorming creative ideas for an inclusive themed party and expressing excitement to collaborate further. Klaus suggests the idea of giving back to the community through the event, which Isabella enthusiastically supports, highlighting their mutual dedication to creating meaningful and impactful experiences together. Klaus Mueller compliments Isabella on her oversight of the food and drink service at the event, with Isabella expressing gratitude and focusing on the importance of creating a welcoming atmosphere for all guests. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Isabella, I must say, you're doing an incredible job overseeing the food and drink service here. The guests seem to be enjoying themselves."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Klaus! It's all about creating a welcoming atmosphere for everyone. What's on your mind?"
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\uddd1\ufe0f",
+      "description": "helping clean up after the Valentine's Day party at Hobbs Cafe (collecting and disposing of trash) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 21:15:00"
+  }
+}

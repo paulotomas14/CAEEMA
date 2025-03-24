@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (checking in with the catering team to ensure food and drinks are being served smoothly) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Isabella Rodriguez would find the cooking area at Hobbs Cafe appealing because it allows her to prepare delicious food for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "currently studying and working on academic projects, focusing on her physics assignments and research. She is diving deep into her studies to ensure she is prepared for her classes and future projects @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is currently studying and working on academic projects, focusing on her physics assignments and research. She is diving deep into her studies to ensure she is prepared for her classes and future projects] , they thought 'Maria Lopez finds studying and working on academic projects appealing because she values education and prioritizes her academics'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        121,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper on gentrification in low-income communities @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels hate towards the Ville:Dorm for Oak Hill College:common room:common room table because, after witnessing  the event: [common room table is idle] , they thought 'Klaus Mueller would not find the common room table in the Ville:Dorm for Oak Hill College appealing because it may be a distraction from his research paper on gentrification'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        29
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (preparing party favors) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "emotion": ""
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 13:21:00"
+  }
+}

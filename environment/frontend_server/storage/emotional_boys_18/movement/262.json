@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "working at the counter and interacting with customers (greeting customers as they enter the cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Isabella Rodriguez enjoys the cooking area at Hobbs Cafe because she loves creating delicious dishes for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        124,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcf1",
+      "description": "waking up and completing her morning routine (checking her phone for any important notifications) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "emotion": ""
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper at the library (outlining the structure of his research paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is starting to write the introduction of the paper] , they thought 'Klaus Mueller is excited to start writing the introduction as it allows him to delve into the topic he is passionate about'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        72,
+        14
+      ],
+      "pronunciatio": "\u23f0\ud83d\udebf",
+      "description": "waking up and completing the morning routine @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Isabella Rodriguez's apartment:main room:bed because, after witnessing  the event: [bed is idle] , they thought 'Pepper Robot would find the object appealing because it is where Isabella sleeps, and Pepper Robot is programmed to assist the Rodriguez family'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:06:00"
+  }
+}

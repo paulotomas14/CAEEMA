@@ -1,0 +1,81 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella requested Pepper's help with party decorations for tomorrow, with Pepper eagerly agreeing to assist. They also discussed the idea of Pepper trying painting as a new hobby, with Pepper offering to ensure everything is set for the night before they call it a night. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, have you ever thought about trying your hand at painting? I think it could be a fun new hobby for you."
+        ],
+        [
+          "Pepper Robot",
+          "I haven't considered it, but I'm always up for learning something new. Maybe I'll give it a try sometime."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's great to hear! I think you'd enjoy it. For now, could you make sure all the lights are off and everything is set for the night? I appreciate your help with that."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella. I'll make sure everything is in order before we call it a night. You can count on me."
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        109,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing to study at Oak Hill College (working on a lab report) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        121,
+        50
+      ],
+      "pronunciatio": "\ud83d\udecf\ufe0f\ud83d\udcd6",
+      "description": "relaxing and unwinding after a productive day (getting into bed and reading a few more pages of his book) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella requested Pepper's help with party decorations for tomorrow, with Pepper eagerly agreeing to assist. They also discussed the idea of Pepper trying painting as a new hobby, with Pepper offering to ensure everything is set for the night before they call it a night. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, have you ever thought about trying your hand at painting? I think it could be a fun new hobby for you."
+        ],
+        [
+          "Pepper Robot",
+          "I haven't considered it, but I'm always up for learning something new. Maybe I'll give it a try sometime."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's great to hear! I think you'd enjoy it. For now, could you make sure all the lights are off and everything is set for the night? I appreciate your help with that."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella. I'll make sure everything is in order before we call it a night. You can count on me."
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 21:09:00"
+  }
+}

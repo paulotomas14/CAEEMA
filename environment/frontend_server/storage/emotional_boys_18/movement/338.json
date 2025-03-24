@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller and Isabella Rodriguez discussed the upcoming Valentine's Day party at the cafe, with Klaus mentioning his research paper on social issues like gentrification. They decided to brainstorm and incorporate social justice themes into the event to make it memorable, planning to meet the next day to finalize details and ensure the party's success. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Isabella, I couldn't help but notice the hustle and bustle of the cafe today. Are you getting ready for the big Valentine's Day party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Oh, Klaus! Yes, I'm knee-deep in party preparations. It's going to be a blast! Have you thought about what you'll be doing for Valentine's Day?"
+        ],
+        [
+          "Klaus Mueller",
+          "I'm actually working on a research paper about social issues, including the effects of gentrification. But I'm definitely looking forward to the festive atmosphere here at Hobbs Cafe."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fascinating, Klaus! Maybe we can incorporate some social justice themes into the party. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I love that idea! It would add a unique touch to the event. Let's brainstorm some ideas together and make this party unforgettable."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Klaus! Your perspective would be invaluable. Let's meet tomorrow to finalize the details and make this Valentine's Day party a huge success."
+        ]
+      ],
+      "emotion": "Isabella Rodriguez feels pride because, after witnessing  the event: [Isabella Rodriguez is Klaus Mueller and Isabella Rodriguez discussed the upcoming Valentine's Day party at the cafe, with Klaus mentioning his research paper on social issues like gentrification. They decided to brainstorm and incorporate social justice themes into the event to make it memorable, planning to meet the next day to finalize details and ensure the party's success.] , they thought 'Isabella Rodriguez is excited about incorporating social justice themes into the Valentine's Day party, as it aligns with her values of inclusivity and community engagement'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\u23f8",
+      "description": "streaming games on Twitch (taking a short break) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Maria Lopez feels gratified because, after witnessing  the event: [Maria Lopez is taking a short break] , they thought 'Maria Lopez is likely feeling stressed and overwhelmed with her busy schedule, so taking a break is appealing to her'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller and Isabella Rodriguez discussed the upcoming Valentine's Day party at the cafe, with Klaus mentioning his research paper on social issues like gentrification. They decided to brainstorm and incorporate social justice themes into the event to make it memorable, planning to meet the next day to finalize details and ensure the party's success. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Isabella, I couldn't help but notice the hustle and bustle of the cafe today. Are you getting ready for the big Valentine's Day party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Oh, Klaus! Yes, I'm knee-deep in party preparations. It's going to be a blast! Have you thought about what you'll be doing for Valentine's Day?"
+        ],
+        [
+          "Klaus Mueller",
+          "I'm actually working on a research paper about social issues, including the effects of gentrification. But I'm definitely looking forward to the festive atmosphere here at Hobbs Cafe."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fascinating, Klaus! Maybe we can incorporate some social justice themes into the party. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I love that idea! It would add a unique touch to the event. Let's brainstorm some ideas together and make this party unforgettable."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Klaus! Your perspective would be invaluable. Let's meet tomorrow to finalize the details and make this Valentine's Day party a huge success."
+        ]
+      ],
+      "emotion": "Klaus Mueller feels love towards the Ville:Hobbs Cafe:cafe:piano because, after witnessing  the event: [piano is idle] , they thought 'Klaus Mueller would find the piano at Hobbs Cafe appealing because he enjoys music and finds it relaxing'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        68,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations (reviewing the list of party supplies needed) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is Together, Pepper Robot and Isabella Rodriguez are preparing for a Valentine's Day party by discussing tasks such as setting up decorations, organizing seating arrangements, and ensuring the drinks are chilled and the food is ready. Pepper Robot asks Isabella for song requests for the party playlist, suggesting classic love songs and upbeat tunes to set the romantic mood and get everyone dancing, <fill in> Isabella suggests adding some classic love songs to the mix and expresses excitement for the festive atmosphere at the cafe.] , they thought 'Pepper Robot would not enjoy this event as much because it is a social event and Pepper Robot is more focused on tasks and productivity'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:54:00"
+  }
+}

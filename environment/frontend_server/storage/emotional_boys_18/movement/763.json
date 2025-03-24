@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Isabella Rodriguez reminisce about their favorite party memories, including a magical New Year's Eve celebration with surprise fireworks, while preparing for the Valentine's Day party. Isabella asks Pepper to double-check the seating arrangements to ensure everything is perfect for the party. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Pepper, could you double-check the seating arrangements to make sure everything is perfect for the party?"
+        ]
+      ],
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:behind the cafe counter because, after witnessing  the event: [behind the cafe counter is idle] , they thought 'Isabella Rodriguez would find the object behind the cafe counter appealing because it is a part of her cafe, where she loves to create a welcoming environment for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "studying and working on academic projects (reviewing her physics notes) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:kitchen:refrigerator because, after witnessing  the event: [refrigerator is idle] , they thought 'Maria Lopez enjoys socializing and collaborating with friends, so the kitchen refrigerator in the Ville:Dorm for Oak Hill College would be appealing to her as it provides a space for shared meals and conversations.'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udccb",
+      "description": "collaborating with classmates on a group project for his sociology class (assigning tasks to each group member) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": ""
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83d\udc98",
+      "description": "completing the morning routine (finalizing preparations for the Valentine's Day Party) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [refrigerator is being used to store drinks and appetizers for the Valentine's Day Party] , they thought ' Pepper Robot feels moderately about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 10:09:00"
+  }
+}

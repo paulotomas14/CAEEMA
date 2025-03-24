@@ -1,0 +1,48 @@
+event_based_appraisal_unfinished.txt
+
+!<INPUT 0>!: agent name
+!<INPUT 1>!: iss
+!<INPUT 2>!: plans
+!<INPUT 3>!: subject
+!<INPUT 4>!: predicate
+!<INPUT 5>!: object
+!<INPUT 6>!: description
+!<INPUT 7>!: coping_addon
+!<INPUT 8>!: coping addon 2
+!<INPUT 9>!: upper limit
+
+<commentblockmarker>###</commentblockmarker>
+Here is a brief description of !<INPUT 0>!. 
+!<INPUT 1>!
+
+Here is a summary of their plans for today:
+!<INPUT 2>!
+
+Here is a rundown of the current event
+Subject: !<INPUT 3>!
+Predicate: !<INPUT 4>!
+Object: !<INPUT 5>!
+Description: !<INPUT 6>!
+!<INPUT 7>!
+
+
+Given what you know of !<INPUT 0>! provide a chart for this event in the following format:
+Affected-Party: who is affected by this event (self, or other)
+Like: does !<INPUT 0>! like the affected party? (true or false)
+Prospect: does this event have an effect your plans? (true or false)
+Desirability: is this event desirable?  (any answer, good or bad, is valid, as long as the reasoning is in line with !<INPUT 0>!'s traits). (true or false)
+Intensity: A rating of the intensity of !<INPUT 0>!'s feelings, on a scale from from 0 to !<INPUT 9>!!<INPUT 8>!
+To each of these elements, respond with a reason under 10 words, then the requested value.
+EXAMPLE:
+Affected-Party: Mary is affected because a cluttered table will make it hard to study; self
+Like: Mary likes herself; true
+Prospect: it does because she had planed to study; true
+Desirability: it is not desirable because it makes it hard to study; false
+Intensity: Mary feels very intensely about the event because it is ruining her plans; !<INPUT 9>!
+END OF EXAMPLE
+Response:
+
+
+
+
+

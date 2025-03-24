@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella asked Pepper to check on the party decorations and ensure everything is set up perfectly for tomorrow, with Pepper eagerly agreeing to help. Isabella then requested Pepper to do a final check on the food and drinks setup, expressing her desire for everything to be perfect for the party tomorrow, with Pepper offering to help and expressing excitement for their successful teamwork. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, how's dinner with the family going? I need you to do a final check on the party decorations for tomorrow's event at Hobbs Cafe."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is set up perfectly for the party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I appreciate your help, Pepper. It's going to be a fantastic event tomorrow. Let's make sure everything is just right."
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, Isabella! I'm on it. The decorations will be flawless for the party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. Your dedication to making this event special means a lot to me. I can't wait to see how everything turns out."
+        ],
+        [
+          "Pepper Robot",
+          "I'm excited too, Isabella! I'll make sure everything is perfect for tomorrow. The guests are going to love it."
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        109,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing to study at Oak Hill College (working on a physics problem set) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        116,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "relaxing and unwinding after a productive day (reading a chapter of a book for pleasure) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella asked Pepper to check on the party decorations and ensure everything is set up perfectly for tomorrow, with Pepper eagerly agreeing to help. Isabella then requested Pepper to do a final check on the food and drinks setup, expressing her desire for everything to be perfect for the party tomorrow, with Pepper offering to help and expressing excitement for their successful teamwork. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, how's dinner with the family going? I need you to do a final check on the party decorations for tomorrow's event at Hobbs Cafe."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is set up perfectly for the party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I appreciate your help, Pepper. It's going to be a fantastic event tomorrow. Let's make sure everything is just right."
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, Isabella! I'm on it. The decorations will be flawless for the party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. Your dedication to making this event special means a lot to me. I can't wait to see how everything turns out."
+        ],
+        [
+          "Pepper Robot",
+          "I'm excited too, Isabella! I'll make sure everything is perfect for tomorrow. The guests are going to love it."
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 19:24:00"
+  }
+}

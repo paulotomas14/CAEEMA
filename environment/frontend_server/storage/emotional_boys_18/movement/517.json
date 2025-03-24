@@ -1,0 +1,89 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        59,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "engaging with customers and discussing the event with them to gather feedback and ideas for future parties @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is engaging with customers and discussing the event with them to gather feedback and ideas for future parties] , they thought 'Isabella Rodriguez may not find engaging with customers appealing because it can be time-consuming and she may prefer focusing on other tasks'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        115,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus discuss their favorite games and plans for a game night at Hobbs Cafe to try out the new strategy game 'Quest for Justice', excitedly focusing on teamwork and collaboration. They continue their conversation, delving into the social justice themes in the game and how it relates to their project on physics and social justice, planning to meet at Hobbs Cafe to start brainstorming and collaborating on innovative solutions. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I just had the most intense gaming session! The social justice themes in this game are mind-blowing. What did you think about the documentary on gentrification?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, I found the documentary really eye-opening. It's fascinating how social issues intersect with urban development. Tell me more about the game you're playing and how it ties into social justice."
+        ],
+        [
+          "Maria Lopez",
+          "Well, the game 'Quest for Justice' challenges players to work together and collaborate to solve social issues within the game world. It got me thinking about how we could apply similar principles to our project on physics and social justice."
+        ],
+        [
+          "Klaus Mueller",
+          "That's a brilliant idea, Maria! I believe combining our expertise in physics and sociology could lead to some innovative solutions. Let's meet up at Hobbs Cafe this Friday to start brainstorming and planning our project."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, Klaus! I can't wait to dive into this collaboration with you. It's going to be epic!"
+        ]
+      ],
+      "emotion": "Maria Lopez feels shame because, after witnessing  the event: [Maria Lopez is taking a short break to stretch and grab a snack] , they thought 'Maria Lopez is currently focused on her physics degree and streaming on Twitch, so taking a break may feel like a distraction from her goals'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        114,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus discuss their favorite games and plans for a game night at Hobbs Cafe to try out the new strategy game 'Quest for Justice', excitedly focusing on teamwork and collaboration. They continue their conversation, delving into the social justice themes in the game and how it relates to their project on physics and social justice, planning to meet at Hobbs Cafe to start brainstorming and collaborating on innovative solutions. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I just had the most intense gaming session! The social justice themes in this game are mind-blowing. What did you think about the documentary on gentrification?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, I found the documentary really eye-opening. It's fascinating how social issues intersect with urban development. Tell me more about the game you're playing and how it ties into social justice."
+        ],
+        [
+          "Maria Lopez",
+          "Well, the game 'Quest for Justice' challenges players to work together and collaborate to solve social issues within the game world. It got me thinking about how we could apply similar principles to our project on physics and social justice."
+        ],
+        [
+          "Klaus Mueller",
+          "That's a brilliant idea, Maria! I believe combining our expertise in physics and sociology could lead to some innovative solutions. Let's meet up at Hobbs Cafe this Friday to start brainstorming and planning our project."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, Klaus! I can't wait to dive into this collaboration with you. It's going to be epic!"
+        ]
+      ],
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:common room:common room sofa because, after witnessing  the event: [common room sofa is idle] , they thought 'Klaus Mueller would find the common room sofa appealing because it provides a comfortable place to relax and socialize with others'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udecf\ufe0f",
+      "description": "taking a break to recharge and avoid feeling overwhelmed with physical tasks @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is adjusting sleep schedule for optimal rest] , they thought 'Pepper Robot may not find adjusting their sleep schedule appealing as it disrupts their routine and may affect their energy levels for the Valentine's Day party preparations'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 21:51:00"
+  }
+}

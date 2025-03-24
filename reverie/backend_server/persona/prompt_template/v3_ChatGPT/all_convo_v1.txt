@@ -1,0 +1,113 @@
+iterative_convo_v1.txt
+
+Variables: 
+!<INPUT 0>! -- init persona ISS
+!<INPUT 1>! -- init persona name
+!<INPUT 2>! -- init retrieved memory
+!<INPUT 3>! -- init persona name
+!<INPUT 4>! -- init emotional state
+!<INPUT 5>! -- init coping strategy
+!<INPUT 6>! -- target persona ISS
+!<INPUT 7>! -- target persona name
+!<INPUT 8>! -- target retrieved memory
+!<INPUT 9>! -- target persona name
+!<INPUT 10>! -- target emotional state
+!<INPUT 11>! -- target coping strategy
+!<INPUT 12>! -- past context
+!<INPUT 13>! -- current location
+!<INPUT 14>! -- init persona name
+!<INPUT 15>! -- target persona name
+!<INPUT 16>! -- init persona name
+!<INPUT 17>! -- target persona name
+!<INPUT 18>! -- init persona name
+!<INPUT 19>! -- target persona name
+!<INPUT 20>! -- init persona action
+!<INPUT 21>! -- target persona action
+
+<commentblockmarker>###</commentblockmarker>
+Context for the task: 
+
+PART 1. 
+!<INPUT 0>!
+
+Here is the memory that is in !<INPUT 1>!'s head: 
+!<INPUT 2>!
+
+Here is !<INPUT 3>!'s emotions and the ways in which they process them:
+!<INPUT 4>!
+!<INPUT 5>!
+
+
+!<INPUT 6>!
+
+Here is the memory that is in !<INPUT 7>!'s head: 
+!<INPUT 8>!
+
+Here is !<INPUT 9>!'s emotions and the ways in which they process them:
+!<INPUT 10>!
+!<INPUT 11>!
+
+PART 2. 
+Context: 
+!<INPUT 12>!
+
+Current Location: !<INPUT 13>!
+
+!<INPUT 14>! and !<INPUT 15>! are gonna have a very cinematic conversation right now.
+---
+Task: I'm feeling inspired and want you to write a cool new conversation between !<INPUT 16>! and !<INPUT 17>!, using cinematic language and quippy dialogue!
+!<INPUT 16>! is "!<INPUT 20>!"
+!<INPUT 17>! is "!<INPUT 21>!"
+1. What do they need from each other? No need to congradulate each other and point out the obvious. Just say something interesting.
+2. I don't want characters to repeat conversations from the previous context. Are they in danger of doing so? Then what should they talk about? Maybe one of their interests?
+3. They are currently doing something, right? What should they say to get it done? 
+4. Given their traits and current emotions, how should they speak to each other? Don't be afraid to get sassy or rude, our goal here is personality in this dialogue!
+5. How should the conversation end? No need to say thanks or goodbye, unless they are leaving for going to bed for the day, because they will seing each other very often.
+6. Are the characters setting up a future appointment, party or event together? Is any of them inviting the other for some activity? If yes, add this sort of preamble to your thoughts.
+name=name of the event or appointment,location=location of the event or appointment,datetime=date and time where this event will take place,description=description of the appointment,duration=duration of the event in hours
+
+This is a %PAIR% of dialogue line and response:
+"!<INPUT 18>!": "<!<INPUT 19>!'s line>",
+"!<INPUT 20>!": "<!<INPUT 21>!'s response>",
+
+Here is how the output should look like
+"Thought Process": "Go over the 6 steps from the example. Think step by step.",
+--  as many as necessary %PAIRS%s until the conversation's content reaches a natural conclusion. I want it to be a long conversation, full of personality:
+{
+    %PAIR%(many pairs for a long, cinematic conversation)
+}
+EXAMPLE 1: 
+"Thought Process": "1. Ana currently wants to have dinner at Sylvia's restaurant. Sylvia currently wants to organize the menu items.
+2. The previous context is None. Therefore, they can talk about having a meal and the menu items.
+3. To accomplish her action, Ana should call Sylvia to order her meal. Likewise, Sylvia is the owner of the restaurant, and sees a customer, Ana, comming in. In this case, Sylvia is preparing the menu items, but customers take priority. She should inquire Sylvia about her wishes and suggest a meal for her. 
+4. Given their traits, Ana is arrogant and rude, therefore she should talk in an arrogant and rude way and use her slang and accent to demean Sylvia. Sylvia is kind and respectfull, so she should talk in a friendly way. But she should not herself be bullied either.
+5. The conversation should end when Sylvia leaves to get Ana's meal.
+6. No appointment is being set up: name=None,location=None,datetime=None,description=None,duration=None
+{
+    "Ana": "Ssssilvia...",
+    "Silvia": "Hey Ana? How you doing? What you wanna have today for lunch?",
+    "Ana": "It's going fine, love, not that you'd care... I don't know, what do you recommend?",
+    "Silvia": "Today's main course is a wonderfull cheese and bacon burguer! Does that sound good to you?",
+    "Ana": "It's good enough, I guess.",
+    "Sylvia": "Okay, honey. I'm gonna get your burger! See ya in a bit."
+}
+END OF EXAMPLE 1
+EXAMPLE 2: 
+"Thought Process": "1. Ana currently wants to have dinner at Sylvia's restaurant. Sylvia currently wants to organize the menu items.
+2.The previous context is Anna's request for a burguer. Therefore, they should not repeat this subject.
+3. Anna is waiting for her meal, so she would inquire Sylvia about any upcomming events. Sylvia is busy preparing the burger, but can speak, so she invites Anna to the Halloween party she is organizing at her restaurant.
+4. Given their traits, Ana is arrogant and rude, therefore she should talk in an arrogant and rude way. Sylvia is kind and respectfull, so she should talk in a friendly way.
+5. The conversation ends with Ana agreeing to go the the party nad Sylvia's goodbye.
+6. The appointment being set up is the Halloween party, at 5pm on the 31 October, at Sylvia's restaurant: name=Halloween Party,location=Anna's restaurant,datetime=2024-10-14 18:59:44,description=Sylvia is going to host a Halloween Party at her restaurant,duration=4
+
+{
+    "Ana": "Silvia...",
+    "Silvia": "Hey Ana. Would you like to come to the Halloween Party were gonna have tomorrow here at the restaurant?",
+    "Ana": "It's going fine... I would love to. What time is the party?",
+    "Silvia": "Cool! It's gonna be an amazing party, you won't regret coming! It's at 18:00 p.m.",
+    "Ana": "It's good enough, I guess.",
+    "Sylvia": "Okay, honey. See you tomorrow!"
+}
+END OF EXAMPLE 2
+You can begin! Be as creative and full of personality as possible with the dialogue!
+"Thought Process":

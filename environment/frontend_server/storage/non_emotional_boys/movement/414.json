@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "Isabella leaves work and heads home to rest and prepare for the Valentine's Day party the next day. (organizing party decorations and supplies) @ the Ville:Isabella Rodriguez's apartment:main room:shelf",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "studying at Oak Hill College (working on a physics lab assignment) (working on the first part of the physics lab assignment) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        108,
+        37
+      ],
+      "pronunciatio": "\ud83d\udeb6",
+      "description": "taking a break and going for a walk around campus @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        53,
+        20
+      ],
+      "pronunciatio": "\ud83e\udd58",
+      "description": "continuing to assist Isabella in greeting and entertaining party guests (helping Isabella with serving food to party guests) @ the Ville:The Rose and Crown Pub:pub:kitchen sink",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:42:00"
+  }
+}

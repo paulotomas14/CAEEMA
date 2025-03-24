@@ -1,0 +1,72 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        26
+      ],
+      "pronunciatio": "\ud83e\udd57",
+      "description": "working at the counter and preparing food and drinks for customers (preparing salads for customers) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        52
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "streaming games on Twitch (taking another break) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller and Isabella Rodriguez discuss the preparations for the Valentine's Day party at Hobbs Cafe, with Klaus offering to help set up decorations and activities based on his passion for creating inclusive spaces, and Isabella appreciating his perspective on social justice and enthusiasm to make the event special for everyone. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Isabella, I couldn't help but notice the hustle and bustle here at Hobbs Cafe. Are you getting ready for the Valentine's Day party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Oh, hey Klaus! Yes, I'm making sure everything is set up for the party tomorrow. It's going to be a blast!"
+        ],
+        [
+          "Klaus Mueller",
+          "That's awesome! Is there anything I can do to help out? I'm really passionate about creating inclusive spaces for everyone."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I appreciate the offer, Klaus! Maybe you could help with setting up the decorations or organizing some activities for the party. Your perspective on social justice could bring a unique touch to the event."
+        ],
+        [
+          "Klaus Mueller",
+          "I'd love to help out with that! Let's make this Valentine's Day party one to remember."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Klaus. Your enthusiasm is contagious. Let's work together to make this event special for everyone."
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc98",
+      "description": "continuing to assist Isabella with her Valentine's day Party celebration preparations (setting up decorations for the party) (setting up the Valentine's day themed decorations) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:24:00"
+  }
+}

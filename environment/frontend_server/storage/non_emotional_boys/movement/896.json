@@ -1,0 +1,68 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        18
+      ],
+      "pronunciatio": "\ud83d\udcb0",
+      "description": "continuing with the cleanup and ensuring everything is back in order before the end of the day. (finalizing the financial transactions for the event) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83d\udecc",
+      "description": "attending a study group for her physics class (taking a break) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        72,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Klaus Mueller discuss preparations for the Valentine's Day party at Hobbs Cafe, dividing tasks with Klaus handling decorations and Isabella managing financial transactions, expressing appreciation for each other's dedication and emphasizing the power of teamwork to ensure the event's success. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Isabella, let's divide and conquer to get this cleanup done quickly. I'll take care of the decorations while you focus on the financial transactions. We can do this!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Klaus! Your enthusiasm is contagious. I'll make sure everything is in order before the end of the day. Let's make it happen!"
+        ],
+        [
+          "Klaus Mueller",
+          "Great! I appreciate your dedication, Isabella. Together, we can ensure this event ends on a high note. Let's get to work!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Definitely, Klaus. Your support means a lot. Let's finish strong and show everyone the power of teamwork!"
+        ],
+        [
+          "Klaus Mueller",
+          "Teamwork makes the dream work, Isabella. Thank you for being an amazing partner in this event. Let's do this!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        79,
+        14
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "heading to Hobbs Cafe for the Valentine's Day party (assisting Isabella with any last-minute tasks) @ the Ville:Isabella Rodriguez's apartment:main room:shelf",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 16:48:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        71,
+        30
+      ],
+      "pronunciatio": "\u2699\ufe0f",
+      "description": "Isabella leaves work and heads home to rest and prepare for the Valentine's Day party the next day. (contacting suppliers to order any necessary items for the party) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "studying at Oak Hill College (working on a physics lab assignment) (working on the second part of the physics lab assignment) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        30
+      ],
+      "pronunciatio": "\ud83d\udd2c",
+      "description": "taking a break and going for a walk around campus (Maria Lopez and Klaus Mueller discuss the intersection of physics and social justice, exploring the impact of technology on social justice issues and planning to collaborate on a project that combines physics concepts related to energy distribution in low-income communities with the potential of technology. They agree to meet at Oak Hill College common room tomorrow to continue their collaboration and further explore the intersection of technology and social justice.) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        63,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfe0\ud83c\udf03",
+      "description": "continuing to assist Isabella in greeting and entertaining party guests (assisting Isabella in getting the house ready for the evening) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 17:09:00"
+  }
+}

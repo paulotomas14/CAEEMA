@@ -1,0 +1,38 @@
+[
+    {
+        "date_time": "2023-02-14 17:00",
+        "name": "Valentine's Day Party",
+        "people_involved": [
+            "Isabella Rodriguez",
+            "Maria Lopez"
+        ],
+        "description": "Isabella Rodriguez is hosting a Valentine's Day party at Hobbs Cafe.",
+        "location": "Hobbs Cafe",
+        "status": "Ending",
+        "duration": 3
+    },
+    {
+        "date_time": "2023-02-15 15:00",
+        "name": "Physics and Social Justice Project",
+        "people_involved": [
+            "Maria Lopez",
+            "Klaus Mueller"
+        ],
+        "description": "A collaborative project exploring the impact of physics on social justice issues",
+        "location": "Oak Hill College",
+        "status": "Scheduled",
+        "duration": 1
+    },
+    {
+        "date_time": "2023-02-21 16:00",
+        "name": "Event Planning Meeting",
+        "people_involved": [
+            "Isabella Rodriguez",
+            "Maria Lopez"
+        ],
+        "description": "Brainstorming ideas for the upcoming event",
+        "location": "Hobbs Cafe",
+        "status": "Scheduled",
+        "duration": 1
+    }
+]

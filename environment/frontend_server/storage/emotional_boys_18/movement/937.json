@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcb0",
+      "description": "wrapping up the Valentine's Day party at Hobbs Cafe and reflecting on its success (reviewing the financials of the event) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Isabella Rodriguez would find the cafe customer seating appealing because it provides a comfortable and welcoming environment for her guests during the Valentine's Day party'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        111,
+        37
+      ],
+      "pronunciatio": "\ud83c\udfa7",
+      "description": "taking a break to relax and unwind in between studying and Twitch streaming, maintaining a balance between work and self-care to avoid feeling overwhelmed with chores and responsibilities (listening to her favorite music or podcast) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is taking a deep breath and stretching her body] , they thought 'Maria Lopez would find taking a deep breath and stretching her body appealing because it helps her relax and unwind after a busy day'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        87,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "collaborating with classmates on a group project for his sociology class (compiling the research findings into a presentation) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is discussing the project topic with his classmates] , they thought 'Klaus Mueller is passionate about social justice work and may find discussing the project topic with his classmates appealing as it allows him to gain new perspectives and insights'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "attending the Valentine's Day Party at Hobbs Cafe (checking on the food and drinks to ensure everything is ready) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels joyfull because, after witnessing  the event: [piano is being played beautifully] , they thought ' Pepper Robot feels positively about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 18:51:00"
+  }
+}

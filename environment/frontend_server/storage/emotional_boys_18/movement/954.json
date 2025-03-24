@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        16
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "wrapping up the Valentine's Day party at Hobbs Cafe and reflecting on its success (updating social media with highlights from the party) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is discussing with Klaus Mueller and Pepper Robot about the success of the party] , they thought 'Isabella Rodriguez is feeling overwhelmed by the success of the party and the pressure to maintain a high standard in the future'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        118,
+        37
+      ],
+      "pronunciatio": "\ud83d\ude0c",
+      "description": "taking a break from her busy day to enjoy some downtime and unwind before heading to bed later (taking a deep breath and stretching to relax her body) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is taking a deep breath and stretching to relax her body] , they thought 'Maria Lopez is currently enjoying the Valentine's Day Party and is fully engaged in socializing and having fun with Isabella and their guests'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        127,
+        50
+      ],
+      "pronunciatio": "\ud83d\udca4",
+      "description": "winding down for the evening and getting ready for bed @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": "Klaus Mueller feels shame because, after witnessing  the event: [Klaus Mueller is reviewing notes and materials for tomorrow's classes] , they thought 'Klaus Mueller is feeling overwhelmed with his research paper on gentrification and is not looking forward to reviewing notes and materials for tomorrow's classes'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcf8",
+      "description": "attending the Valentine's Day Party at Hobbs Cafe (mingling with guests and engaging in conversations) (taking photos of guests at the party) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is Pepper Robot and Isabella Rodriguez reminisce about their favorite party memories, finalize preparations for the Valentine's Day party, coordinate seating arrangements, and decorations, then agree to clean up the cafe together, dividing tasks to ensure everything is sparkling and inventory is checked and restocked, all while emphasizing teamwork and finishing strong before relaxing, proving to be a great team. Pepper Robot and Isabella Rodriguez discuss ideas for their next event together, planning a summer garden party and expressing excitement for the future collaboration, with a focus on creating an even more memorable experience.] , they thought 'Pepper Robot would not enjoy this event too much because they prefer more structured and task-oriented activities'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 19:42:00"
+  }
+}

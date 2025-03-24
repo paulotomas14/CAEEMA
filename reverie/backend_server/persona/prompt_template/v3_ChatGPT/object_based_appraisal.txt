@@ -1,0 +1,32 @@
+object_based_appraisal.txt
+
+!<INPUT 0>!: agent name
+!<INPUT 1>!: iss
+!<INPUT 2>!: object
+!<INPUT 3>!: predicate
+!<INPUT 4>!: subject
+!<INPUT 5>!: description
+!<INPUT 6>!: coping_addon
+!<INPUT 7>!: coping addon 2
+!<INPUT 8>!: upper limit
+
+<commentblockmarker>###</commentblockmarker>
+Here is a brief description of !<INPUT 0>!. 
+!<INPUT 1>!
+
+Here is the current object
+Object: !<INPUT 2>!
+!<INPUT 6>!
+Given what you know of !<INPUT 0>! rate whether this object is appealing to them or not.
+Provide a reason for their feelings first!<INPUT 7>! in under 50 words.  (any answer, good or bad, is valid, as long as the reasoning is in line with !<INPUT 0>!'s traits).
+Then, after a semi-colon answer true or false for whether its appealing or not and finally, after another semi-colon, rate the intensity of the feelings of !<INPUT 0>! towards this object from 0 to !<INPUT 8>!.
+Response format:
+reason(a sentence); appeal(true/false); intensity(a number between 1 and !<INPUT 8>!)
+end of format
+Example:
+Norman would enjoy this object a lot because he likes cooking; true; 6
+End of example
+Example 2:
+Mary would not enjoy this object too much because she doesn't like spiders, but since she decided to use the coping strategy of acceptance, her feelings are not too intense; false; 3
+End of example 2
+Response:

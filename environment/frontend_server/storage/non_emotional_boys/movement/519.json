@@ -1,0 +1,65 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        82,
+        16
+      ],
+      "pronunciatio": "\ud83c\udf19",
+      "description": "getting ready for bed and winding down for the night (changing into her pajamas and getting ready for bed) @ the Ville:Isabella Rodriguez's apartment:bathroom:bathroom sink",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        124,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Klaus Mueller plan to collaborate on a physics and technology project while also considering streaming indie games with social justice themes on Twitch. In a new conversation, Maria suggests attending a social justice seminar to further explore the impact of technology on social justice issues, and Klaus agrees to join and share their perspectives <fill in>. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, have you thought more about attending the social justice seminar with me? I think it could be a great opportunity for us to explore new ideas."
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, I've been thinking about it, and I agree. It's important to delve into the intersection of technology and social justice. Let's definitely go together."
+        ]
+      ],
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        48
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Klaus Mueller plan to collaborate on a physics and technology project while also considering streaming indie games with social justice themes on Twitch. In a new conversation, Maria suggests attending a social justice seminar to further explore the impact of technology on social justice issues, and Klaus agrees to join and share their perspectives <fill in>. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, have you thought more about attending the social justice seminar with me? I think it could be a great opportunity for us to explore new ideas."
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, I've been thinking about it, and I agree. It's important to delve into the intersection of technology and social justice. Let's definitely go together."
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83d\udd0b",
+      "description": "getting ready for bed (charging itself for the night) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 21:57:00"
+  }
+}

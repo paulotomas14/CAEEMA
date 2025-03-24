@@ -1,0 +1,39 @@
+[
+    {
+        "date_time": "2023-02-14 17:00",
+        "name": "Valentine's Day Party",
+        "people_involved": [
+            "Isabella Rodriguez",
+            "Klaus Mueller",
+            "Pepper Robot"
+        ],
+        "description": "Isabella Rodriguez and Pepper Robot are organizing a Valentine's Day party at Hobbs Cafe.",
+        "location": "Hobbs Cafe",
+        "status": "Ending",
+        "duration": 3
+    },
+    {
+        "date_time": "2023-02-15 16:00",
+        "name": "Creative Cafe Collaboration Meeting",
+        "people_involved": [
+            "Maria Lopez",
+            "Isabella Rodriguez"
+        ],
+        "description": "Maria and Isabella will meet to brainstorm and plan for upcoming events at the cafe.",
+        "location": "Hobbs Cafe",
+        "status": "Scheduled",
+        "duration": 1
+    },
+    {
+        "date_time": "2023-02-15 10:00",
+        "name": "Social Justice Event Planning Meeting",
+        "people_involved": [
+            "Klaus Mueller",
+            "Isabella Rodriguez"
+        ],
+        "description": "Meeting to brainstorm ideas for social justice initiatives",
+        "location": "Oak Hill College",
+        "status": "Scheduled",
+        "duration": 1
+    }
+]

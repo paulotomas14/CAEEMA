@@ -1,0 +1,81 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella asked Pepper to check on the party decorations and make sure everything is set up perfectly for tomorrow, with Pepper eagerly agreeing to ensure everything is in place. Isabella then requested Pepper to do a final check on the food and drinks setup, expressing her desire for everything to be perfect for the party tomorrow, with Pepper offering to help and expressing excitement for their successful teamwork. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, could you do a final check on the food and drinks setup? We want everything to be perfect for the party tomorrow."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is in order. Is there anything else you need help with?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. Your assistance is invaluable in making this party a success. I appreciate your dedication and hard work."
+        ],
+        [
+          "Pepper Robot",
+          "I'm glad to help, Isabella. We make a great team, and I'm excited to see the party come together beautifully."
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        83,
+        35
+      ],
+      "pronunciatio": "\ud83d\udcb5",
+      "description": "hanging out at Hobbs Cafe for dinner (paying the bill and leaving a tip) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        105,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "relaxing and unwinding after a productive day (reading a chapter of a book for pleasure) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella asked Pepper to check on the party decorations and make sure everything is set up perfectly for tomorrow, with Pepper eagerly agreeing to ensure everything is in place. Isabella then requested Pepper to do a final check on the food and drinks setup, expressing her desire for everything to be perfect for the party tomorrow, with Pepper offering to help and expressing excitement for their successful teamwork. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, could you do a final check on the food and drinks setup? We want everything to be perfect for the party tomorrow."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is in order. Is there anything else you need help with?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. Your assistance is invaluable in making this party a success. I appreciate your dedication and hard work."
+        ],
+        [
+          "Pepper Robot",
+          "I'm glad to help, Isabella. We make a great team, and I'm excited to see the party come together beautifully."
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 18:51:00"
+  }
+}

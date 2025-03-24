@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        16
+      ],
+      "pronunciatio": "\ud83e\udd64",
+      "description": "continuing to work at the counter and interact with customers (preparing drinks for customers) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Isabella Rodriguez loves the cooking area at Hobbs Cafe because it allows her to create delicious dishes for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        121,
+        45
+      ],
+      "pronunciatio": "\ud83c\udfa5",
+      "description": "streaming games on Twitch (setting up her streaming equipment) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is eating breakfast] , they thought 'Maria Lopez enjoys eating breakfast as it gives her energy for the day ahead'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper at the library (revising and editing his research paper) (revising the introduction of his research paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Oak Hill College:library:library table because, after witnessing  the event: [library table is idle] , they thought 'Klaus Mueller would find the library table appealing because it provides a quiet and focused environment for him to work on his research paper'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        15
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "assisting Isabella with her Valentine's Day party celebration preparations (organizing the party games and activities) @ the Ville:Isabella Rodriguez's apartment:main room:shelf",
+      "chat": null,
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is plating the breakfast] , they thought 'Pepper Robot is programmed to assist with tasks, so plating breakfast is likely appealing to them as it aligns with their purpose'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 10:15:00"
+  }
+}

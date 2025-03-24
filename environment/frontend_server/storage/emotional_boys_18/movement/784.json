@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udd70\ufe0f",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (confirming the arrival time of the entertainment for the party) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:behind the cafe counter because, after witnessing  the event: [behind the cafe counter is idle] , they thought 'Isabella Rodriguez would find the object behind the cafe counter appealing because it is a crucial part of her cafe business where she can interact with customers and ensure everything is running smoothly'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        127,
+        56
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing to study and work on academic projects (reviewing her physics notes) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:blackboard",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer because, after witnessing  the event: [computer is idle] , they thought 'Maria Lopez spends a lot of time on her computer for both academic studies and Twitch streaming, so she may find the object appealing as it is essential to her daily routine.'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        109,
+        32
+      ],
+      "pronunciatio": "\ud83d\udc6b",
+      "description": "collaborating with classmates on a group project for his sociology class @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is finalizing the group project plan] , they thought 'Klaus Mueller is passionate about social justice and enjoys collaborating with classmates, so finalizing the group project plan is appealing to him'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83d\udcba",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (organizing the seating arrangements) @ the Ville:Isabella Rodriguez's apartment:main room:shelf",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Isabella Rodriguez's apartment:main room:desk because, after witnessing  the event: [desk is idle] , they thought 'Pepper Robot would find this object appealing because it is likely where Isabella Rodriguez works and where Pepper Robot assists her'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 11:12:00"
+  }
+}

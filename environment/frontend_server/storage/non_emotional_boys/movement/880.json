@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Klaus Mueller discuss preparations for the Valentine's Day party at Hobbs Cafe, focusing on decorations and creating an inclusive environment, with Klaus offering to help with cleanup tasks and both emphasizing their dedication to making the event special for all guests. Isabella assigns Klaus to handle decorations while she takes care of the guest area, expressing gratitude for his partnership and teamwork in ensuring everything is spotless before calling it a night. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Klaus, thanks for doing the final walkthrough. Want to split the cleanup tasks to get it done faster?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Isabella. I can take care of the decorations while you handle the guest area. Teamwork makes the dream work, right?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely! Your passion for creating inclusive spaces really shines through in your work. Let's make sure everything is spotless before we call it a night."
+        ],
+        [
+          "Klaus Mueller",
+          "Definitely, Isabella. I appreciate your attention to detail and dedication to making this event special for everyone. Let's get this place sparkling!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great! I'll start on the guest area, and you can tackle the decorations. We'll have this place cleaned up in no time."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Isabella. Thanks for being such a great partner in all of this. We make a fantastic team."
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        47
+      ],
+      "pronunciatio": "\u2753",
+      "description": "attending a study group for her physics class (asking questions to clarify concepts) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Klaus Mueller discuss preparations for the Valentine's Day party at Hobbs Cafe, focusing on decorations and creating an inclusive environment, with Klaus offering to help with cleanup tasks and both emphasizing their dedication to making the event special for all guests. Isabella assigns Klaus to handle decorations while she takes care of the guest area, expressing gratitude for his partnership and teamwork in ensuring everything is spotless before calling it a night. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Klaus, thanks for doing the final walkthrough. Want to split the cleanup tasks to get it done faster?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Isabella. I can take care of the decorations while you handle the guest area. Teamwork makes the dream work, right?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely! Your passion for creating inclusive spaces really shines through in your work. Let's make sure everything is spotless before we call it a night."
+        ],
+        [
+          "Klaus Mueller",
+          "Definitely, Isabella. I appreciate your attention to detail and dedication to making this event special for everyone. Let's get this place sparkling!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great! I'll start on the guest area, and you can tackle the decorations. We'll have this place cleaned up in no time."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Isabella. Thanks for being such a great partner in all of this. We make a fantastic team."
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        18
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "heading to Hobbs Cafe for the Valentine's Day party (checking the party supplies and decorations) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 16:00:00"
+  }
+}

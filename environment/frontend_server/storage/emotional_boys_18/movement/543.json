@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        65,
+        38
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "reflecting on the successful party and planning for future events at Hobbs Cafe (reviewing feedback from customers who attended the Valentine's Day party) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [supply store product shelf is being restocked and updated with new orders] , they thought ' Isabella Rodriguez feels moderately about the event as it is part of her daily routine'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "relaxing in bed and reading a book before going to sleep. @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is Maria and Klaus discuss their favorite games and plans for a game night at Hobbs Cafe, excitedly focusing on teamwork and collaboration. They continue their conversation about the intersection of physics and social justice, brainstorming ideas to make a positive impact together.] , they thought 'Maria Lopez would find this event appealing because she enjoys connecting with people and exploring new ideas'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        114,
+        53
+      ],
+      "pronunciatio": "\ud83d\udc55",
+      "description": "going to bed at 11:00 pm (changing into his pajamas) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "chat": null,
+      "emotion": ""
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        14
+      ],
+      "pronunciatio": "\ud83c\udfa8",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations (setting up the decoration station) @ the Ville:Isabella Rodriguez's apartment:main room:shelf",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [shelf is being organized] , they thought ' Pepper Robot feels moderately about the event as it is part of their routine'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 23:09:00"
+  }
+}

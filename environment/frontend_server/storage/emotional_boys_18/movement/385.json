@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        69,
+        30
+      ],
+      "pronunciatio": "\ud83e\udd6a",
+      "description": "personally preparing snacks for the Valentine's Day party at Hobbs Cafe from 2:00 PM to 3:00 PM @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels reproach towards Pepper Robot because, after witnessing  the event: [Pepper Robot is Together, Pepper Robot and Isabella Rodriguez continue preparing for the Valentine's Day party by discussing tasks such as setting up decorations, organizing seating arrangements, ensuring the drinks are chilled, and the food is ready. Isabella asks Pepper to double-check the inventory for party supplies and help set up the red and white theme decorations for a cozy and inviting atmosphere, expressing gratitude for Pepper's hard work and dedication.] , they thought 'Isabella Rodriguez may not find this event appealing because she may feel overwhelmed with the tasks and responsibilities involved in preparing for the Valentine's Day party'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "studying at Oak Hill College (working on her physics lab assignment) (reading through the lab instructions) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Oak Hill College:library:library table because, after witnessing  the event: [library table is idle] , they thought 'Maria Lopez would find the library table at Oak Hill College appealing because she spends a lot of time studying and it provides a quiet and comfortable space for her to focus on her physics degree'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        104,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper at the library (writing the introduction of his research paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is conducting additional research on the effects of gentrification] , they thought 'Klaus Mueller is passionate about social justice and exploring different perspectives, so conducting additional research on the effects of gentrification would be appealing to him as it aligns with his interests'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        69,
+        30
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is Together, Pepper Robot and Isabella Rodriguez continue preparing for the Valentine's Day party by discussing tasks such as setting up decorations, organizing seating arrangements, ensuring the drinks are chilled, and the food is ready. Isabella asks Pepper to double-check the inventory for party supplies and help set up the red and white theme decorations for a cozy and inviting atmosphere, expressing gratitude for Pepper's hard work and dedication.] , they thought 'Pepper Robot may not find this event appealing because it involves a lot of physical tasks and may feel overwhelmed with the preparations'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:15:00"
+  }
+}

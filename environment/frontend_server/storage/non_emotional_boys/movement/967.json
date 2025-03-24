@@ -1,0 +1,64 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "attending the Valentine's Day Party at Hobbs Cafe (saying goodbye to guests as they leave and thanking them for coming) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udc83",
+      "description": "socializing with other party guests at Hobbs Cafe (dancing to the music and enjoying the atmosphere) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcf8",
+      "description": "still at the Valentine's Day Party at Hobbs Cafe, participating in activities and engaging with the community (taking photos with colleagues and posting on social media) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Isabella continued to plan the Valentine's Day party, focusing on decorations, food, and drinks, aiming to create an unforgettable event; they expressed confidence in their teamwork and determination to make the party the talk of the town, ensuring every aspect was perfect. Pepper Robot suggested adding some upbeat tunes to the playlist to liven up the party atmosphere even more, and Isabella agreed, trusting Pepper's judgment and dedication to making the party one to remember. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, how do you feel about adding some upbeat tunes to the playlist? It might liven up the party atmosphere even more."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Oh, Pepper, that's a great idea! Let's switch it up and get the guests grooving. I trust your judgment on this, go ahead and make the changes."
+        ],
+        [
+          "Pepper Robot",
+          "Thanks, Isabella! I'll make sure to keep the energy high and the party vibes going strong. Your guests are in for a treat tonight!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I appreciate your dedication, Pepper. Let's make this party one to remember!"
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:21:00"
+  }
+}

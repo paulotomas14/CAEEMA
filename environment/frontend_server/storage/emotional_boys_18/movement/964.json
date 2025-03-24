@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "wrapping up the Valentine's Day party at Hobbs Cafe and reflecting on its success (updating social media with highlights from the party) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is updating social media with highlights from the party] , they thought 'Isabella Rodriguez may not find updating social media appealing as it may feel like a tedious task to her amidst her busy schedule'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        124,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "taking a break from her busy day to enjoy some downtime and unwind before heading to bed later (journaling about her experiences at the Valentine's Day Party) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Maria Lopez feels hate towards the Ville:Dorm for Oak Hill College:kitchen:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Maria Lopez enjoys cooking and spending time in the kitchen, as it allows her to relax and unwind. However, she may not find the Ville:Dorm kitchen appealing due to its limited space and lack of equipment'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        121,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "working on his research paper on gentrification in a different location away from distractions (writing the introduction of his paper) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Klaus Mueller may find the pool table in the common room appealing as a way to take a break from his research and socialize with others'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "collaborating with Isabella and Klaus to clean up after the Valentine's Day Party, ensuring everything is tidy and organized for the next day @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Pepper Robot feels like their fears have been confirmed because, after witnessing  the event: [cafe customer seating is being utilized by customers] , they thought ' Pepper Robot feels moderately about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:12:00"
+  }
+}

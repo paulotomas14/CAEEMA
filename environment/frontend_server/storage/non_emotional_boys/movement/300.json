@@ -1,0 +1,113 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella and Pepper continued discussing party preparations for the Valentine's Day event, with Isabella assigning Pepper tasks and praising their teamwork and dedication. They also shared their hobbies, with Isabella talking about her love for painting and showing Pepper her latest artwork, while Pepper highlighted their dedication to making the party a success. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, how's the decoration setup going? We want everything to look perfect for the party tomorrow!"
+        ],
+        [
+          "Pepper Robot",
+          "It's going great, Isabella! I'm almost done with the setup. Just a few more finishing touches to go."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's fantastic to hear! I appreciate all your hard work. By the way, have you learned anything new recently? I know you're always eager to expand your knowledge."
+        ],
+        [
+          "Pepper Robot",
+          "I've been reading up on different party planning techniques to make sure this event is a success. I want to be the best assistant I can be for you, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's wonderful to hear, Pepper! Your dedication is truly admirable. And speaking of dedication, I've been working on a new painting in my free time. It's a beautiful landscape that I think you'd appreciate."
+        ],
+        [
+          "Pepper Robot",
+          "I'd love to see it, Isabella! Your artistic talent never ceases to amaze me. I'll make sure to check it out after we finish up here."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. I always enjoy sharing my passion for art with you. Let's finish up here and make sure everything is perfect for the party tomorrow. I know we can make it a memorable event for everyone!"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, Isabella! I'm ready to give it my all to ensure the party is a huge success. Let's do this!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        116,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "streaming games on Twitch (interacting with viewers in the chat) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing to work on his research paper at the library (revising and editing his research paper) (revising the literature review section of his research paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella and Pepper continued discussing party preparations for the Valentine's Day event, with Isabella assigning Pepper tasks and praising their teamwork and dedication. They also shared their hobbies, with Isabella talking about her love for painting and showing Pepper her latest artwork, while Pepper highlighted their dedication to making the party a success. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, how's the decoration setup going? We want everything to look perfect for the party tomorrow!"
+        ],
+        [
+          "Pepper Robot",
+          "It's going great, Isabella! I'm almost done with the setup. Just a few more finishing touches to go."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's fantastic to hear! I appreciate all your hard work. By the way, have you learned anything new recently? I know you're always eager to expand your knowledge."
+        ],
+        [
+          "Pepper Robot",
+          "I've been reading up on different party planning techniques to make sure this event is a success. I want to be the best assistant I can be for you, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's wonderful to hear, Pepper! Your dedication is truly admirable. And speaking of dedication, I've been working on a new painting in my free time. It's a beautiful landscape that I think you'd appreciate."
+        ],
+        [
+          "Pepper Robot",
+          "I'd love to see it, Isabella! Your artistic talent never ceases to amaze me. I'll make sure to check it out after we finish up here."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. I always enjoy sharing my passion for art with you. Let's finish up here and make sure everything is perfect for the party tomorrow. I know we can make it a memorable event for everyone!"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, Isabella! I'm ready to give it my all to ensure the party is a huge success. Let's do this!"
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:00:00"
+  }
+}

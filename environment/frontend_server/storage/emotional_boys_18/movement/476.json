@@ -1,0 +1,89 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        26
+      ],
+      "pronunciatio": "\ud83d\udc42",
+      "description": "engaging with customers and discussing the event with them to gather feedback and ideas for future parties (listening to customer feedback and suggestions) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": ""
+    },
+    "Maria Lopez": {
+      "movement": [
+        113,
+        29
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus discuss their favorite games and plan a game night at Hobbs Cafe to try out the new strategy game 'Quest for Justice' that combines social justice with gaming. They excitedly talk about focusing on teamwork and collaboration in the game while Maria plans to bring energy drinks for the long gaming session, making the upcoming game night sound epic and fun. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I can't wait for our game night on Friday! I've been thinking about some cool strategies we could try out."
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, I'm glad you're excited! What ideas do you have for our gaming session?"
+        ],
+        [
+          "Maria Lopez",
+          "I was thinking we could focus on teamwork and collaboration in 'Quest for Justice'. It could add a whole new dynamic to the game!"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds awesome! I'm all in for trying out new strategies. Let's make this game night epic!"
+        ],
+        [
+          "Maria Lopez",
+          "Definitely! I'll bring my energy drinks to keep us going all night. This is going to be so much fun!"
+        ]
+      ],
+      "emotion": "Maria Lopez feels love towards the Ville:Oak Hill College:classroom:blackboard because, after witnessing  the event: [blackboard is idle] , they thought 'Maria Lopez would find the blackboard in the classroom appealing because she enjoys studying physics and learning new concepts'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        113,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus discuss their favorite games and plan a game night at Hobbs Cafe to try out the new strategy game 'Quest for Justice' that combines social justice with gaming. They excitedly talk about focusing on teamwork and collaboration in the game while Maria plans to bring energy drinks for the long gaming session, making the upcoming game night sound epic and fun. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I can't wait for our game night on Friday! I've been thinking about some cool strategies we could try out."
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, I'm glad you're excited! What ideas do you have for our gaming session?"
+        ],
+        [
+          "Maria Lopez",
+          "I was thinking we could focus on teamwork and collaboration in 'Quest for Justice'. It could add a whole new dynamic to the game!"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds awesome! I'm all in for trying out new strategies. Let's make this game night epic!"
+        ],
+        [
+          "Maria Lopez",
+          "Definitely! I'll bring my energy drinks to keep us going all night. This is going to be so much fun!"
+        ]
+      ],
+      "emotion": "Klaus Mueller feels love towards the Ville:Hobbs Cafe:cafe:piano because, after witnessing  the event: [piano is idle] , they thought 'Klaus Mueller may find the object appealing because Hobbs Cafe is a familiar location for him and the object may add to the ambiance of the cafe'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations (washing the dishes) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels disappointment because, after witnessing  the event: [refrigerator is being opened] , they thought ' Pepper Robot feels mildly about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 19:48:00"
+  }
+}

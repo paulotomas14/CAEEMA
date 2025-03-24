@@ -1,0 +1,68 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83e\udd16",
+      "description": "still at the Valentine's Day Party at Hobbs Cafe (coordinating with Pepper Robot and Klaus Mueller to address any issues that may arise) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "socializing with other party guests at Hobbs Cafe (sharing stories or experiences with other party guests) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "heading home to rest after a successful event (helping with clean-up at the event) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Isabella discussed finalizing the Valentine's Day party preparations, including clean up and making sure the cafe is ready for the next day's operations; they acknowledged each other's contributions and teamwork, emphasizing the importance of working together to ensure the party's success. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, I've organized the tables and chairs for cleanup. How should we proceed to ensure everything is spotless?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Pepper, let's start by gathering all the leftover decorations and disposing of any waste. We can then move on to wiping down surfaces and ensuring the cafe is ready for the next day's operations."
+        ],
+        [
+          "Pepper Robot",
+          "Great plan, Isabella. I'll start gathering the decorations while you coordinate with Klaus. Your attention to detail is truly inspiring."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper. Your dedication to making this event a success has been invaluable. Let's work together to wrap up the party smoothly and efficiently."
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, Isabella. Teamwork makes the dream work, right?"
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:00:00"
+  }
+}

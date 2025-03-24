@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        81,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (preparing a welcome speech for the start of the party) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:behind the cafe counter because, after witnessing  the event: [behind the cafe counter is idle] , they thought 'Isabella Rodriguez would find the object behind the cafe counter appealing because it is a part of her cafe, where she loves to create a welcoming environment for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        127,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to study and work on academic projects (working on a research project for her physics class) (writing the introduction for her research paper) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer because, after witnessing  the event: [computer is idle] , they thought 'Maria Lopez would find the computer in her room appealing because she uses it for her academic studies and Twitch streaming, which are important aspects of her life'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        110,
+        20
+      ],
+      "pronunciatio": "\ud83d\udc6b",
+      "description": "collaborating with classmates on a group project for his sociology class @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is collaborating with classmates on a group project for his sociology class] , they thought 'Klaus Mueller would find collaborating with classmates appealing because he enjoys working with others to achieve a common goal'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        14
+      ],
+      "pronunciatio": "\ud83c\udfb5",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (setting up the music playlist) @ the Ville:Isabella Rodriguez's apartment:main room:shelf",
+      "chat": null,
+      "emotion": ""
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 11:51:00"
+  }
+}

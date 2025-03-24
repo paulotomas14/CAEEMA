@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        59,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "engaging with customers and discussing the event with them to gather feedback and ideas for future parties @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is engaging with customers and discussing the event with them to gather feedback and ideas for future parties] , they thought 'Isabella Rodriguez may not find engaging with customers appealing because it can be time-consuming and she may prefer focusing on other tasks'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        115,
+        51
+      ],
+      "pronunciatio": "\ud83c\udfae",
+      "description": "streaming games on Twitch to unwind and relax after the social event at Hobbs Cafe (on the way to continuing her gameplay and engaging with her audience) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Maria Lopez feels shame because, after witnessing  the event: [Maria Lopez is continuing her gameplay and engaging with her audience] , they thought 'Maria Lopez enjoys engaging with her audience while streaming games on Twitch, but after attending a social event, she may not be in the mood to continue gameplay'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        114,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "relaxing and unwinding after a productive day (chatting with friends about their day) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:common room:common room sofa because, after witnessing  the event: [common room sofa is idle] , they thought 'Klaus Mueller would find the common room sofa appealing because it provides a comfortable place to relax and socialize with others'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udecf\ufe0f",
+      "description": "taking a break to recharge and avoid feeling overwhelmed with physical tasks @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is reviewing the tasks and responsibilities for the Valentine's Day party] , they thought 'Pepper Robot may not find reviewing tasks and responsibilities for the Valentine's Day party appealing as it may feel like a mundane and repetitive task'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 22:03:00"
+  }
+}

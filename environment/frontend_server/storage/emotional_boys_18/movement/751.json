@@ -1,0 +1,81 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Isabella Rodriguez reminisce about their favorite party memories while preparing for the Valentine's Day party, with Isabella sharing a story about a magical New Year's Eve celebration featuring a surprise fireworks display. They then shift their focus to finalizing the menu for the upcoming event. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, what's your favorite party memory? I bet you have some great stories to share!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Oh, Pepper, there was this one time at a New Year's Eve party where we had a surprise fireworks display! It was magical."
+        ],
+        [
+          "Pepper Robot",
+          "Wow, that sounds amazing! I can only imagine how spectacular it must have been. Thanks for sharing, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Pepper. It's always fun to reminisce about past celebrations while preparing for new ones. Now, let's finalize this menu for the Valentine's Day party!"
+        ]
+      ],
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [desk is being used by Isabella Rodriguez at Hobbs Cafe at 5:00 PM for preparing for the Valentine's Day party] , they thought ' Isabella Rodriguez feels excited and focused about this event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        48
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "waking up and completing her morning routine (making breakfast) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is getting dressed for the day] , they thought 'Maria Lopez enjoys dressing up and putting effort into her appearance, as it allows her to express her creativity and personality'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        86,
+        53
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "continuing to work on his research paper on gentrification in low-income communities (conducting additional research on the topic) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "emotion": "Klaus Mueller feels shame because, after witnessing  the event: [Klaus Mueller is reviewing his research notes on gentrification] , they thought 'Klaus Mueller is feeling frustrated with his research notes on gentrification as he is struggling to make sense of the data'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        79,
+        15
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Isabella Rodriguez reminisce about their favorite party memories while preparing for the Valentine's Day party, with Isabella sharing a story about a magical New Year's Eve celebration featuring a surprise fireworks display. They then shift their focus to finalizing the menu for the upcoming event. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, what's your favorite party memory? I bet you have some great stories to share!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Oh, Pepper, there was this one time at a New Year's Eve party where we had a surprise fireworks display! It was magical."
+        ],
+        [
+          "Pepper Robot",
+          "Wow, that sounds amazing! I can only imagine how spectacular it must have been. Thanks for sharing, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Pepper. It's always fun to reminisce about past celebrations while preparing for new ones. Now, let's finalize this menu for the Valentine's Day party!"
+        ]
+      ],
+      "emotion": "Pepper Robot feels disappointment because, after witnessing  the event: [closet is open with clothes on hangers and shelves] , they thought ' Pepper Robot feels mildly about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 09:33:00"
+  }
+}

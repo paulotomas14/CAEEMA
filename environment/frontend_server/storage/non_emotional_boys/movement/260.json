@@ -1,0 +1,81 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella asked Pepper to help gather party materials and set up decorations for the Valentine's Day party, with both expressing excitement for making the event memorable. Isabella requested Pepper to start gathering the materials and setting up decorations while she prepares the cafe, with Pepper gladly accepting and expressing the goal to make the party unforgettable for customers. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Pepper, could you start gathering the party materials and setting up the decorations for the Valentine's Day party? I'll focus on getting the cafe ready for the day."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll get right on it. Let's make this party unforgettable for our customers!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great! I appreciate your help, Pepper. Let's show everyone the magic of Hobbs Cafe!"
+        ],
+        [
+          "Pepper Robot",
+          "I'm excited to be a part of this, Isabella. I'll make sure everything is set up perfectly for the party."
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        124,
+        51
+      ],
+      "pronunciatio": "\u23f0\ud83d\ude46",
+      "description": "waking up and completing her morning routine (waking up and stretching) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        27
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "continuing to work on his research paper at the library (reviewing his research notes on gentrification) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella asked Pepper to help gather party materials and set up decorations for the Valentine's Day party, with both expressing excitement for making the event memorable. Isabella requested Pepper to start gathering the materials and setting up decorations while she prepares the cafe, with Pepper gladly accepting and expressing the goal to make the party unforgettable for customers. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Pepper, could you start gathering the party materials and setting up the decorations for the Valentine's Day party? I'll focus on getting the cafe ready for the day."
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll get right on it. Let's make this party unforgettable for our customers!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great! I appreciate your help, Pepper. Let's show everyone the magic of Hobbs Cafe!"
+        ],
+        [
+          "Pepper Robot",
+          "I'm excited to be a part of this, Isabella. I'll make sure everything is set up perfectly for the party."
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:00:00"
+  }
+}

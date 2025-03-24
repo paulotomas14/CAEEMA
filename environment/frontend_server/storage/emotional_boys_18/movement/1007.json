@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels like their fears have been confirmed because, after witnessing  the event: [desk is covered in notes and event planning materials] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        105,
+        47
+      ],
+      "pronunciatio": "\u2615\ud83d\udcac",
+      "description": "currently collaborating with Klaus and Isabella on new ideas for the cafe, brainstorming creative ways to bring new energy and excitement to their projects (discussing upcoming events at the cafe with Klaus and Isabella) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Maria Lopez feels joyfull because, after witnessing  the event: [common room sofa is being sat on by Maria Lopez] , they thought ' Maria Lopez feels neutral about this event'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        128,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to work on his research paper on gentrification in low-income communities (reviewing his research notes) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Klaus Mueller may find the pool table in the common room appealing as a way to take a break from his research and socialize with others'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "wrapping up the day's tasks, ensuring all decorations and supplies are properly stored, and preparing for the next day's operations at Hobbs Cafe. @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Pepper Robot feels hate towards the Ville:Hobbs Cafe:cafe:behind the cafe counter because, after witnessing  the event: [behind the cafe counter is idle] , they thought 'Pepper Robot is currently focused on cleaning up the cafe and organizing the Valentine's Day party, so the object behind the cafe counter may not be appealing to them as it could be seen as a distraction from their current tasks'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:21:00"
+  }
+}

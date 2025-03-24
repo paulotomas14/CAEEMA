@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "focusing on preparing for the Valentine's Day party at Hobbs Cafe at 5:00 PM (coordinating with the staff on their roles for the event) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [refrigerator is being used to store a variety of food and drinks for the Valentine's Day party at Hobbs Cafe] , they thought ' Isabella Rodriguez feels moderately about the event as it is part of her plans'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Maria Lopez may find the pool table in the common room appealing as it provides a fun and social activity for her and her friends to enjoy together'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        126,
+        50
+      ],
+      "pronunciatio": "\ud83d\udc57",
+      "description": "waking up and completing his morning routine (getting dressed) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "chat": null,
+      "emotion": "Klaus Mueller feels joyfull because, after witnessing  the event: [bed is being slept in] , they thought ' Klaus Mueller feels moderately about the event as he values rest'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels pride because, after witnessing  the event: [Pepper Robot is reviewing the current schedule] , they thought 'Pepper Robot is excited about attending the Valentine's Day Party and helping create a memorable event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 07:27:00"
+  }
+}

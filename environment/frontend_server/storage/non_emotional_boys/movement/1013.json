@@ -1,0 +1,97 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        81,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Maria Lopez discussed adding a dance-off and photo booth to the party, organizing a mini scavenger hunt, and enjoying the event. They then took a break from the party to chat about their next project at Oak Hill College, expressing excitement about collaborating and making a difference, agreeing to meet at the college to brainstorm ideas. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, I've been thinking about our next project at Oak Hill College. Do you have a moment to chat about it?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Maria! I'm always up for brainstorming new ideas. Let's step aside for a moment."
+        ],
+        [
+          "Maria Lopez",
+          "I'm so excited about the potential for our collaboration. I think we can really make a difference with this project."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I completely agree, Maria. Your energy and creativity are inspiring. Let's make this project unforgettable."
+        ],
+        [
+          "Maria Lopez",
+          "I can't wait to see what we come up with. Let's meet at Oak Hill College to dive deeper into our ideas."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds like a plan, Maria. I'll see you there!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Maria Lopez discussed adding a dance-off and photo booth to the party, organizing a mini scavenger hunt, and enjoying the event. They then took a break from the party to chat about their next project at Oak Hill College, expressing excitement about collaborating and making a difference, agreeing to meet at the college to brainstorm ideas. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, I've been thinking about our next project at Oak Hill College. Do you have a moment to chat about it?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Maria! I'm always up for brainstorming new ideas. Let's step aside for a moment."
+        ],
+        [
+          "Maria Lopez",
+          "I'm so excited about the potential for our collaboration. I think we can really make a difference with this project."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I completely agree, Maria. Your energy and creativity are inspiring. Let's make this project unforgettable."
+        ],
+        [
+          "Maria Lopez",
+          "I can't wait to see what we come up with. Let's meet at Oak Hill College to dive deeper into our ideas."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds like a plan, Maria. I'll see you there!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "heading home to rest after a successful event (assisting with any remaining tasks to ensure the event space is clean and organized) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        72,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude9a",
+      "description": "helping clean up after the Valentine's Day party at Hobbs Cafe (assisting in loading any equipment or supplies back into the car) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:39:00"
+  }
+}

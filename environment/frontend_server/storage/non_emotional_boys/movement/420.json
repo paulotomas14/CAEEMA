@@ -1,0 +1,81 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\u2699\ufe0f",
+      "description": "Isabella leaves work and heads home to rest and prepare for the Valentine's Day party the next day. (contacting suppliers to order any necessary items for the party) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        118,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Klaus Mueller discuss the intersection of physics and social justice, exploring the impact of technology on social justice issues and planning to collaborate on a project that combines physics concepts related to energy distribution in low-income communities with the potential of technology. They agree to meet at Oak Hill College common room tomorrow to continue their collaboration and further explore the intersection of technology and social justice. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I was just thinking about how technology can really make a difference in addressing social justice issues. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great point, Maria. I believe technology has the potential to create more inclusive spaces and opportunities for marginalized communities."
+        ],
+        [
+          "Maria Lopez",
+          "Exactly! I think our project could really benefit from exploring this intersection further. Let's meet tomorrow to dive deeper into this."
+        ],
+        [
+          "Klaus Mueller",
+          "I couldn't agree more. I'm looking forward to our collaboration, Maria. See you tomorrow at the common room."
+        ]
+      ],
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        117,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Klaus Mueller discuss the intersection of physics and social justice, exploring the impact of technology on social justice issues and planning to collaborate on a project that combines physics concepts related to energy distribution in low-income communities with the potential of technology. They agree to meet at Oak Hill College common room tomorrow to continue their collaboration and further explore the intersection of technology and social justice. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I was just thinking about how technology can really make a difference in addressing social justice issues. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great point, Maria. I believe technology has the potential to create more inclusive spaces and opportunities for marginalized communities."
+        ],
+        [
+          "Maria Lopez",
+          "Exactly! I think our project could really benefit from exploring this intersection further. Let's meet tomorrow to dive deeper into this."
+        ],
+        [
+          "Klaus Mueller",
+          "I couldn't agree more. I'm looking forward to our collaboration, Maria. See you tomorrow at the common room."
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        57,
+        24
+      ],
+      "pronunciatio": "\ud83c\udfe0\ud83c\udf03",
+      "description": "continuing to assist Isabella in greeting and entertaining party guests (assisting Isabella in getting the house ready for the evening) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 17:00:00"
+  }
+}

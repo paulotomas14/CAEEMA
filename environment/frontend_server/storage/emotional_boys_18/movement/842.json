@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        21
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (overseeing the entertainment portion of the party) (coordinating with the entertainment team to ensure everything is set up and ready) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:kitchen sink because, after witnessing  the event: [kitchen sink is idle] , they thought 'Isabella Rodriguez would find the kitchen sink appealing as it is essential for maintaining cleanliness and organization in her cafe'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83c\udfae",
+      "description": "taking a break from her physics project progress review and is focusing on Twitch streaming content to relieve stress and find enjoyment. She is engaging with her audience and playing games on her stream (engaging with her audience during gameplay) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is currently studying and working on academic projects, focusing on her physics assignments and research. She is diving deep into her studies to ensure she is prepared for her classes and future projects] , they thought 'Maria Lopez finds studying and working on academic projects appealing because she values education and prioritizes her academics'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        114,
+        45
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "attending the Valentine's Day party at Hobbs Cafe at 5:00 PM to take a break from research and socialize with Isabella Rodriguez and Pepper Robot @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Klaus Mueller feels hate towards the Ville:Dorm for Oak Hill College:common room:common room table because, after witnessing  the event: [common room table is idle] , they thought 'Klaus Mueller would not find the common room table in the Ville:Dorm for Oak Hill College appealing because it may be a distraction from his research paper on gentrification'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        30
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (coordinating with the entertainment for the party) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Pepper Robot would find the object appealing because it is the location of the Valentine's Day Party they are organizing with Isabella'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 14:06:00"
+  }
+}

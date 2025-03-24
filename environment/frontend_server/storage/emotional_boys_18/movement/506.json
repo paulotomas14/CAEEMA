@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        58,
+        43
+      ],
+      "pronunciatio": "\ud83d\udce6",
+      "description": "closing Hobbs Cafe and reflecting on the successful party from 7:00 PM to 8:00 PM (placing orders for the needed supplies) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is making a list of items to order for the cafe] , they thought 'Isabella Rodriguez may not find making a list of items to order for the cafe appealing because it can be a tedious and time-consuming task'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        94,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfae",
+      "description": "streaming games on Twitch to unwind and relax after the social event at Hobbs Cafe (starting her game and getting into the gameplay) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Maria Lopez enjoys hanging out at Hobbs Cafe for studying and eating, so the cafe customer seating would be appealing to her as it provides a comfortable and familiar environment for her activities'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        117,
+        48
+      ],
+      "pronunciatio": "\ud83d\udcfd\ufe0f",
+      "description": "relaxing and unwinding after a productive day (watching a documentary on gentrification) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is journaling about his thoughts and ideas] , they thought 'Klaus Mueller would find journaling about his thoughts and ideas appealing because it aligns with his passion for exploring different perspectives'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\u23f0",
+      "description": "revising schedule to prioritize personal recharge time and ensure adequate rest (setting reminders for self-care activities) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [bed is being used for personal recharge and rest] , they thought ' Pepper Robot feels moderately about the event as it aligns with its plans'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 21:18:00"
+  }
+}

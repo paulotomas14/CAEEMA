@@ -1,0 +1,17 @@
+summarize_ideas_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Statements
+!<INPUT 1>! -- agent name
+!<INPUT 2>! -- latest line of dialogue
+!<INPUT 3>! -- conversation partner
+
+<commentblockmarker>###</commentblockmarker>
+Statements: 
+!<INPUT 0>!
+
+!<INPUT 3>! said to !<INPUT 1>!: 
+"!<INPUT 2>!"
+
+Summarize the past statements that are most relevant to !<INPUT 3>!'s line using past tense, because these statements are past memories:
+"

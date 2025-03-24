@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels like their fears have been confirmed because, after witnessing  the event: [desk is covered in notes and event planning materials] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels hate towards the Ville:The Willows Market and Pharmacy:store:grocery store shelf because, after witnessing  the event: [grocery store shelf is idle] , they thought 'Maria Lopez may not find the grocery store shelf appealing because it may not align with her current interests or priorities'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        111,
+        37
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": "Klaus Mueller feels hate towards the Ville:Dorm for Oak Hill College:common room:common room table because, after witnessing  the event: [common room table is idle] , they thought 'Klaus Mueller would not find the common room table in the Ville:Dorm appealing because it could be a potential distraction from his work and social justice projects'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcad",
+      "description": "reflecting on the successful event and discussing future collaboration ideas with Isabella to maintain a positive mindset and excitement for future projects @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Pepper Robot feels like their fears have been confirmed because, after witnessing  the event: [cafe customer seating is unorganized and causing confusion] , they thought ' Pepper Robot feels moderately about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 00:12:00"
+  }
+}

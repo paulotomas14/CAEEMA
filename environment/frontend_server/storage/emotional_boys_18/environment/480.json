@@ -1,0 +1,22 @@
+{
+  "Isabella Rodriguez": {
+    "maze": "the_ville",
+    "x": 76,
+    "y": 25
+  },
+  "Klaus Mueller": {
+    "maze": "the_ville",
+    "x": 113,
+    "y": 30
+  },
+  "Maria Lopez": {
+    "maze": "the_ville",
+    "x": 105,
+    "y": 32
+  },
+  "Pepper Robot": {
+    "maze": "the_ville",
+    "x": 75,
+    "y": 14
+  }
+}

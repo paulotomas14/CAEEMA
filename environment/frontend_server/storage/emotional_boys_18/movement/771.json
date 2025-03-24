@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83e\udd1d",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (coordinating with the decorations team to ensure everything is set up properly) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:kitchen sink because, after witnessing  the event: [kitchen sink is idle] , they thought 'Isabella Rodriguez would find the kitchen sink appealing because it is essential for maintaining cleanliness and organization in her cafe'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "studying and working on academic projects (working on a physics problem set) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is working on a physics problem set] , they thought 'Maria Lopez enjoys working on physics problem sets as it challenges her intellectually and allows her to explore new concepts'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        116,
+        38
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "collaborating with classmates on a group project for his sociology class (reviewing the progress of the group) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": ""
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "assisting Isabella in final preparations for the Valentine's Day Party (checking the party decorations) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [refrigerator is being used to store ingredients for the Valentine's Day Party] , they thought ' Pepper Robot feels moderately about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 10:33:00"
+  }
+}

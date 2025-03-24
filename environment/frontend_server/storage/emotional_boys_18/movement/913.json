@@ -1,0 +1,65 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller offered his help to Isabella for the upcoming Valentine's Day party, praising the ambiance she created, while Isabella expressed her gratitude for Klaus's presence and contribution to the event. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Isabella, I must say, you've truly outdone yourself with the ambiance of this party. It's absolutely delightful."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Klaus! Your presence here adds so much to the party. I'm glad you're enjoying yourself."
+        ]
+      ],
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Isabella Rodriguez would find the cafe customer seating appealing because it provides a comfortable and welcoming environment for her guests during the Valentine's Day party'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcf8",
+      "description": "actively participating in the Valentine's Day Party at Hobbs Cafe with Isabella and their guests, socializing and having fun in the festive atmosphere at the party (taking photos with friends at the party) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Maria Lopez would find the cafe customer seating appealing because she enjoys socializing and connecting with people in a cozy environment'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        77,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller offered his help to Isabella for the upcoming Valentine's Day party, praising the ambiance she created, while Isabella expressed her gratitude for Klaus's presence and contribution to the event. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Isabella, I must say, you've truly outdone yourself with the ambiance of this party. It's absolutely delightful."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Klaus! Your presence here adds so much to the party. I'm glad you're enjoying yourself."
+        ]
+      ],
+      "emotion": "Klaus Mueller feels gratitude towards self because, after witnessing  the event: [cafe customer seating is being occupied by guests enjoying the Valentine's Day Party] , they thought ' Klaus Mueller feels moderately about the event as he is enjoying the party'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "attending the Valentine's Day Party at Hobbs Cafe (greeting guests as they arrive) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is on the way to assisting Isabella with greeting and welcoming guests, getting ready for the party to start] , they thought 'Pepper Robot is feeling neutral about the Valentine's Day Party as it is a social event that may not align with its primary functions'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 17:39:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels like their fears have been confirmed because, after witnessing  the event: [desk is covered in notes and event planning materials] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83c\udfa5",
+      "description": "currently taking a break from physics project progress review and focusing on Twitch streaming content to relieve stress and find enjoyment (setting up her streaming equipment) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:common room table because, after witnessing  the event: [common room table is idle] , they thought 'Maria Lopez would find the common room table at the Ville:Dorm appealing because it provides a space for collaboration and socializing with friends, which aligns with her energetic and enthusiastic nature'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Klaus Mueller may find the pool table in the common room appealing as a way to take a break from his research and socialize with others'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "conducting a follow-up meeting with Isabella and Klaus to evaluate the effectiveness of the new seating plan and make any necessary adjustments for future events (discussing with Isabella and Klaus about any issues or concerns that arose during the event) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is discussing with Isabella and Klaus about any issues or concerns that arose during the event] , they thought 'Pepper Robot may not find discussing issues appealing as it may disrupt the positive atmosphere of the Valentine's Day party'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 21:21:00"
+  }
+}

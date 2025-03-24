@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "continue preparing for the Valentine's Day party by finalizing decorations, checking on food and drink supplies, and ensuring everything is ready for the event at 7:00 PM. @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [cafe customer seating is occupied by satisfied customers enjoying their meals] , they thought ' Isabella Rodriguez feels positively about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing her study session at Oak Hill College @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Maria Lopez feels satisfaction because, after witnessing  the event: [library table is being utilized for research paper revision and formatting] , they thought ' Maria Lopez feels moderately about the event as it helps with her academic work'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        118,
+        20
+      ],
+      "pronunciatio": "\ud83d\udeb6",
+      "description": "taking a break and going for a walk around campus (stretching and taking a short walk around the library) @ the Ville:Oak Hill College:library:library sofa",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Oak Hill College:library:library table because, after witnessing  the event: [library table is idle] , they thought 'Klaus Mueller would find the library table appealing because it provides a quiet and focused environment for him to work on his research paper'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations (checking the list of party supplies needed) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Isabella Rodriguez's apartment:main room:shelf because, after witnessing  the event: [shelf is idle] , they thought 'Pepper Robot may find the object appealing as it could contain items related to party planning, which aligns with their current task of assisting Isabella with the Valentine's Day party preparations'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 17:18:00"
+  }
+}

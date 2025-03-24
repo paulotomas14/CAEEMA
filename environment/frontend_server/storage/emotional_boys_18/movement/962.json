@@ -1,0 +1,81 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "wrapping up the Valentine's Day party at Hobbs Cafe and reflecting on its success (updating social media with highlights from the party) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is updating social media with highlights from the party] , they thought 'Isabella Rodriguez may not find updating social media appealing as it may feel like a tedious task to her amidst her busy schedule'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        124,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria suggests grabbing a coffee to continue brainstorming together and Klaus agrees, eager to delve deeper into their shared passion and collaboration on combining physics with social justice. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I was just thinking about our project on combining physics with social justice. I'm really excited about the ideas we've been discussing and can't wait to see where we can take it."
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, that sounds great! I've been reviewing my research notes on gentrification, but I'm always up for brainstorming with you. Let's grab that coffee and dive into it."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome! I love how passionate we both are about this. I think we can really make a difference with our project. Let's meet tomorrow at 4 pm to continue our discussion and push the boundaries for impactful change."
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, Maria. I'm looking forward to it. Our collaboration has been really inspiring, and I can't wait to see where it leads us."
+        ]
+      ],
+      "emotion": "Maria Lopez feels satisfaction because, after witnessing  the event: [dorm garden is well-tended and peaceful, with a mix of colorful flowers and green plants thriving under the care of the residents. The sound of trickling water from the fountain adds a soothing touch to the ambiance, making it the perfect spot for Maria to unwind and recharge] , they thought ' Maria Lopez feels positively about the event'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        121,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria suggests grabbing a coffee to continue brainstorming together and Klaus agrees, eager to delve deeper into their shared passion and collaboration on combining physics with social justice. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I was just thinking about our project on combining physics with social justice. I'm really excited about the ideas we've been discussing and can't wait to see where we can take it."
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, that sounds great! I've been reviewing my research notes on gentrification, but I'm always up for brainstorming with you. Let's grab that coffee and dive into it."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome! I love how passionate we both are about this. I think we can really make a difference with our project. Let's meet tomorrow at 4 pm to continue our discussion and push the boundaries for impactful change."
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, Maria. I'm looking forward to it. Our collaboration has been really inspiring, and I can't wait to see where it leads us."
+        ]
+      ],
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk because, after witnessing  the event: [desk is idle] , they thought 'Klaus Mueller would find the object appealing because it provides a space for him to work on his research paper and continue his social justice work'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "collaborating with Isabella and Klaus to clean up after the Valentine's Day Party, ensuring everything is tidy and organized for the next day @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Pepper Robot feels like their fears have been confirmed because, after witnessing  the event: [cafe customer seating is being utilized by customers] , they thought ' Pepper Robot feels moderately about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:06:00"
+  }
+}

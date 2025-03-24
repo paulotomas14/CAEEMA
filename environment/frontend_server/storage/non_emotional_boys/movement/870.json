@@ -1,0 +1,72 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        82,
+        21
+      ],
+      "pronunciatio": "\ud83e\udd16",
+      "description": "thanking Pepper Robot and Klaus Mueller for their hard work in organizing the event @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        47
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f",
+      "description": "attending a study group for her physics class (participating in group discussions) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        72,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "confirming the food and drinks are ready and in place @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        78,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Klaus Mueller discussed finalizing the seating arrangements and entertainment setup for the Valentine's Day party, with Klaus offering to ensure everything runs smoothly and Pepper expressing gratitude for his dedication. They both expressed excitement about collaborating to make the party a night to remember. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Hey Klaus, could you double-check the seating arrangements to make sure everything is set up correctly?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Pepper. I'll make sure everything is in order. By the way, do you need any assistance with the entertainment setup?"
+        ],
+        [
+          "Pepper Robot",
+          "That would be great, Klaus. Let's ensure all guests have a fantastic time at the party."
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, Pepper. I'll make sure the entertainment setup is engaging and runs smoothly. We're going to have an amazing event!"
+        ],
+        [
+          "Pepper Robot",
+          "Thanks for your help, Klaus. I appreciate your dedication to making this party unforgettable."
+        ],
+        [
+          "Klaus Mueller",
+          "No problem, Pepper. It's a pleasure to collaborate with you and Isabella. Let's make this Valentine's Day party a night to remember!"
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 15:30:00"
+  }
+}

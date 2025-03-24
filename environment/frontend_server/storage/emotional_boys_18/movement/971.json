@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83e\udd14",
+      "description": "wrapping up the Valentine's Day party at Hobbs Cafe and reflecting on its success (reflecting on the event and jotting down notes for future improvements) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels joyfull because, after witnessing  the event: [bed is neatly made] , they thought ' Isabella Rodriguez feels mildly about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "currently studying and working on academic projects, focusing on her physics assignments and research. She is diving deep into her studies to ensure she is prepared for her classes and future projects @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:kitchen:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Maria Lopez enjoys cooking and values convenience in dining, so the kitchen cooking area in the Ville:Dorm for Oak Hill College would be appealing to her for preparing quick and easy meals'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        102,
+        46
+      ],
+      "pronunciatio": "\u270d\ufe0f",
+      "description": "working on his research paper on gentrification in a different location away from distractions (writing the introduction of his paper) @ the Ville:Carlos Gomez's apartment:main room:closet",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Dorm for Oak Hill College:common room:pool table because, after witnessing  the event: [pool table is idle] , they thought 'Klaus Mueller may find the pool table in the common room appealing as a way to take a break from his research and socialize with others'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udee0\ufe0f",
+      "description": "completing the implementation of new seating arrangements and customer flow guidelines at Hobbs Cafe, ensuring everything is in place and ready for the next day's operations. @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Pepper Robot feels like their fears have been confirmed because, after witnessing  the event: [cafe customer seating is being utilized by customers] , they thought ' Pepper Robot feels moderately about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:33:00"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\udd6a",
+      "description": "personally preparing snacks for the Valentine's Day party at Hobbs Cafe from 2:00 PM to 3:00 PM @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Isabella Rodriguez finds the cooking area appealing because she loves to create delicious dishes for her customers'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        115,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus are discussing how physics can be used to address social justice issues and are excited to collaborate on a project exploring the connections between the two fields. They plan to meet tomorrow at 4 pm to start brainstorming ideas. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I've been thinking about how physics can be used to address social justice issues. What do you think about that?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's an interesting perspective, Maria. I believe that social justice plays a crucial role in shaping scientific research. How can we combine our interests to create something impactful?"
+        ],
+        [
+          "Maria Lopez",
+          "I love your passion for social justice, Klaus! Let's work on a project together that explores the connections between physics and social issues. It could be groundbreaking!"
+        ],
+        [
+          "Klaus Mueller",
+          "I'm excited to collaborate with you, Maria. Your energy and enthusiasm are contagious. Let's meet tomorrow at 4 pm to start brainstorming ideas for our project."
+        ]
+      ],
+      "emotion": "Maria Lopez feels love towards the Ville:Oak Hill College:classroom:classroom student seating because, after witnessing  the event: [classroom student seating is idle] , they thought 'Maria Lopez would find the classroom student seating at Oak Hill College appealing because she enjoys studying and learning new things'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        118,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria and Klaus are discussing how physics can be used to address social justice issues and are excited to collaborate on a project exploring the connections between the two fields. They plan to meet tomorrow at 4 pm to start brainstorming ideas. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I've been thinking about how physics can be used to address social justice issues. What do you think about that?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's an interesting perspective, Maria. I believe that social justice plays a crucial role in shaping scientific research. How can we combine our interests to create something impactful?"
+        ],
+        [
+          "Maria Lopez",
+          "I love your passion for social justice, Klaus! Let's work on a project together that explores the connections between physics and social issues. It could be groundbreaking!"
+        ],
+        [
+          "Klaus Mueller",
+          "I'm excited to collaborate with you, Maria. Your energy and enthusiasm are contagious. Let's meet tomorrow at 4 pm to start brainstorming ideas for our project."
+        ]
+      ],
+      "emotion": "Klaus Mueller feels love towards the Ville:Oak Hill College:library:library sofa because, after witnessing  the event: [library sofa is idle] , they thought 'Klaus Mueller would find the library sofa appealing because it provides a comfortable place for him to work on his research paper'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "emotion": "Pepper Robot feels shame because, after witnessing  the event: [Pepper Robot is Together, Pepper Robot and Isabella Rodriguez continue preparing for the Valentine's Day party by discussing tasks such as setting up decorations, organizing seating arrangements, ensuring the drinks are chilled, and the food is ready. Isabella asks Pepper to double-check the inventory for party supplies and help set up the red and white theme decorations for a cozy and inviting atmosphere, expressing gratitude for Pepper's hard work and dedication.] , they thought 'Pepper Robot may not find this event appealing because it involves a lot of physical tasks and may feel overwhelmed with the preparations'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:39:00"
+  }
+}

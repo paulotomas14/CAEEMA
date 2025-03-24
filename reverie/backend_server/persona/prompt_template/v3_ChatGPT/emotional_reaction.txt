@@ -1,0 +1,37 @@
+emotional_reaction.txt
+
+!<INPUT 0>!: agent name
+!<INPUT 1>!: iss
+!<INPUT 2>!: mood
+!<INPUT 3>!: emotional desc
+!<INPUT 4>!: subject
+!<INPUT 5>!: predicate
+!<INPUT 6>!: object
+!<INPUT 7>!: description
+!<INPUT 8>!: action tendency
+
+
+<commentblockmarker>###</commentblockmarker>
+Here is a brief description of !<INPUT 0>!. 
+!<INPUT 1>!
+
+Here is a rundown of the current event
+Subject: !<INPUT 4>!
+Predicate: !<INPUT 5>!
+Object: !<INPUT 6>!
+Description: !<INPUT 7>!
+
+This event made !<INPUT 0>!'s !<INPUT 2>! mood change, which caused them to react emotionally.
+
+!<INPUT 0>!'s emotinal state: !<INPUT 3>!
+
+In these situations, !<INPUT 0>!'s tendency is "!<INPUT 8>!"
+
+Given what you know of !<INPUT 0>! describe their reaction under 15 words, and how long this reaction would take (how many minutes).
+Format:
+description; duration
+End of Format
+Example:
+Paul throws his pappers on the floor in frustration; 5
+End of Example
+Response:

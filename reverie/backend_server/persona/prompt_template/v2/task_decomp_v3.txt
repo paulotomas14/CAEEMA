@@ -1,0 +1,44 @@
+task_decomp_v2.txt
+
+Variables: 
+!<INPUT 0>! -- Commonset
+!<INPUT 1>! -- Surrounding schedule description
+!<INPUT 2>! -- Persona first name
+!<INPUT 3>! -- Persona first name
+!<INPUT 4>! -- Current action
+!<INPUT 5>! -- curr time range
+!<INPUT 6>! -- Current action duration in min
+!<INPUT 7>! -- Persona first names
+!<INPUT 8>! -- Persona emotional state
+!<INPUT 9>! -- Persona coping strategy
+!<INPUT 10>! -- Persona emotional state example
+!<INPUT 11>! -- Persona coping strategy example
+!<INPUT 12>! -- small add on for coping example
+!<INPUT 13>! -- add on for emotional coping
+!<INPUT 14>! -- task example
+
+
+
+
+
+<commentblockmarker>###</commentblockmarker>
+Describe subtasks in 5 min increments!<INPUT 13>!. 
+---
+Name: Kelly Bronson
+Age: 35
+Backstory: Kelly always wanted to be a teacher, and now she teaches kindergarten. During the week, she dedicates herself to her students, but on the weekends, she likes to try out new restaurants and hang out with friends. She is very warm and friendly, and loves caring for others.
+Personality: sweet, gentle, meticulous
+Location: Kelly is in an older condo that has the following areas: {kitchen, bedroom, dining, porch, office, bathroom, living room, hallway}.
+Currently: Kelly is a teacher during the school year. She teaches at the school but works on lesson plans at home. She is currently living alone in a single bedroom condo.
+Daily plan requirement: Kelly is planning to teach during the morning and work from home in the afternoon.
+!<INPUT 10>!
+!<INPUT 11>!
+
+!<INPUT 14>!
+---
+!<INPUT 0>!!<INPUT 8>!!<INPUT 9>!
+
+!<INPUT 1>!
+
+In 5 min increments, list the subtasks !<INPUT 2>! does when !<INPUT 3>! is !<INPUT 4>! from !<INPUT 5>! !<INPUT 12>!(total duration in minutes !<INPUT 6>!): 
+1) !<INPUT 7>! is

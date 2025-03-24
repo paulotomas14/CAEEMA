@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        18
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (finalizing the menu for the party) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [desk is being used by Isabella Rodriguez for preparing for the Valentine's Day party] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        124,
+        52
+      ],
+      "pronunciatio": "\ud83d\udc5a\ud83d\udc56",
+      "description": "waking up and completing her morning routine (getting dressed for the day) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:closet",
+      "chat": null,
+      "emotion": ""
+    },
+    "Klaus Mueller": {
+      "movement": [
+        98,
+        55
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "continuing to work on his research paper on gentrification in low-income communities (conducting additional research on the topic) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "emotion": "Klaus Mueller feels shame because, after witnessing  the event: [Klaus Mueller is reviewing his research notes on gentrification] , they thought 'Klaus Mueller is feeling frustrated with his research notes on gentrification as he is struggling to make sense of the data'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        79,
+        15
+      ],
+      "pronunciatio": "\ud83d\ude2c",
+      "description": "completing the morning routine (brushing teeth) @ the Ville:Isabella Rodriguez's apartment:bathroom:bathroom sink",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [desk is being used by Isabella Rodriguez for preparing for the Valentine's Day party] , they thought ' Pepper Robot feels excited and motivated about this event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 09:21:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "mingling with the guests and making sure everyone is having a good time @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udca1",
+      "description": "working on a physics project with her classmates (brainstorming ideas for the project) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udce9",
+      "description": "sending reminders to attendees about the party details @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udc69\u200d\ud83c\udf73",
+      "description": "continuing to assist Isabella with Valentine's Day party preparations (assisting Isabella with finalizing the menu, coordinating with staff at the venue, setting up a photo booth area, preparing party favors for guests, doing a final walkthrough of the venue, assisting Isabella with any last-minute tasks, taking a short break, getting dressed and ready for the party, double-checking the party schedule and timeline, and heading to Hobbs Cafe for the Valentine's Day party) (assisting Isabella with finalizing the menu) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 13:24:00"
+  }
+}

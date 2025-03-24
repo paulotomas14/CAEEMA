@@ -1,0 +1,36 @@
+{
+  "Hate": [
+    [
+      [
+        "the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+        "is",
+        "idle",
+        "grocery store shelf is idle"
+      ],
+      3.0,
+      "Maria Lopez may not find the grocery store shelf appealing because it may not align with her current interests or priorities",
+      "the Ville:The Willows Market and Pharmacy:store:grocery store shelf"
+    ]
+  ],
+  "Joy": [],
+  "Pride": [],
+  "Love": [],
+  "Satisfaction": [],
+  "Gratification": [],
+  "Gratitude": [],
+  "Admiration": [],
+  "Happy-for": [],
+  "Gloating": [],
+  "Hope": [],
+  "Relief": [],
+  "Shame": [],
+  "Distress": [],
+  "Reproach": [],
+  "Fears-confirmed": [],
+  "Disappointment": [],
+  "Resentment": [],
+  "Sorry-for": [],
+  "Fear": [],
+  "Remorse": [],
+  "Anger": []
+}

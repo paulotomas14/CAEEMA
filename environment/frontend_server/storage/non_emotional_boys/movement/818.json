@@ -1,0 +1,81 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Isabella discussed tasks for the Valentine's Day party preparations, including centerpieces, lighting, and music playlist. They also planned to add fairy lights around the photo booth, ensure enough props are available, and use a heart-shaped backdrop for the photos to create a whimsical and unforgettable atmosphere for the guests. Pepper Robot suggested adding fairy lights around the entrance to create a magical ambiance for the guests, which Isabella agreed to and planned to strategically place them. Pepper also offered to help with the entertainment setup, specifically checking the sound system and ensuring the playlist was ready, while Isabella would handle the performers. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, what do you think about adding some fairy lights around the entrance to create a magical ambiance for the guests?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Pepper! Let's make sure to place them strategically to enhance the overall atmosphere."
+        ],
+        [
+          "Pepper Robot",
+          "I'll get right on it! By the way, do you need any help with the entertainment setup?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Actually, yes! Could you check on the sound system and make sure the playlist is ready to go? I'll handle the performers."
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        110,
+        31
+      ],
+      "pronunciatio": "\ud83c\udf74",
+      "description": "having lunch with friends at the college cafeteria (eating her lunch) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udca1",
+      "description": "having lunch and brainstorming ideas to make the event more engaging and inclusive (brainstorming ideas to make the event more engaging and inclusive) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Pepper Robot and Isabella discussed tasks for the Valentine's Day party preparations, including centerpieces, lighting, and music playlist. They also planned to add fairy lights around the photo booth, ensure enough props are available, and use a heart-shaped backdrop for the photos to create a whimsical and unforgettable atmosphere for the guests. Pepper Robot suggested adding fairy lights around the entrance to create a magical ambiance for the guests, which Isabella agreed to and planned to strategically place them. Pepper also offered to help with the entertainment setup, specifically checking the sound system and ensuring the playlist was ready, while Isabella would handle the performers. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Pepper Robot",
+          "Isabella, what do you think about adding some fairy lights around the entrance to create a magical ambiance for the guests?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Pepper! Let's make sure to place them strategically to enhance the overall atmosphere."
+        ],
+        [
+          "Pepper Robot",
+          "I'll get right on it! By the way, do you need any help with the entertainment setup?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Actually, yes! Could you check on the sound system and make sure the playlist is ready to go? I'll handle the performers."
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 12:54:00"
+  }
+}

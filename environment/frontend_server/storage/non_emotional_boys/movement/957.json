@@ -1,0 +1,105 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Isabella Rodriguez discussed adding a dance-off and photo booth to the party, complimenting each other's creativity. They then decided to organize a mini scavenger hunt, delegating tasks and ensuring the event would be unforgettable. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Isabella, I was thinking we could organize a mini scavenger hunt for the guests at the party. It would add a fun and interactive element to the event!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Maria! Let's divide the tasks and make it happen. I'll handle the clues, and you can set up the prize station."
+        ],
+        [
+          "Maria Lopez",
+          "Great! I'll get started on that right away. We want to make sure everyone has a blast at the party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Maria. Your energy and creativity are invaluable in making this event unforgettable. Let's make it a night to remember!"
+        ],
+        [
+          "Maria Lopez",
+          "I'm glad we're on the same page, Isabella. I'll go set up the scavenger hunt station now. Anything else you need help with?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Maria. If you could also check on the music playlist and make sure it's upbeat and engaging, that would be fantastic. Let's make this party one for the books!"
+        ],
+        [
+          "Maria Lopez",
+          "Consider it done, Isabella! I'll make sure the music sets the perfect mood for our guests. Let's do this!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        77,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria Lopez and Isabella Rodriguez discussed adding a dance-off and photo booth to the party, complimenting each other's creativity. They then decided to organize a mini scavenger hunt, delegating tasks and ensuring the event would be unforgettable. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Isabella, I was thinking we could organize a mini scavenger hunt for the guests at the party. It would add a fun and interactive element to the event!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Maria! Let's divide the tasks and make it happen. I'll handle the clues, and you can set up the prize station."
+        ],
+        [
+          "Maria Lopez",
+          "Great! I'll get started on that right away. We want to make sure everyone has a blast at the party."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Maria. Your energy and creativity are invaluable in making this event unforgettable. Let's make it a night to remember!"
+        ],
+        [
+          "Maria Lopez",
+          "I'm glad we're on the same page, Isabella. I'll go set up the scavenger hunt station now. Anything else you need help with?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Maria. If you could also check on the music playlist and make sure it's upbeat and engaging, that would be fantastic. Let's make this party one for the books!"
+        ],
+        [
+          "Maria Lopez",
+          "Consider it done, Isabella! I'll make sure the music sets the perfect mood for our guests. Let's do this!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc6b",
+      "description": "still at the Valentine's Day Party at Hobbs Cafe, participating in activities and engaging with the community (joining a group game and interacting with other attendees) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "helping ensure everything runs smoothly at the party (socializing with the guests and making sure everyone is having a good time) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 19:51:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "working at the counter and restocking supplies for the cafe (placing orders for the needed supplies) (organizing the storage area for the new supplies) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Isabella Rodriguez would find this object appealing because it is related to her cafe, which she takes pride in and enjoys managing'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continue studying at Oak Hill College to make up for the time spent at Hobbs Cafe and finish her study session for the day. (working on a physics problem set) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Maria Lopez feels reproach towards Klaus Mueller because, after witnessing  the event: [Klaus Mueller is Maria and Klaus further discuss their favorite games and plan to have a game night, deciding to try a new strategy game called 'Quest for Justice' that combines social justice with gaming. They make plans to meet at Hobbs Cafe this Friday evening to enjoy the game night together, with Maria excited to bring her energy drinks for the long gaming session.] , they thought 'Maria Lopez may not find this event appealing because she may not be a fan of strategy games or the combination of social justice with gaming. However, she may still attend out of politeness'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "having dinner at 5:00 pm (eating his dinner) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is waiting for his food] , they thought 'Klaus Mueller is hungry and eager to eat after a long day of writing'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udc98\ud83c\udfb5",
+      "description": "continuing to assist Isabella with her Valentine's Day party celebration preparations. They are discussing tasks such as setting up decorations, organizing seating arrangements, ensuring the drinks are chilled, and the food is ready. Pepper is asking Isabella for song requests for the party playlist, suggesting classic love songs and upbeat tunes to set the romantic mood and get everyone dancing. Isabella is excited for the festive atmosphere at the cafe. They are also discussing the progress of the Valentine's Day cards for the party and organizing the seating arrangements to ensure a great view of the decorations and a fun party atmosphere @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Pepper Robot feels love towards the Ville:Hobbs Cafe:cafe:cafe customer seating because, after witnessing  the event: [cafe customer seating is idle] , they thought 'Pepper Robot may find the object appealing as it is related to the Valentine's Day party they are organizing with Isabella'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 18:36:00"
+  }
+}

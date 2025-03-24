@@ -1,0 +1,81 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella asked Pepper to help gather party materials and set up decorations for the Valentine's Day party, with Pepper gladly offering assistance. Isabella expressed her appreciation for Pepper's help and they both expressed excitement for making the party a memorable event for customers. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, could you help me gather the party materials and set up the decorations for the Valentine's Day party tomorrow?"
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is ready for the party. Just let me know what you need me to do."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper! Your help is greatly appreciated. Let's make this party a memorable one for our customers!"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, Isabella. I'm excited to be a part of the preparations. Let's get to work!"
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        108,
+        43
+      ],
+      "pronunciatio": "\ud83d\udcbb",
+      "description": "going to the library at Oak Hill College to work on his research paper on the effects of gentrification in low-income communities (setting up his laptop and materials at a table) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        79,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella asked Pepper to help gather party materials and set up decorations for the Valentine's Day party, with Pepper gladly offering assistance. Isabella expressed her appreciation for Pepper's help and they both expressed excitement for making the party a memorable event for customers. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, could you help me gather the party materials and set up the decorations for the Valentine's Day party tomorrow?"
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is ready for the party. Just let me know what you need me to do."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Pepper! Your help is greatly appreciated. Let's make this party a memorable one for our customers!"
+        ],
+        [
+          "Pepper Robot",
+          "Absolutely, Isabella. I'm excited to be a part of the preparations. Let's get to work!"
+        ]
+      ],
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:24:00"
+  }
+}

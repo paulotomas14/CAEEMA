@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udccb",
+      "description": "continuing to prepare for the Valentine's Day party at Hobbs Cafe at 5:00 PM (reviewing the party guest list and making any necessary updates) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "emotion": "Isabella Rodriguez feels satisfaction because, after witnessing  the event: [desk is being used by Isabella Rodriguez for preparing for the Valentine's Day party] , they thought ' Isabella Rodriguez feels moderately about the event'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "emotion": "Maria Lopez feels love towards the Ville:Dorm for Oak Hill College:common room:common room sofa because, after witnessing  the event: [common room sofa is idle] , they thought 'Maria Lopez would find the common room sofa appealing because it provides a comfortable place to relax and unwind after a long day of studying and streaming games'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continuing to work on his research paper on gentrification in low-income communities (reviewing his research notes on gentrification) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "emotion": "Klaus Mueller feels pride because, after witnessing  the event: [Klaus Mueller is waking up and completing his morning routine] , they thought 'Klaus Mueller enjoys waking up and completing his morning routine as it allows him to start his day with purpose and productivity'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\udecf\ufe0f",
+      "description": "completing the morning routine (making the bed) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": "Pepper Robot feels satisfaction because, after witnessing  the event: [desk is being used by Isabella Rodriguez for preparing for the Valentine's Day party] , they thought ' Pepper Robot feels excited and motivated about this event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 09:00:00"
+  }
+}

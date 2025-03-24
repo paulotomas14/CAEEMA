@@ -1,0 +1,89 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Pepper Robot continue preparing for the Valentine's Day party by discussing tasks like setting up decorations, organizing the party playlist, checking the progress of the Valentine's Day cards, finalizing seating arrangements, adding fairy lights for a magical touch, arranging seating for a cozy atmosphere, and double-checking the playlist for upbeat tunes. Isabella expresses her gratitude for Pepper's invaluable help in making the party a success. @ <persona> Pepper Robot",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, how are the decorations coming along? Have you checked the progress of the Valentine's Day cards?"
+        ],
+        [
+          "Pepper Robot",
+          "Hi Isabella, the decorations are almost done, and the Valentine's Day cards are looking great. I just need to finalize the seating arrangements. What do you think about adding some fairy lights for a magical touch?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Pepper! Let's make sure the seating is arranged to create a cozy and inviting atmosphere. Oh, and don't forget to double-check the playlist for some upbeat tunes!"
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is ready for the party. It's going to be a memorable event for sure."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I have no doubt about that, Pepper. Your help is invaluable in making this party a success. Thank you for all your hard work!"
+        ]
+      ],
+      "emotion": "Isabella Rodriguez feels shame because, after witnessing  the event: [Isabella Rodriguez is making a list of the snacks she wants to prepare] , they thought 'Isabella Rodriguez may not find making a list of snacks appealing because it may feel like a tedious task to her'\n"
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "continue studying at Oak Hill College to make up for the time spent at Hobbs Cafe @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": "Maria Lopez feels reproach towards Klaus Mueller because, after witnessing  the event: [Klaus Mueller is Maria and Klaus further discuss their favorite games and plan to have a game night, deciding to try a new strategy game called 'Quest for Justice' that combines social justice with gaming. They make plans to meet at Hobbs Cafe this Friday evening to enjoy the game night together, with Maria excited to bring her energy drinks for the long gaming session.] , they thought 'Maria Lopez may not find this event appealing because she may not be a fan of strategy games or the combination of social justice with gaming. However, she may still attend out of politeness'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        88,
+        32
+      ],
+      "pronunciatio": "\u23f3",
+      "description": "having dinner at 5:00 pm (waiting for his food) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "emotion": "Klaus Mueller feels love towards the Ville:Oak Hill College:library:library table because, after witnessing  the event: [library table is idle] , they thought 'Klaus Mueller would find the library table appealing because it provides a quiet and focused environment for him to work on his research paper'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Isabella Rodriguez and Pepper Robot continue preparing for the Valentine's Day party by discussing tasks like setting up decorations, organizing the party playlist, checking the progress of the Valentine's Day cards, finalizing seating arrangements, adding fairy lights for a magical touch, arranging seating for a cozy atmosphere, and double-checking the playlist for upbeat tunes. Isabella expresses her gratitude for Pepper's invaluable help in making the party a success. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Pepper, how are the decorations coming along? Have you checked the progress of the Valentine's Day cards?"
+        ],
+        [
+          "Pepper Robot",
+          "Hi Isabella, the decorations are almost done, and the Valentine's Day cards are looking great. I just need to finalize the seating arrangements. What do you think about adding some fairy lights for a magical touch?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Pepper! Let's make sure the seating is arranged to create a cozy and inviting atmosphere. Oh, and don't forget to double-check the playlist for some upbeat tunes!"
+        ],
+        [
+          "Pepper Robot",
+          "Of course, Isabella! I'll make sure everything is ready for the party. It's going to be a memorable event for sure."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I have no doubt about that, Pepper. Your help is invaluable in making this party a success. Thank you for all your hard work!"
+        ]
+      ],
+      "emotion": "Pepper Robot feels love towards the Ville:Hobbs Cafe:cafe:cooking area because, after witnessing  the event: [cooking area is idle] , they thought 'Pepper Robot may find the cooking area at Hobbs Cafe appealing as it aligns with their role in assisting Isabella with party preparations'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 18:15:00"
+  }
+}

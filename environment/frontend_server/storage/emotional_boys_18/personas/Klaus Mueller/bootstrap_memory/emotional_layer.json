@@ -1,0 +1,59 @@
+{
+  "Hate": [
+    [
+      [
+        "the Ville:Dorm for Oak Hill College:common room:pool table",
+        "is",
+        "idle",
+        "pool table is idle"
+      ],
+      4,
+      "Klaus Mueller would not find the pool table in the common room appealing because it could be a distraction from his social justice work and goals",
+      "the Ville:Dorm for Oak Hill College:common room:pool table"
+    ],
+    [
+      [
+        "the Ville:Dorm for Oak Hill College:common room:common room table",
+        "is",
+        "idle",
+        "common room table is idle"
+      ],
+      4,
+      "Klaus Mueller would not find the common room table in the Ville:Dorm appealing because it could be a potential distraction from his work and social justice projects",
+      "the Ville:Dorm for Oak Hill College:common room:common room table"
+    ]
+  ],
+  "Shame": [
+    [
+      [
+        "Klaus Mueller",
+        "work",
+        "research paper",
+        "Klaus Mueller is working on his research paper on gentrification in low-income communities in a different location away from distractions"
+      ],
+      3,
+      "Klaus Mueller would not enjoy this event because he is feeling hate towards distractions like idle game consoles, and working on a research paper may feel like a chore to him",
+      "Klaus Mueller"
+    ]
+  ],
+  "Satisfaction": [],
+  "Love": [],
+  "Pride": [],
+  "Admiration": [],
+  "Gratification": [],
+  "Joy": [],
+  "Gratitude": [],
+  "Happy-for": [],
+  "Gloating": [],
+  "Hope": [],
+  "Relief": [],
+  "Reproach": [],
+  "Fears-confirmed": [],
+  "Distress": [],
+  "Resentment": [],
+  "Sorry-for": [],
+  "Fear": [],
+  "Disappointment": [],
+  "Remorse": [],
+  "Anger": []
+}

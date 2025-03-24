@@ -1,0 +1,15 @@
+{
+  "fork_sim_code": "thesis_pepper",
+  "start_date": "February 13, 2023",
+  "curr_time": "February 13, 2023, 00:00:00",
+  "sec_per_step": 180,
+  "maze_name": "the_ville",
+  "persona_names": [
+    "Isabella Rodriguez",
+    "Maria Lopez",
+    "Klaus Mueller",
+    "Pepper Robot"
+  ],
+  "step": 0,
+  "full_time": 28.14316964149475
+}

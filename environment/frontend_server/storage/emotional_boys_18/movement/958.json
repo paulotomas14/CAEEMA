@@ -1,0 +1,47 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf89",
+      "description": "wrapping up the Valentine's Day party at Hobbs Cafe and reflecting on its success (updating social media with highlights from the party) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "emotion": ""
+    },
+    "Maria Lopez": {
+      "movement": [
+        117,
+        45
+      ],
+      "pronunciatio": "\u2615",
+      "description": "taking a break from her busy day to enjoy some downtime and unwind before heading to bed later (making herself a cup of herbal tea to help her unwind) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+      "chat": null,
+      "emotion": "Maria Lopez feels pride because, after witnessing  the event: [Maria Lopez is taking a deep breath and stretching to relax her body] , they thought 'Maria Lopez is currently enjoying the Valentine's Day Party and is fully engaged in socializing and having fun with Isabella and their guests'\n"
+    },
+    "Klaus Mueller": {
+      "movement": [
+        124,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "working on his research paper on gentrification in a different location away from distractions (finding a quiet study spot) @ the Ville:Carlos Gomez's apartment:main room:closet",
+      "chat": null,
+      "emotion": "Klaus Mueller feels shame because, after witnessing  the event: [Klaus Mueller is reviewing notes and materials for tomorrow's classes] , they thought 'Klaus Mueller is feeling overwhelmed with his research paper on gentrification and is not looking forward to reviewing notes and materials for tomorrow's classes'\n"
+    },
+    "Pepper Robot": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "collaborating with Isabella and Klaus to clean up after the Valentine's Day Party, ensuring everything is tidy and organized for the next day @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "emotion": "Pepper Robot feels like their fears have been confirmed because, after witnessing  the event: [cafe customer seating is being utilized by customers] , they thought ' Pepper Robot feels moderately about the event'\n"
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 19:54:00"
+  }
+}

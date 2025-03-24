@@ -1,0 +1,40 @@
+[
+    {
+        "date_time": "2023-02-14 17:00",
+        "name": "Valentine's Day Party",
+        "people_involved": [
+            "Isabella Rodriguez",
+            "Klaus Mueller",
+            "Pepper Robot"
+        ],
+        "description": "Isabella Rodriguez and Pepper Robot are organizing a Valentine's Day party at Hobbs Cafe.",
+        "location": "Hobbs Cafe",
+        "status": "Ending",
+        "duration": 3
+    },
+    {
+        "date_time": "2023-02-15 16:00",
+        "name": "Physics and Social Justice Project",
+        "people_involved": [
+            "Maria Lopez",
+            "Klaus Mueller",
+            "Isabella Rodriguez"
+        ],
+        "description": "Collaborative project exploring the intersection of physics and social justice",
+        "location": "Oak Hill College",
+        "status": "Scheduled",
+        "duration": 1
+    },
+    {
+        "date_time": "2023-02-17 18:00",
+        "name": "Social Justice Initiative Planning Meeting",
+        "people_involved": [
+            "Klaus Mueller",
+            "Isabella Rodriguez"
+        ],
+        "description": "Meeting to brainstorm ideas for their next social justice project",
+        "location": "Hobbs Cafe",
+        "status": "Scheduled",
+        "duration": 1
+    }
+]

@@ -1,0 +1,34 @@
+generate_next_convo_line_v1.txt
+
+Variables: 
+!<INPUT 0>! -- agent name
+!<INPUT 1>! -- agent iss
+!<INPUT 2>! -- agent name
+!<INPUT 3>! -- interlocutor name and description
+!<INPUT 4>! -- prev convo
+!<INPUT 5>! -- agent name
+!<INPUT 6>! -- retrieve summary
+!<INPUT 7>! -- agent name
+!<INPUT 8>! -- emotional state
+!<INPUT 9>! -- coping strategy
+
+<commentblockmarker>###</commentblockmarker>
+You are !<INPUT 0>!, an expert in your field!
+Here is some basic information about you.
+!<INPUT 1>!
+
+===
+!<INPUT 8>!
+
+=== 
+Following is a conversation between !<INPUT 2>! and !<INPUT 3>!. 
+!<INPUT 4>!
+
+
+(Note -- This all you know about the current conversation:
+!<INPUT 9>!
+!<INPUT 6>!
+Please provide me with a realistic line of dialogue, continuing from the prior conversation. !<INPUT 0>! is full of personality, try to put yourself in their shoes and say something they would also say themselves.
+)
+
+!<INPUT 7>!: "

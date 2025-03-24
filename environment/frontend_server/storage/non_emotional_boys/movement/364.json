@@ -1,0 +1,65 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller and Isabella Rodriguez discuss the preparations for the Valentine's Day party at Hobbs Cafe, with Klaus offering to help set up decorations and activities based on his passion for creating inclusive spaces, and Isabella appreciating his perspective on social justice and enthusiasm to make the event special for everyone. Klaus suggests brainstorming together on ways to engage all customers in the festivities, and Isabella agrees, emphasizing the importance of ensuring a memorable event. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Isabella, I have some ideas on how we can make the party even more inclusive. Let's brainstorm together on ways to engage all our customers in the festivities."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Klaus. Let's make sure we have everything ready for a memorable event."
+        ]
+      ],
+      "emotion": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        108,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "studying at Oak Hill College (reviewing her physics notes) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "emotion": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        29
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Klaus Mueller and Isabella Rodriguez discuss the preparations for the Valentine's Day party at Hobbs Cafe, with Klaus offering to help set up decorations and activities based on his passion for creating inclusive spaces, and Isabella appreciating his perspective on social justice and enthusiasm to make the event special for everyone. Klaus suggests brainstorming together on ways to engage all customers in the festivities, and Isabella agrees, emphasizing the importance of ensuring a memorable event. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Isabella, I have some ideas on how we can make the party even more inclusive. Let's brainstorm together on ways to engage all our customers in the festivities."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Klaus. Let's make sure we have everything ready for a memorable event."
+        ]
+      ],
+      "emotion": null
+    },
+    "Pepper Robot": {
+      "movement": [
+        65,
+        30
+      ],
+      "pronunciatio": "\ud83e\udd6a",
+      "description": "continuing to assist Isabella with her Valentine's day Party celebration preparations (assisting Isabella in preparing party snacks and drinks) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "emotion": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:12:00"
+  }
+}

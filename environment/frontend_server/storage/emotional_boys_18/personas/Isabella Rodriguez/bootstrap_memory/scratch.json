@@ -1,0 +1,298 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 3,
+  "retention": 3,
+  "curr_time": "February 15, 2023, 07:57:00",
+  "curr_tile": [
+    75,
+    14
+  ],
+  "daily_plan_req": [
+    "completing her morning routine (washing her face)",
+    "Adjusting her schedule to allow for more time to reflect and decompress after meetings",
+    "Incorporating short breaks throughout the day to prevent feeling rushed and stressed",
+    "Prioritizing self-care activities such as exercise or meditation to manage stress and promote relaxation."
+  ],
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Status: Isabella Rodriguez was focused and prepared for her two important appointments on Wednesday, February 15. The first appointment was the Creative Cafe Collaboration Meeting with Maria Lopez at Hobbs Cafe on February 15, 2023, at 16:00. The second appointment was the Social Justice Event Planning Meeting with Klaus Mueller at Oak Hill College on February 15, 2023, at 10:00. Isabella approached these meetings with dedication, organization, and a collaborative mindset, ready to brainstorm and plan for upcoming events and social justice initiatives. She valued teamwork, meticulous planning, and creating engaging environments for guests. Isabella was confident in her preparations and eager to contribute to the success of both meetings.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 77,
+  "importance_ele_n": 45,
+  "thought_count": 5,
+  "daily_req": [
+    "Wake up at 6:00 am and complete morning routine",
+    "Attend Social Justice Event Planning Meeting at Oak Hill College from 10:00-11:00 am",
+    "Lunch break from 11:30-12:30 pm",
+    "Prepare for Creative Cafe Collaboration Meeting at Hobbs Cafe at 15:00",
+    "Creative Cafe Collaboration Meeting with Maria Lopez from 16:00-17:00",
+    "Dinner and wind down for the night at 19:00",
+    "waking up and starting her morning routine",
+    "Finish the Creative Cafe Collaboration Meeting with Maria Lopez at 6:00 PM",
+    "Have a relaxing dinner to unwind and de-stress",
+    "Reflect on the day and plan for a more efficient schedule for future appointments",
+    "completing her morning routine (washing her face)",
+    "Adjusting her schedule to allow for more time to reflect and decompress after meetings",
+    "Incorporating short breaks throughout the day to prevent feeling rushed and stressed",
+    "Prioritizing self-care activities such as exercise or meditation to manage stress and promote relaxation."
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and starting her morning routine (waking up and stretching in bed)",
+      5
+    ],
+    [
+      "waking up and starting her morning routine (making her bed)",
+      5
+    ],
+    [
+      "waking up and starting her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "waking up and starting her morning routine (washing her face)",
+      5
+    ],
+    [
+      "waking up and starting her morning routine (getting dressed)",
+      10
+    ],
+    [
+      "waking up and starting her morning routine (making breakfast)",
+      15
+    ],
+    [
+      "waking up and starting her morning routine (eating breakfast)",
+      10
+    ],
+    [
+      "waking up and starting her morning routine (packing her bag for the day)",
+      5
+    ],
+    [
+      "completing her morning routine (making her bed)",
+      5
+    ],
+    [
+      "completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "completing her morning routine (washing her face)",
+      5
+    ],
+    [
+      "starting her day by waking up and completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast and preparing for the day ahead",
+      60
+    ],
+    [
+      "attending the Social Justice Event Planning Meeting at Oak Hill College from 10:00-11:00 am",
+      60
+    ],
+    [
+      "attending the Social Justice Event Planning Meeting at Oak Hill College with Klaus Mueller",
+      60
+    ],
+    [
+      "taking a lunch break from 11:30-12:30 pm",
+      60
+    ],
+    [
+      "preparing for the Creative Cafe Collaboration Meeting at Hobbs Cafe at 15:00",
+      60
+    ],
+    [
+      "having a lunch break from 11:30-12:30 pm",
+      60
+    ],
+    [
+      "finishing up the Creative Cafe Collaboration Meeting with Maria Lopez at Hobbs Cafe from 16:00-17:00",
+      60
+    ],
+    [
+      "having a relaxing dinner to unwind and de-stress",
+      60
+    ],
+    [
+      "reflecting on the day and planning for a more efficient schedule for future appointments",
+      60
+    ],
+    [
+      "having a relaxing dinner to unwind and de-stress",
+      60
+    ],
+    [
+      "finishing up the Creative Cafe Collaboration Meeting with Maria Lopez at Hobbs Cafe from 16:00-17:00",
+      60
+    ],
+    [
+      "reflecting on the day and planning for a more efficient schedule for future appointments",
+      120
+    ],
+    [
+      "winding down for the night and preparing for bed",
+      120
+    ],
+    [
+      "finishing up her day by reflecting on the day and planning for a more efficient schedule for future appointments",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and starting her morning routine (waking up and stretching in bed)",
+      5
+    ],
+    [
+      "waking up and starting her morning routine (making her bed)",
+      5
+    ],
+    [
+      "waking up and starting her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "waking up and starting her morning routine (washing her face)",
+      5
+    ],
+    [
+      "waking up and starting her morning routine (getting dressed)",
+      10
+    ],
+    [
+      "waking up and starting her morning routine (making breakfast)",
+      15
+    ],
+    [
+      "waking up and starting her morning routine (eating breakfast)",
+      10
+    ],
+    [
+      "waking up and starting her morning routine (packing her bag for the day)",
+      5
+    ],
+    [
+      "completing her morning routine (making her bed)",
+      5
+    ],
+    [
+      "completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "completing her morning routine (washing her face)",
+      5
+    ],
+    [
+      "starting her day by waking up and completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast and preparing for the day ahead",
+      60
+    ],
+    [
+      "attending the Social Justice Event Planning Meeting at Oak Hill College from 10:00-11:00 am",
+      60
+    ],
+    [
+      "attending the Social Justice Event Planning Meeting at Oak Hill College with Klaus Mueller",
+      60
+    ],
+    [
+      "taking a lunch break from 11:30-12:30 pm",
+      60
+    ],
+    [
+      "preparing for the Creative Cafe Collaboration Meeting at Hobbs Cafe at 15:00",
+      60
+    ],
+    [
+      "having a lunch break from 11:30-12:30 pm",
+      60
+    ],
+    [
+      "finishing up the Creative Cafe Collaboration Meeting with Maria Lopez at Hobbs Cafe from 16:00-17:00",
+      60
+    ],
+    [
+      "having a relaxing dinner to unwind and de-stress",
+      60
+    ],
+    [
+      "reflecting on the day and planning for a more efficient schedule for future appointments",
+      60
+    ],
+    [
+      "having a relaxing dinner to unwind and de-stress",
+      60
+    ],
+    [
+      "finishing up the Creative Cafe Collaboration Meeting with Maria Lopez at Hobbs Cafe from 16:00-17:00",
+      60
+    ],
+    [
+      "reflecting on the day and planning for a more efficient schedule for future appointments",
+      120
+    ],
+    [
+      "winding down for the night and preparing for bed",
+      120
+    ],
+    [
+      "finishing up her day by reflecting on the day and planning for a more efficient schedule for future appointments",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+  "act_start_time": "February 15, 2023, 07:18:00",
+  "act_duration": 60,
+  "act_description": "starting her morning routine, which includes getting ready for the day, having breakfast, and checking her schedule for the day ahead",
+  "act_pronunciatio": "\ud83c\udf05\ud83d\uddd3\ufe0f",
+  "act_event": [
+    "Isabella Rodriguez",
+    "start",
+    "morning routine"
+  ],
+  "act_obj_description": "being opened multiple times for breakfast items",
+  "act_obj_pronunciatio": "\ud83e\udd5e",
+  "act_obj_event": [
+    "refrigerator",
+    "be opened",
+    "multiple times"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}
