@@ -22,4 +22,6 @@ SECS_PER_STEP = 180
 test_dialogue = False
 
 LIVE_MODIFYER_FOR_EMOTION = 10
+REPLACEMENT_NAME = "Navel Robot"
+DIALOGUE_MODEL = "gpt-4o-mini"
 

@@ -20,7 +20,7 @@ framework.
 """
 import traceback
 import sys
-sys.path.append('')
+sys.path.append('.')
 
 import os
 
@@ -42,6 +42,8 @@ import traceback
 from pathlib import Path
 from environment.frontend_server.robot import interview
 from multiprocessing import Process, Queue, Manager
+import subprocess
+
 
 
 from selenium import webdriver
@@ -565,6 +567,12 @@ class ReverieServer:
       None
     """
     # <sim_folder> points to the current simulation folder.
+    #files = os.listdir(".")  # Lists files in the current directory
+    #print(files)
+
+    subprocess.Popen(["python", "navel_behavior.py"])
+
+
     manager = Manager()
     procs = manager.list()
     chat = manager.list()
@@ -582,22 +590,28 @@ class ReverieServer:
     # The main while loop of Reverie. 
     self.curr_time += datetime.timedelta(days=1, hours=1)
     personas_str = [persona_name for persona_name, persona in self.personas.items()]
-    choice_human = int(input("Who are you?\nChoose a persona from the available, by index " + str(personas_str)+ ": "))
     choice = int(input("Who are you talking to?\nChoose a persona from the available, by index " + str(personas_str)+ ": "))
+    personas_str+= ["NEW"]
+    choice_human = int(input("Who are you?\nChoose a persona from the available, by index " + str(personas_str)+ ": "))
 
     human_name = personas_str[choice_human]
-    human_persona = self.personas[human_name]
+    if human_name != "NEW":
+      human_persona = self.personas[human_name]
+    else:
+      human_name = "User"
+      human_persona = None
     persona_name = personas_str[choice]
     persona = self.personas[persona_name]
     old_env = {"input": "Empty"}
     new_env = {"input":""}
     old_p = None
     persona.scratch.curr_time = self.curr_time
-    persona.plan_robot(human_persona)
-    human_persona.scratch.curr_time = self.curr_time
+    #persona.plan_robot(human_persona)
     if persona.emotional:
       persona.emotional_layer.last_update = self.curr_time
-      human_persona.emotional_layer.last_update = self.curr_time
+      if human_persona:
+        human_persona.scratch.curr_time = self.curr_time
+        human_persona.emotional_layer.last_update = self.curr_time
     persona.setup_convo_robot(f"{persona_name} is done with their prior actions, and has begun chatting with {human_name}." , human_name)
     input_queue = Queue()
     output_queue = Queue()
@@ -615,10 +629,16 @@ class ReverieServer:
     curr_summary = []
     experiment_data = ExperimentData()
     
-
-    focal_points = [f"{human_persona.scratch.name}"]
+    if human_persona:
+      focal_points = [f"{human_persona.scratch.name}"]
+    else:
+      focal_points = [f"{persona_name}."]
     retrieved = new_retrieve(persona, focal_points, 50)
-    relationship = generate_summarize_agent_relationship(persona, human_persona, retrieved)
+
+    if human_persona:
+      relationship = generate_summarize_agent_relationship(persona, human_persona, retrieved)
+    else:
+      relationship = "This is a new customer you have never met before."
 
     # take this off later
     #chat = [['Klaus Mueller', 'Hello, Maria!'], ['Maria Lopez', 'Hi Klaus! How are you doing today?'], ['Klaus Mueller', "I'm doing okay. How's your streaming going?"], ['Maria Lopez', "My streaming is going well, actually! I've been getting some new followers and some good feedback on my latest gameplay. How about you, Klaus? How's work going for you today?"], ['Klaus Mueller', 'Oh, you know, research is going slow. Kinda annoying me to be honest.'], ['Maria Lopez', 'Oh, I see. Maybe you need a break to clear your mind and get some fresh perspective. Have you taken a moment to step back and reassess your approach to your research?'], ['Klaus Mueller', "Ahahah, yeah, I know I should do that. But it's so difficult to take a step back, you know? You feel guilty for not being productive enough..."], ['Maria Lopez', 'I completely understand that feeling, Klaus. But sometimes taking a break can actually help you be more productive in the long run. Maybe try going for a walk or doing something that relaxes you for a bit. It might give you a fresh perspective on your research.'], ['Klaus Mueller', 'Thanks for the support sweetie, it means a lot! What about you, are classes going well?'], ['Maria Lopez', "Classes are going well for me, thanks for asking! I've been really enjoying my physics lectures and I feel like I'm learning a lot. I'm currently on my way to my physics class, actually. After that, I'm planning to study at the library, do some Twitch streaming, have dinner, and then relax in the evening. It's a busy day but I'm excited for it!"], ['Klaus Mueller', "Ahahah, you're so active! I'm feeling a little bit ashamed now, this young whipper-snapper is showing me up!"], ['Maria Lopez', "I'm glad to hear that you're impressed with my schedule! I really enjoy staying busy and being active. It keeps me motivated and helps me stay on track with my goals. How about you, Klaus? How do you like to stay productive and motivated in your work?"]]
@@ -672,8 +692,9 @@ class ReverieServer:
                 persona.emotional_layer.update( appraisals, self.curr_time, persona)
                 persona.emotional_layer.print_layer(chat)
             if appraisals_human is not None and len(appraisals_human)>0:
-                  human_persona.emotional_layer.update(appraisals_human, self.curr_time, human_persona)
-                  human_persona.emotional_layer.print_layer(chat)
+                  if human_persona:
+                    human_persona.emotional_layer.update(appraisals_human, self.curr_time, human_persona)
+                    human_persona.emotional_layer.print_layer(chat)
 
           retrieved_original = new_retrieve(persona, [inp + "\nFeelings."], 10)
           retrieved = retrieved_original[inp + "\nFeelings."]
@@ -687,13 +708,14 @@ class ReverieServer:
 
         # checka se dá pra por retention nos eventos guardados por cada emoção - acho que está
           if persona.emotional:
+            if human_persona:
 
-            retrieved_original_human = new_retrieve(human_persona, [inp + "\nFeelings."], 10)
-            retrieved_human = retrieved_original_human[inp + "\nFeelings."]
+              retrieved_original_human = new_retrieve(human_persona, [inp + "\nFeelings."], 10)
+              retrieved_human = retrieved_original_human[inp + "\nFeelings."]
 
-            nodes_human = [[i.created, i]
-                      for i in retrieved_human]
-            nodes_human = sorted(nodes_human, key=lambda x: x[0], reverse=True)
+              nodes_human = [[i.created, i]
+                        for i in retrieved_human]
+              nodes_human = sorted(nodes_human, key=lambda x: x[0], reverse=True)
 
             #memories_human = [n[1] for n in nodes_human]
             
@@ -701,7 +723,8 @@ class ReverieServer:
             
             event_triplet = self.get_events_for_real_time_interaction( chat, persona, persona_name, human_name, nodes, inp)
             #print("PERSONA TRIPLET = " + str(event_triplet))
-            event_triplet_human = self.get_events_for_real_time_interaction( chat, human_persona, persona_name, human_name, nodes_human, inp)
+            if human_persona:
+              event_triplet_human = self.get_events_for_real_time_interaction( chat, human_persona, persona_name, human_name, nodes_human, inp)
             #print("HUMAN TRIPLET = "+ str(event_triplet_human))
             p_app = Process(target=persona.emotional_layer.get_appraisals_from_llm, args= (appraisals, event_triplet, persona, self.personas, chat))
             appraisal_procs.append((app_len,p_app))
@@ -709,9 +732,11 @@ class ReverieServer:
 
             app_len = len(appraisal_procs)
 
-            p_app_human = Process(target=human_persona.emotional_layer.get_appraisals_from_llm, args= (appraisals_human, event_triplet_human, human_persona, self.personas, chat))
-            appraisal_procs.append((app_len,p_app_human))
-            p_app_human.start()
+            if human_persona:
+
+              p_app_human = Process(target=human_persona.emotional_layer.get_appraisals_from_llm, args= (appraisals_human, event_triplet_human, human_persona, self.personas, chat))
+              appraisal_procs.append((app_len,p_app_human))
+              p_app_human.start()
             
 
           i = len(all_procs)
@@ -733,7 +758,6 @@ class ReverieServer:
               print("Could not close Language Agent process 1: "+ str(e))
 
         self.step+=1
-        self.save_chat(chat, sim_folder, experiment_data)
 
 
 
@@ -744,23 +768,31 @@ class ReverieServer:
 
     self.join_procs(all_procs)
     self.join_procs(appraisal_procs)
+    self.save_chat(chat, sim_folder, experiment_data)
+
 
   def save_chat(self, chat, sim_folder, experiment):
 
     #print("CHAT = " + str(chat))
-    reverie_meta_f = f"{sim_folder}/reverie/chat.json"
+    counter = 0
+    reverie_meta_f = f"{sim_folder}/reverie/chat_{counter}.json"
+    if check_if_file_exists(reverie_meta_f):
+      counter +=1 
+      reverie_meta_f = f"{sim_folder}/reverie/chat_{counter}.json"
+
+
     with open(reverie_meta_f, "w") as outfile:
       for elem in chat[0]:
         outfile.write(f"[{elem[2]}]\n{elem[0]}:'{elem[1]}'\n")
-    reverie_meta_f = f"{sim_folder}/reverie/log.json"
+    reverie_meta_f = f"{sim_folder}/reverie/log_{counter}.json"
     with open(reverie_meta_f, "w") as outfile:
       for elem in chat[1]:
         outfile.write(f"{elem}\n")
     #experiment.extract_experiment_data(f"{sim_folder}/reverie/log.json")
     for elem in chat[2]:
       experiment.add_entry( elem[0], elem[1], elem[2], elem[3], elem[4], elem[5], elem[6], elem[7], elem[8])
-    experiment.save_to_csv(f"{sim_folder}/reverie/experiment_data.csv")
-    experiment.save_to_json(f"{sim_folder}/reverie/experiment_data.json")
+    experiment.save_to_csv(f"{sim_folder}/reverie/experiment_data_{counter}.csv")
+    experiment.save_to_json(f"{sim_folder}/reverie/experiment_data_{counter}.json")
 
 
   def terminate_procs(self, procs, all_procs):

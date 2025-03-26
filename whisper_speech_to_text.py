@@ -11,8 +11,9 @@ import time
 import multiprocessing
 from colorama import Fore, Style
 from speech_to_text_utils import *
+#from utils import openai_api_key
 
-os.environ["OPENAI_API_KEY"] = API_KEY
+#os.environ["OPENAI_API_KEY"] = openai_api_key
 API_URL = "https://api.openai.com/v1/audio/transcriptions"  # Update if using another API
 
 

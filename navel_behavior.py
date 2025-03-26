@@ -34,7 +34,7 @@ else:
 
 
 #HOST = "190.168.0.103"  # Standard loopback interface address (localhost)
-HOST = "192.168.171.17"
+HOST = "127.0.0.1"
 #HOST = "192.168.144.17"
 #HOST = "192.168.171.17"
 
@@ -43,7 +43,7 @@ DEBUG_SINGLE = False
 X_MIDDLE = 300
 MAXIMUM_X_DISTANCE_WHEN_GAZING_AT_USER = 100
 MAX_EMOTION = 10
-WAIT_UNTIL_NEW_SEARCH = 10
+WAIT_UNTIL_NEW_SEARCH = 120
 
 
 
@@ -55,7 +55,7 @@ class NavelClient:
 
         self.queue = multiprocessing.Queue()
         self.kill_now = False
-        #print("START")
+        ##print("START")
         self.host = HOST
         self.port = PORT
         self.TERMINATE_KEYWORDS = "terminate"
@@ -95,22 +95,22 @@ class NavelClient:
 
                 try:
                     self.s.sendto(msg,(HOST, PORT))
-                    print("SENT HANDSHAKE")
+                    #print("SENT HANDSHAKE")
                     self.s.settimeout(5.0)
                     msg, serv = self.s.recvfrom(1024)
-                    print("MESSAGE = " + str(msg))
+                    #print("MESSAGE = " + str(msg))
                     ack = msg.decode().split("AKN:")
                     if len(ack)>0:
                         error = False
                     emo = ack[1]
-                    #print(ack)
-                    #print(emo)
+                    ##print(ack)
+                    ##print(emo)
                     if emo =="True":
                         self.emotional=True
 
                     
                 except Exception as e:
-                    print("EXCEPTION ROBOT CLIENT =  " + str(e))
+                    #print("EXCEPTION ROBOT CLIENT =  " + str(e))
                     error = True
             self.s.settimeout(None)
 
@@ -142,7 +142,7 @@ class NavelClient:
         #pass
 
     async def counter_look(self):
-        #print("COUNTER LOOK AT START")
+        ##print("COUNTER LOOK AT START")
         try:
             task = asyncio.current_task()
             self.searches.append(task)
@@ -151,19 +151,19 @@ class NavelClient:
             while t < 3:
                 t = time.time()-counter
                 await asyncio.sleep(0.1)
-                #print("TRYING LOOK AT = " + str(t))
+                ##print("TRYING LOOK AT = " + str(t))
             for elem in self.searches:
-                #print(elem)
+                ##print(elem)
                 if elem is not task:
                     elem.cancel()
             self.searches = []
-            #print("counter look done")
+            ##print("counter look done")
         except asyncio.exceptions.CancelledError:
-            #print("COUNTER LOOK CANCELLED")
+            ##print("COUNTER LOOK CANCELLED")
             pass
 
     async def look_at(self, robot, found_person_px, x):
-        #print("LOOK AT START")
+        ##print("LOOK AT START")
         try:
             #task = asyncio.current_task()
             #self.searches.append(task)
@@ -174,22 +174,25 @@ class NavelClient:
             self.searches = []'''
 
         except asyncio.exceptions.CancelledError:
-            #print("LOOK AT CANCELLED")
+            ##print("LOOK AT CANCELLED")
             pass
-        #print("LOOK AT DONE")
+        ##print("LOOK AT DONE")
 
 
 
     async def wait_and_search(self, robot, move:bool): 
         full_facing = False
-        offset = 5
+        offset = 10
         while full_facing == False:
             found_person = False
-            #print("AQUI")
+            ##print("AQUI")
             while not found_person:
-                #print("SEARCH")
-                data = await self.search(robot, move)
-                #print("FOUND PERSON UUID = "+ str(move))
+                ##print("SEARCH")
+                try:
+                    data = await self.search(robot, move)
+                except:
+                    data = None
+                ##print("FOUND PERSON UUID = "+ str(move))
                 if data is not None:
                     found_person = True
                     found_person_px = data.persons[0].landmarks.nose
@@ -197,41 +200,42 @@ class NavelClient:
                         
                     await self.look_at(robot, found_person_px, 0.6)
 
-                    #print("ALI")
+                    ##print("ALI")
                         
 
                         
                     
                     try:
                         if len(data.persons)>0:
-                            #print("DATA")
-                            #print("Person found:", data.persons[0].uuid)
+                            ##print("DATA")
+                            ##print("Person found:", data.persons[0].uuid)
                             try:
                                 gaze = data.persons[0].gaze
                                 gaze_overlap = data.persons[0].gaze_overlap
                                 facial_expression = data.persons[0].facial_expression
                                 self.participant_info.append((gaze, gaze_overlap, facial_expression))
-                                #print(self.participant_info[len(self.participant_info)-1])
+                                ##print(self.participant_info[len(self.participant_info)-1])
                             except Exception as e:
-                                print("COULDN'T ADD PERSON INFO: " + str(e))
+                                #print("COULDN'T ADD PERSON INFO: " + str(e))
+                                pass
 
                             found_person_px = data.persons[0].landmarks.nose
                         else:
                             if move:
                                 continue
                             else:
-                                #print("WAIT AND SEARCH DONE")
+                                ##print("WAIT AND SEARCH DONE")
                                 return 
 
                     except Exception as e:
-                        print("Perception error:" + str(e))
+                        #print("Perception error:" + str(e))
                         continue
                     if move:
                         if found_person_px.x-X_MIDDLE<0:
                             angle_2 = -offset
                         else:
                             angle_2 = offset
-                        #print(found_person_px.x - X_MIDDLE)
+                        ##print(found_person_px.x - X_MIDDLE)
                         if abs(found_person_px.x-X_MIDDLE) > MAXIMUM_X_DISTANCE_WHEN_GAZING_AT_USER:
 
                             await robot.rotate_base(angle_2, 40, 20)
@@ -241,10 +245,10 @@ class NavelClient:
                                 await robot.rotate_base(angle_2, 40, 20)
                             else:
                                 full_facing = True
-                                #print("WAIT AND SEARCH DONE")
+                                ##print("WAIT AND SEARCH DONE")
                                 return 
                     else:
-                        #print("WAIT AND SERACH DONE 3")
+                        ##print("WAIT AND SERACH DONE 3")
                         return
 
                 else:
@@ -252,91 +256,67 @@ class NavelClient:
                     if move:
                         continue
                     else:
-                        #print("wait and search done ")
+                        ##print("wait and search done ")
                         return
 
-        #print("wait and search done 2")
-
-
-    async def rotate_base_wrapper_cacth(self, robot, x,y,z):
-        #print("HERE ROT")
-        try:
-            #print(self.found_person_px)
-            if self.found_person_px is None:
-                #print("ROTATE NOW")
-                current_task = asyncio.current_task()
-                self.searches.append(current_task)
-                await robot.rotate_base(x, y, z)
-        except asyncio.exceptions.CancelledError:
-            #print("TASK ROTATE CANCELLED ")
-            pass
-        #print("ROTATE DONE")
+        ##print("wait and search done 2")
 
 
                     #await
     async def get_person(self, robot, current_task):
-        #print("GET PERSON")
+        ##print("GET PERSON")
         current_task = asyncio.current_task()
-        self.searches.append(current_task)
         try:
             data = await robot.next_frame()
-            #print("data 1 = " + str(len(data.persons)))
+            ##print("data 1 = " + str(len(data.persons)))
             if len(data.persons)>0:
-                #print("Person found:", data.persons[0].uuid)
-                for task in self.searches:
-                    if task is not current_task:
-                        #print(task)     
-                        try:
-                            task.cancel()
-                        except asyncio.exceptions.CancelledError:
-                            print("Task canceled")
-                self.searches = []
+                ##print("Person found:", data.persons[0].uuid)
+                return data
+                
         except asyncio.exceptions.CancelledError:
-            #print("GET PERSON TASK CANCELLED")
+            ##print("GET PERSON TASK CANCELLED")
             pass
-        #print("GET PERSON DONE")
+        ##print("GET PERSON DONE")
         
 
 
     async def search(self, robot, move:bool):
         #walk = robot.move_base(0.5, 0.1)
         found = False
-        angle = -90
+        counter = 0
+        
+        angle = 20
 
         while not found:
+            ##print("Searching!!!")
 
             try:
                 #current_task = asyncio.current_task()  # This is main()
 
                 #await self.get_person(robot, current_task)
                 data = await robot.next_frame()
-                #print(len(data.persons))
+                ##print(len(data.persons))
                 if len(data.persons)>0:
-                    #print("Person found:", data.persons[0].uuid)
+                    ##print("Person found:", data.persons[0].uuid)
                     return data
             except Exception as e:
-                print("Perception error:" + str(e))
+                ##print("Perception error:" + str(e))
+                pass
             if move:
-                current_task = asyncio.current_task()  # This is main()
-                            
-                asyncio.gather(self.rotate_base_wrapper_cacth(robot,angle, 70, 50), self.get_person(robot, current_task)) 
+                ##print("ROTATE")
+                t = time.time()
 
-                data = await robot.next_frame()
-                #print("Data 2 = "+ str( len(data.persons)))
-                if len(data.persons)>0:
-                    #print("Person found 2:", data.persons[0].uuid)
-                    return data
+                await robot.rotate_base(angle)
+                ##print(str(time.time()-t))
+
+                if counter >= 180:
+                    angle = angle * -1
+                    counter = 0
+                
+                counter+= abs(angle)
+                #print(counter)
 
                 
-                asyncio.gather( self.rotate_base_wrapper_cacth(robot,-angle, 70, 50), self.get_person(robot, current_task)) 
-
-                data = await robot.next_frame()
-                #print(len(data.persons))
-                if len(data.persons)>0:
-                    #print("Person found 3:", data.persons[0].uuid)
-                    return data
-                #print("ROTATING!!!")
-                angle *=2
             else:
                 return None
         return None
@@ -359,7 +339,7 @@ class NavelClient:
     async def behavior_loop(self,q, robot):
 
 
-        #print("HANDLE OUTPUT")
+        ##print("HANDLE OUTPUT")
         
         if ROBOT:
             await robot.head_facial_expression(neutral=1)
@@ -380,12 +360,12 @@ class NavelClient:
             self.speaking.value = 0
 
 
-        #print("HELLO!!!!!")
+        ##print("HELLO!!!!!")
         counter = None
         while True:
             empty = False
             #await robot.look_at_px(self.found_person_uuid, 0.8)
-            #print("BEGIN LOOP")
+            ##print("BEGIN LOOP")
             if ROBOT:
                 if self.found_person_px is None:
                     if counter is None:
@@ -394,7 +374,7 @@ class NavelClient:
                     counter = None
                 if counter:
                     delta = time.time() - counter 
-                    #print("DELTA =  " + str(delta))
+                    ##print("DELTA =  " + str(delta))
                     if delta > WAIT_UNTIL_NEW_SEARCH:
                         await self.wait_and_search(robot, True)
                     else:
@@ -404,12 +384,12 @@ class NavelClient:
                 
 
 
-            #print("HERE 2")
+            ##print("HERE 2")
             while empty==False:
                 try:
                     msg = q.get_nowait()
                     #if msg is not None:
-                        #print("MSG = " + str(msg))
+                        ##print("MSG = " + str(msg))
                     if msg == False:
                         return
                     if msg!=True:
@@ -441,7 +421,7 @@ class NavelClient:
             if len(self.requests)>0:
                 
                 req = self.requests.pop(0)
-                #print("REQUEST = " + str(req))
+                ##print("REQUEST = " + str(req))
 
                 
                 t = time.time()
@@ -449,7 +429,7 @@ class NavelClient:
                 #time.sleep(0.1)
                 await self.robot_speak(req, robot)
                 #self._buff = queue.Queue()
-                #print("SAID DONE IN = " + str(time.time()-t))
+                ##print("SAID DONE IN = " + str(time.time()-t))
 
 
     async def start_behavior_loop(self):
@@ -463,7 +443,7 @@ class NavelClient:
 
     def terminate_tts_process(self):
         if self.output_process is not None and self.output_process.is_alive():
-            print("TERMINATE OUTPUT")
+            #print("TERMINATE OUTPUT")
             self.queue.put("!!!DUMP!!!")
             self.output_process.terminate()
             self.output_process = None
@@ -471,14 +451,14 @@ class NavelClient:
 
     def get_dialogue(self, res, time_start, vec):
         cont = self.send_result_to_server( res, time_start, vec)     
-        print("My dialogue: " + str((res, time_start, vec)))
+        #print("My dialogue: " + str((res, time_start, vec)))
         if cont:
             #self.process = multiprocessing.Process(target=self.client.recieve_from_server, args=( time_start,))
             #self.process.start()
             self.recieve_from_server( time_start)
-            return False
-        else:
             return True
+        else:
+            return False
 
     
 
@@ -501,12 +481,12 @@ class NavelClient:
 
             except OSError as e:
                 error = True
-                print(e)
+                #print(e)
 
         if self.TERMINATE_KEYWORDS in result.lower():
             queue.put(False)
             return False
-        print("sent")
+        #print("sent")
         
         return True
 
@@ -518,11 +498,11 @@ class NavelClient:
             try:
                 s.sendto("ACKN".encode("utf-8"), (HOST, PORT))
                 error = False
-                print("SENT ACKNOWLEDGE")
+                #print("SENT ACKNOWLEDGE")
 
             except OSError as e:
                 error = True
-                print(e)
+                #print(e)
         
     def normalize(self, value, min_value, max_value):
         return (value - min_value) / (max_value - min_value)
@@ -539,12 +519,12 @@ class NavelClient:
         while not error:
             try:
                 message, client_adress = s.recvfrom(1024)
-                #print(time.time()-time_started)
-                #print("MESSAGE = "+ str(message.decode()))
+                ##print(time.time()-time_started)
+                ##print("MESSAGE = "+ str(message.decode()))
                 mess = message.decode().split("<<DIALOGUE>>")[1]
                 dialogue = mess.split("<<EMOTION>>")[0]
                 emotion = mess.split("<<EMOTION>>")[1]
-                #print(emotion)
+                ##print(emotion)
                 emotion_value = float(emotion.split(" - ")[1])
                 emotion_name = emotion.split(" - ")[0]
                 end= dialogue.split("!!!END!!!")
@@ -557,18 +537,18 @@ class NavelClient:
                     diag = diag.strip("\"")
                     package = (diag, emotion_name, emotion_value, time_started)
 
-                    #print("PUT PACKAGE = " + str(package))
+                    ##print("PUT PACKAGE = " + str(package))
                     queue.put(package)
                 if dialogue== "!!!END!!!":
                     error = True
 
                 
-                #print("TIME IT TOOK = " + str(time.time()-time_started))
+                ##print("TIME IT TOOK = " + str(time.time()-time_started))
                 #time_started = time.time()
                 
 
             except OSError as e:
-                print(e)
+                #print(e)
                 pass
 
 
@@ -576,10 +556,12 @@ class NavelClient:
         return
 
     def get_gesture(self, value):
-        for k in self.gesture_thresholds.keys():
+        ks = [k for k in self.gesture_thresholds.keys()]
+        ks.reverse()
+        for k in ks:
             thresh = self.gesture_thresholds.get(k)
-            #print("Thresh = " + str(thresh))
-            #print("Value = "+ str(float(value)))
+            ##print("Thresh = " + str(thresh))
+            ##print("Value = "+ str(float(value)))
             if thresh is not None and float(value) >= thresh:
                 return k
         return "random"
@@ -587,19 +569,19 @@ class NavelClient:
     async def gesticulate(self, value, robot):
         try:
             self.task_counter+=1
-            if ROBOT:
+            if ROBOT and self.emotional:
                 #gesticulate = random.choice([True,False])
                 gesticulate=True
             else: 
                 gesticulate = False
                 #await asyncio.sleep(1)
 
-            #print("Gesticulating = " + str(gesticulate))
+            ##print("Gesticulating = " + str(gesticulate))
             if gesticulate:
 
                 gesture = self.get_gesture(value)
-                print("GESTURE = " + str(gesture))
-                degrees = 20
+                #print("GESTURE = " + str(gesture))
+                degrees = 0
                 motion = 0
 
                 if gesture == "none":
@@ -622,30 +604,30 @@ class NavelClient:
                     motion = 0
 
                 
-                left_arm_addon = random.randint(0,motion) * -1
-                right_arm_addon = random.randint(0,motion) * -1
+                left_arm_addon = random.randint(0,motion)
+                right_arm_addon = random.randint(0,motion) 
                 left = degrees+ left_arm_addon
                 right = degrees+right_arm_addon
-                #print("LEFT ARM = " + str(left))
-                #print("RIGHT ARM = " + str(right))
+                ##print("LEFT ARM = " + str(left))
+                ##print("RIGHT ARM = " + str(right))
                 await robot.rotate_arms( left, right)
                 await asyncio.sleep(0.2)
-                left_arm_addon = random.randint(0,motion) * -1
-                right_arm_addon = random.randint(0,motion) * -1
+                
                 left = degrees- left_arm_addon
                 right = degrees- right_arm_addon
-                #print("LEFT ARM 2= " + str(left))
-                #print("RIGHT ARM 2= " + str(right))
+                ##print("LEFT ARM 2= " + str(left))
+                ##print("RIGHT ARM 2= " + str(right))
                 await asyncio.sleep(0.2)
                 await robot.rotate_arms(max(0,left), max(0,right))
             self.task_counter-=1
         except asyncio.CancelledError:
-            print("Task gesticulate cancelled")
+            #print("Task gesticulate cancelled")
+            pass
 
 
 
     async def emote_tilt_base(self, robot, value, x):
-        #print("EMOTE VALUE = " + str(value))
+        ##print("EMOTE VALUE = " + str(value))
         em_value = value/3
         if x:
             await robot.tilt_base(-em_value, 0)
@@ -666,20 +648,22 @@ class NavelClient:
     async def emote(self, navel_emotion, em_value, robot):
         try:
             self.task_counter+=1
+            '''
             if navel_emotion == "neutral":
-                print(Fore.GREEN)
+                #print(Fore.GREEN)
             elif navel_emotion == "happy":
-                print(Fore.YELLOW)
+                #print(Fore.YELLOW)
             elif navel_emotion == "sad":
-                print(Fore.BLUE)
+                #print(Fore.BLUE)
             elif navel_emotion == "surprise":
-                print(Fore.MAGENTA)
+                #print(Fore.MAGENTA)
             elif navel_emotion == "anger":
-                print(Fore.RED)
+                #print(Fore.RED)
             elif navel_emotion == "smile":
-                print(Fore.CYAN)
+                #print(Fore.CYAN)
             elif navel_emotion == "random":
-                print(Style.RESET_ALL)
+                #print(Style.RESET_ALL)
+            '''
             
 
             
@@ -690,49 +674,51 @@ class NavelClient:
                         navel_emotion = random.choice(["neutral", "happy", "sad", "surprise", "anger", "smile"])
                     else:
                         navel_emotion = None
-                    print("RANDOM EMOTION = " + str(navel_emotion))'''
+                    #print("RANDOM EMOTION = " + str(navel_emotion))'''
+                if self.emotional:
 
-                if navel_emotion == "neutral":
-                    print("EMOTING = " +  str(navel_emotion))          
+                    if navel_emotion == "neutral":
+                        #print("EMOTING = " +  str(navel_emotion))          
 
-                    await robot.head_facial_expression(neutral=em_value)
-                    await self.emote_tilt_base(robot, em_value, True)
+                        await robot.head_facial_expression(neutral=em_value)
+                        await self.emote_tilt_base(robot, em_value, True)
 
-                elif navel_emotion == "happy":
-                    print("EMOTING = " +  str(navel_emotion))          
+                    elif navel_emotion == "happy":
+                        #print("EMOTING = " +  str(navel_emotion))          
 
-                    await robot.head_facial_expression(happy=em_value)
-                    await self.emote_tilt_base(robot, em_value, True)
-
-
-                elif navel_emotion == "sad":
-                    print("EMOTING = " +  str(navel_emotion))          
-
-                    await robot.head_facial_expression(sad=em_value)
-                    await self.emote_tilt_base(robot, em_value, False)
+                        await robot.head_facial_expression(happy=em_value)
+                        await self.emote_tilt_base(robot, em_value, True)
 
 
-                elif navel_emotion == "surprise":
-                    print("EMOTING = " +  str(navel_emotion))          
+                    elif navel_emotion == "sad":
+                        #print("EMOTING = " +  str(navel_emotion))          
 
-                    await robot.head_facial_expression(surprise=em_value)
-                    await self.emote_tilt_base(robot, em_value, True)
+                        await robot.head_facial_expression(sad=em_value)
+                        await self.emote_tilt_base(robot, em_value, False)
 
 
-                elif navel_emotion == "anger":
-                    await robot.head_facial_expression(anger=em_value)
-                    await self.emote_tilt_base(robot, em_value, True)
+                    elif navel_emotion == "surprise":
+                        #print("EMOTING = " +  str(navel_emotion))          
 
-                elif navel_emotion == "smile":
-                    print("EMOTING = " +  str(navel_emotion))          
+                        await robot.head_facial_expression(surprise=em_value)
+                        await self.emote_tilt_base(robot, em_value, True)
 
-                    await robot.head_facial_expression(smile=em_value)
-                    await self.emote_tilt_base(robot, em_value, True)
+
+                    elif navel_emotion == "anger":
+                        await robot.head_facial_expression(anger=em_value)
+                        await self.emote_tilt_base(robot, em_value, True)
+
+                    elif navel_emotion == "smile":
+                        #print("EMOTING = " +  str(navel_emotion))          
+
+                        await robot.head_facial_expression(smile=em_value)
+                        await self.emote_tilt_base(robot, em_value, True)
 
             await asyncio.sleep(0.2)       
             self.task_counter-=1
         except asyncio.CancelledError:
-            print("Task emote cancelled")
+            #print("Task emote cancelled")
+            pass
 
 
 
@@ -744,14 +730,17 @@ class NavelClient:
                 #time.sleep(1)
 
             self.task_counter+=1
-            print("Started saying ")
+            #print("Started saying ")
             t=time.time()
+            text = text.strip("Navel").strip("\"").strip()
+
             await robot.say(text)
-            print("Finished saying = " + str(time.time()-t))
+            #print("Finished saying = " + str(time.time()-t))
             self.task_counter-=1
-            #print("END TASK COUNTER = " + str(self.task_counter))
+            ##print("END TASK COUNTER = " + str(self.task_counter))
         except asyncio.CancelledError:
-            print("Task diag cancelled")
+            #print("Task diag cancelled")
+            pass
 
 
 
@@ -760,10 +749,10 @@ class NavelClient:
     
 
     async def robot_speak(self,msg, robot):
-        #print(msg[0])
+        ##print(msg[0])
         try:
             diag = msg[0].strip("\"").strip()
-            #print(diag)
+            ##print(diag)
             em_name = msg[1]
             em_value = msg[2]
             if self.emotional == False:
@@ -774,21 +763,21 @@ class NavelClient:
 
             #need to study the normalization max values in this case
 
-            #print("EM VALUE = " + str(em_value))
+            ##print("EM VALUE = " + str(em_value))
             
             em_value = min(em_value, MAX_EMOTION)
             em_value = self.normalize(em_value, 0, MAX_EMOTION)
-            #print("EM VALUE = " + str(em_value))
+            ##print("EM VALUE = " + str(em_value))
 
             if diag == "!!!END!!!":
                 self.finished_receiving = True
-                #print((-robot._arms[0],-robot._arms[1]))
+                ##print((-robot._arms[0],-robot._arms[1]))
                 while self.task_counter != 0:
-                    #print("AWAIT TASK COUNTER = " + str(self.task_counter))
+                    ##print("AWAIT TASK COUNTER = " + str(self.task_counter))
                     await asyncio.sleep(0)
 
                 if self.finished_receiving:
-                    print(diag)
+                    #print(diag)
                     self.speaking.value = 0
                     self.send_akn_to_server()
 
@@ -801,7 +790,7 @@ class NavelClient:
                 return
             else:
                 #self.task_counter +=1
-                #print("TASK COUNTER UP = " + str(self.task_counter))
+                ##print("TASK COUNTER UP = " + str(self.task_counter))
 
                 self.finished_receiving = False
 
@@ -810,7 +799,7 @@ class NavelClient:
 
             #await self.emote(navel_emotion, em_value, robot)
             
-            print("TOOK: " + str(time.time()- time_started))
+            #print("TOOK: " + str(time.time()- time_started))
 
             if ROBOT:
                 asyncio.gather( self.emote(navel_emotion, em_value, robot), self.diag(diag,robot), self.gesticulate(em_value, robot))
@@ -823,11 +812,12 @@ class NavelClient:
                 tts.save("output.mp3")
                 playsound("output.mp3")
 
-            print(f"{diag} -> {em_value} - {em_name}")
-            print(Style.RESET_ALL)
+            #print(f"{diag} -> {em_value} - {em_name}")
+            #print(Style.RESET_ALL)
 
         except asyncio.CancelledError:
-            print("Task robot speak cancelled")
+            #print("Task robot speak cancelled")
+            pass
 
         
 
@@ -853,7 +843,8 @@ class NavelClient:
         # Wait for task to finish or be canceled
                 await task
             except asyncio.CancelledError:
-                print("Task has been canceled.")
+                #print("Task has been canceled.")
+                pass
 
 
 
@@ -869,7 +860,7 @@ class NavelClient:
             google_stt.main(ROBOT)
         '''
         while True:
-            print("awake")
+            #print("awake")
             time.sleep(5)'''
 
     

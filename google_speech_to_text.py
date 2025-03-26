@@ -90,7 +90,7 @@ class ResumableMicrophoneStream:
 
         for i in range(0, numdevices):
             if (p.get_device_info_by_host_api_device_index(0, i).get('maxInputChannels')) > 0:
-                print("Input Device id ", i, " - ", p.get_device_info_by_host_api_device_index(0, i).get('name'), p.get_device_info_by_host_api_device_index(0, i).get('maxInputChannels'))
+                #print("Input Device id ", i, " - ", p.get_device_info_by_host_api_device_index(0, i).get('name'), p.get_device_info_by_host_api_device_index(0, i).get('maxInputChannels'))
                 index = i
 
         microphones = [idx for idx in range(p.get_device_count())
@@ -98,10 +98,10 @@ class ResumableMicrophoneStream:
                     device_info.get('maxInputChannels') > 0 and
                     ((host_api_filter == 0) or (device_info.get('hostApi') == host_api_filter))]
 
-        print("MICROPHONES:")
+        #print("MICROPHONES:")
         for mic in microphones:
-            print(mic)
-        print("^^^^^^^^^^^^^^^^")'''
+            #print(mic)
+        #print("^^^^^^^^^^^^^^^^")'''
         self.ROBOT = ROBOT
         if ROBOT:
             ind = get_audio_device_index( self._audio_interface, self.device)
@@ -184,7 +184,7 @@ class ResumableMicrophoneStream:
         returns: None
         """
         #self._buff.put(in_data)
-        #print("SPEAKING")
+        ##print("SPEAKING")
         if self.client.speaking.value == 0:
             self._buff.put(in_data)
         else:
@@ -247,7 +247,7 @@ class ResumableMicrophoneStream:
             # Now consume whatever other data's still buffered.
             while True:
                 try:
-                    #print("HERE GETTING CHUNKIES")
+                    ##print("HERE GETTING CHUNKIES")
                     chunk = self._buff.get(block=False)
 
                     if chunk is None:
@@ -259,7 +259,7 @@ class ResumableMicrophoneStream:
                     break
 
             #yield speech.StreamingRecognizeRequest(audio_content=b"".join(data))
-            #print("AMA HERE")
+            ##print("AMA HERE")
             yield b"".join(data)
 
     def handle_response(self, responses):
@@ -278,7 +278,7 @@ class ResumableMicrophoneStream:
                     continue
 
                 result = response.results[0]
-                #print(result)
+                ##print(result)
 
                 if not result.alternatives:
                     continue
@@ -330,18 +330,18 @@ class ResumableMicrophoneStream:
                                             vec = "Participant Info:(CartVec3d(x=1.2,y=0.5,z=2.4),0.8,PersonFacialExpression(neutral=0.8,happy=0.9,sad=0.1,surprise=0.2,anger=0.3))"
 
                                             
-                                        leave = self.client.get_dialogue(res, time_start, vec)
+                                        cont = self.client.get_dialogue(res, time_start, vec)
                                         
 
                                         self.listening = False
-                                        if leave:
+                                        if cont==False:
                                             stream.closed = True
-                                            print("RETURNED")
+                                            #print("RETURNED")
                                             return True
                             
                         
                     else:
-                        print("...")
+                        #print("...")
                         if self.listening==False:
                             if self.client.speaking.value != 1:
                                 self.listening = True
@@ -355,8 +355,9 @@ class ResumableMicrophoneStream:
                 else:
                     self.listening = False
         except Exception as e:
-            print(f"Error during streaming ole: {e}")
-        print("RETURNED")
+            #print(f"Error during streaming ole: {e}")
+            pass
+        #print("RETURNED")
         return False
 
 
@@ -369,19 +370,19 @@ class GoogleSTT:
         
 
     def listen_print_loop(self: object, responses: object, stream: object) -> None:
-        """Iterates through server responses and prints them.
+        """Iterates through server responses and #prints them.
 
         The responses passed is a generator that will block until a response
         is provided by the server.
 
         Each response may contain multiple results, and each result may contain
         multiple alternatives; for details, see https://goo.gl/tjCPAU.  Here we
-        print only the transcription for the top alternative of the top result.
+        #print only the transcription for the top alternative of the top result.
 
         In this case, responses are provided for interim results as well. If the
-        response is an interim one, print a line feed at the end of it, to allow
+        response is an interim one, #print a line feed at the end of it, to allow
         the next result to overwrite it, until the response is a final one. For the
-        final one, print a newline to preserve the finalized transcription.
+        final one, #print a newline to preserve the finalized transcription.
 
         Arg:
             responses: The responses returned from the API.
@@ -424,9 +425,9 @@ class GoogleSTT:
                 # line, so subsequent lines will overwrite them.
 
                 if result.is_final:
-                    sys.stdout.write(GREEN)
-                    sys.stdout.write("\033[K")
-                    sys.stdout.write(str(corrected_time) + ": " + transcript + "\n")
+                    ##sys.stdout.write(GREEN)
+                    ##sys.stdout.write("\033[K")
+                    ##sys.stdout.write(str(corrected_time) + ": " + transcript + "\n")
 
                     stream.is_final_end_time = stream.result_end_time
                     stream.last_transcript_was_final = True
@@ -435,20 +436,21 @@ class GoogleSTT:
                     # Exit recognition if any of the transcribed phrases could be
                     # one of our keywords.
                     if re.search(r"\b(exit|quit)\b", transcript, re.I):
-                        sys.stdout.write(YELLOW)
-                        sys.stdout.write("Exiting...\n")
+                        ##sys.stdout.write(YELLOW)
+                        ##sys.stdout.write("Exiting...\n")
                         stream.closed = True
                         break
                 else:
-                    sys.stdout.write(RED)
-                    sys.stdout.write("\033[K")
-                    sys.stdout.write(str(corrected_time) + ": " + transcript + "\r")
+                    ##sys.stdout.write(RED)
+                    ##sys.stdout.write("\033[K")
+                    ##sys.stdout.write(str(corrected_time) + ": " + transcript + "\r")
                     counter+=1
-                    #sys.stdout.write("COUNTER =" + str(counter))
+                    ##sys.stdout.write("COUNTER =" + str(counter))
 
                     stream.last_transcript_was_final = False
         except Exception as e:
-            print(e)
+            #print(e)
+            pass
 
     
 
@@ -481,21 +483,21 @@ class GoogleSTT:
         mic_manager = ResumableMicrophoneStream(SAMPLE_RATE, CHUNK_SIZE, self.client, self.device, ROBOT)
         #mic_manager.thresh = new_thresh
 
-        sys.stdout.write(YELLOW)
-        sys.stdout.write('\nListening, say "Terminate chat" to stop.\n\n')
-        sys.stdout.write("End (ms)       Transcript Results/Status\n")
-        sys.stdout.write("=====================================================\n")
-        sys.stdout.write(RESET)
+        ##sys.stdout.write(YELLOW)
+        ##sys.stdout.write('\nListening, say "Terminate chat" to stop.\n\n')
+        ##sys.stdout.write("End (ms)       Transcript Results/Status\n")
+        ##sys.stdout.write("=====================================================\n")
+        ##sys.stdout.write(RESET)
         t = time.time()
         
         with mic_manager as stream:
             try:
                 while not stream.closed:
-                    sys.stdout.write(YELLOW)
-                    sys.stdout.write(
-                        "\n" + str(STREAMING_LIMIT * stream.restart_counter) + ": NEW REQUEST\n"
-                    )
-                    sys.stdout.write(RESET)
+                    ##sys.stdout.write(YELLOW)
+                    ##sys.stdout.write(
+                        #"\n" + str(STREAMING_LIMIT * stream.restart_counter) + ": NEW REQUEST\n"
+                    #)
+                    ##sys.stdout.write(RESET)
 
                     stream.audio_input = []
                     stream._buff = queue.Queue()
@@ -512,17 +514,17 @@ class GoogleSTT:
                     try:
                         responses = speech_client.streaming_recognize(streaming_config, requests)
                     except Exception as e:
-                        print(f"Error: {e}")
+                        #print(f"Error: {e}")
                         continue
 
-                    #print(len(responses))
+                    ##print(len(responses))
 
 
                     # Now, put the transcription responses to use.
-                    #self.listen_print_loop(responses, stream)
+                    #self.listen_#print_loop(responses, stream)
                     leave = stream.handle_response(responses)
-                    #if leave:
-                        #return
+                    if leave:
+                        return
 
                     if stream.result_end_time > 0:
                         stream.final_request_end_time = stream.is_final_end_time
@@ -532,12 +534,12 @@ class GoogleSTT:
                     stream.audio_input = []
                     stream.restart_counter = stream.restart_counter + 1
 
-                    if not stream.last_transcript_was_final:
-                        sys.stdout.write("\n")
+                    #if not stream.last_transcript_was_final:
+                        #.stdout.write("\n")
                     stream.new_stream = True
-                    #print("LEFT!")
+                    ##print("LEFT!")
             except Exception as e:
-                print(e)
+                #print(e)
                 stream.close()
 
             

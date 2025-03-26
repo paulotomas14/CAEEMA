@@ -10,11 +10,14 @@ import pandas as pd
 import json
 from typing import List, Dict, Any
 from openai import OpenAI
+from utils import openai_api_key
+
 import random
 import numpy as np
 import math
 # Copy and paste your OpenAI API Key
-openai_api_key = ""
+
+
 # Put your name
 key_owner = ""
 
@@ -22,8 +25,8 @@ class NavelEmotion:
     emo_map = {
             "neutral": [],
             "happy": ["Joy", "Love", "Gratification","Hope", "Admiration" ],
-            "sad": ["Remorse", "Fears-confirmed", "Disappointment", "Sorry-for", "Shame"],
-            "surprise": ["Distress",  "Fear", "Relief"],
+            "sad": ["Remorse", "Fears-confirmed", "Disappointment", "Sorry-for", "Shame", "Fear"],
+            "surprise": ["Distress", "Relief"],
             "anger": ["Hate", "Resentment", "Anger", "Reproach"],
             "smile": ["Happy-for", "Pride", "Gloating","Satisfaction", "Gratitude"],
         }
@@ -166,7 +169,7 @@ class ExperimentData:
             #print("CONTENT = " + str(content))
         try:    
             navel_emotions = re.findall(navel_emotion_pattern, par)[0]
-            print(navel_emotions)
+            #print(navel_emotions)
 
             overlap = navel_emotions[3]
             neutral =  navel_emotions[4]
@@ -191,7 +194,7 @@ class ExperimentData:
             y= None
             z= None
             overlap =None
-            print("ERRO CARAMBAS = " + str(e))
+            #print("ERRO CARAMBAS = " + str(e))
 
         try:
             navel_emotions = re.findall(navel_emotion_pattern, par)

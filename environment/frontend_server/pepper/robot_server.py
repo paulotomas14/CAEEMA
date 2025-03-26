@@ -9,7 +9,7 @@ import sys
 
 from multiprocessing import Process
 
-TERMINATE_KEYWORDS = "terminate chat"
+TERMINATE_KEYWORDS = "terminate"
 
 
 

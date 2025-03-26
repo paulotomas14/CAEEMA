@@ -14,12 +14,8 @@ from datetime import datetime
 
 
 
-# importing
 
-#HOST = "190.168.0.103"  # Standard loopback interface address (localhost)
-#HOST = "192.168.171.17"
-HOST = "192.168.88.17"
-#HOST = "192.168.171.17"
+HOST = "127.0.0.1"
 PORT = 65433  # Port to listen on (non-privileged ports are > 1023)
 
 

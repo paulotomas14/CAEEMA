@@ -447,7 +447,7 @@ class EmotionalLayer:
             
 
 
-        print("Re-APPRAISAL TOOK: " + str(time.time()-t) + " seconds to run")
+        #print("Re-APPRAISAL TOOK: " + str(time.time()-t) + " seconds to run")
         return appraisals
     
 
@@ -493,7 +493,7 @@ class EmotionalLayer:
 
         ap_ = "APPRAISAL TOOK: " + str(time.time()-t) + " seconds to run"
         ap = time.time()-t
-        print(ap_)
+        #print(ap_)
         em_ = self.find_predominant_emotions(1)[0]
         if chat is not None:
             chat[1].append(ap_)

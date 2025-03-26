@@ -437,9 +437,6 @@ class Persona:
         print(i)
     return execution
 
-  def plan_robot(self, target_persona):
-    return plan_robot(self, target_persona)
-
 
 
 

@@ -21,6 +21,7 @@ from persona.prompt_template.run_gpt_prompt import *
 from persona.cognitive_modules.variables import CHAT_SIMULATION_STEPS, NavelEmotion
 from colorama import Fore, Style
 from utils import openai_api_key
+from utils import REPLACEMENT_NAME, DIALOGUE_MODEL
 import string
 MAX_LINES = 8
 CUTOFF_SUMMARY = 4
@@ -474,8 +475,10 @@ def open_convo_session(self, convo_mode, personas=None, chat_partner=None, line=
 
     summarized_idea =mems
 
-    
-    user_input = [chat_partner.name, '"'+ line+'"']
+    if chat_partner:
+      user_input = [chat_partner.name, '"'+ line+'"']
+    else:
+      user_input = ["User", '"'+ line+'"']
     curr_convo += [user_input]
 
     
@@ -514,24 +517,30 @@ def open_convo_session(self, convo_mode, personas=None, chat_partner=None, line=
       next_line = stream_generate_next_line(persona,line, chat_partner, curr_chat, summarized_idea, out_q, relationship, new_env, em_state, chat, par)
     
     prep_ = "PREPARING TAKES = " + str(tempo2-tempo)
-    print(prep_)
+    #print(prep_)
     prep = tempo2-tempo
     chat[1].append(prep_+"\n")
     gen_ = "GENERATING TAKES = " + str(time.time()-tempo2)
-    print(gen_)
+    #print(gen_)
     chat[1].append(gen_+"\n")
     if persona.emotional:
       emo = persona.emotional_layer.find_predominant_emotions(1)[0]
-      user_emo  = chat_partner.emotional_layer.find_predominant_emotions(1)[0]
+        
 
       em_ = f"MAIN EMOTION = {emo.name} : {emo.value}"
       emo_name = emo.name
       emo_value = emo.value
-      partner_em = f"USER EMOTION = {user_emo.name} : {user_emo.value}"
-      user_emo_name = user_emo.name
-      user_emo_value = user_emo.value
       chat[1].append(em_ + "\n")
-      chat[1].append(partner_em + "\n")
+
+      if chat_partner:
+        user_emo  = chat_partner.emotional_layer.find_predominant_emotions(1)[0]
+        partner_em = f"USER EMOTION = {user_emo.name} : {user_emo.value}"
+        user_emo_name = user_emo.name
+        user_emo_value = user_emo.value
+        chat[1].append(partner_em + "\n")
+      else:
+        user_emo_name = None
+        user_emo_value = None
 
 
 
@@ -544,7 +553,7 @@ def open_convo_session(self, convo_mode, personas=None, chat_partner=None, line=
     agent_output = [persona.scratch.name, next_line]
     curr_convo += [agent_output]
 
-    print(par)
+    #print(par)
     chat[2].append((datetime.datetime.now(), prep, None, None, f"{emo_name} : {emo_value}", f"{user_emo_name} : {user_emo_value}", line, next_line, par ) )
     
     
@@ -556,7 +565,7 @@ def get_stream_response(client,system_content, user_content, chat):
   
 
   response = client.chat.completions.create(
-        model="gpt-4o",  # You can replace this with another model, e.g., "gpt-3.5-turbo"
+        model=DIALOGUE_MODEL,  # You can replace this with another model, e.g., "gpt-3.5-turbo"
         messages=[ {"role": "system", "content": system_content},
             {"role": "user", "content": user_content},
         ],
@@ -575,17 +584,23 @@ def get_stream_response(client,system_content, user_content, chat):
 
 
 def create_prompt(persona, curr_chat, chat_partner, relationship, em_state, summarized_idea, par):
-  chat_partner_name = chat_partner.name
+  if chat_partner:
+    chat_partner_name = chat_partner.name
+  else:
+    chat_partner_name = "User"
   if persona.emotional:
     em = persona.emotional_layer.find_predominant_emotions(1)[0]
     current_emotion = em.get_description(persona.name)
-    em_human = chat_partner.emotional_layer.find_predominant_emotions(1)[0]
-    current_emotion_human = em_human.get_description(chat_partner_name)
+    if chat_partner:
+      em_human = chat_partner.emotional_layer.find_predominant_emotions(1)[0]
+      current_emotion_human = em_human.get_description(chat_partner_name)
+    else:
+      current_emotion_human = ""
 
     facial_emotion = NavelEmotion()
     facial_emotion = facial_emotion.set_from_participant_info(par)
     major_facial_emotion = facial_emotion.get_major_emotion()
-    current_emotion_human += f"\nAnd from {chat_partner_name}'s facial expressions, you believe they are feeling {major_facial_emotion[0]}."
+    current_emotion_human += f"\nFrom {chat_partner_name}'s facial expressions, you believe they are feeling {major_facial_emotion[0]}."
     #format_append = f"""REASONING: (20 to 25 words, where you explain what you must say, how and why, given your feelings, the {chat_partner_name}'s feelings
     #and your memories.)Ex: Given that I am feeling pride, but do not remember what {chat_partner_name} is talking about, I would react by ignoring this topic.
     # """
@@ -603,12 +618,17 @@ def create_prompt(persona, curr_chat, chat_partner, relationship, em_state, summ
     if "\n" not in elem[1]:
       c_chat+= "\n"
 
+  if chat_partner:
+    iss = str(chat_partner.scratch.get_str_iss(True))
+  else:
+    iss = "This is a new customer, you know nothing about them."
+
 
 
   system_content = f"""============== THIS IS YOU =====================
 {str(persona.scratch.get_str_iss(True))}
 ==================== THIS IS THE PERSON YOU ARE CURRENTLY TALKING TO ====================
-{str(chat_partner.scratch.get_str_iss(True))}
+{iss}
 ==================== THIS IS YOUR RELASHIONSHIP =====================
 {relationship}
 =================== THIS IS THE CURRENT SITUATION ===================
@@ -632,6 +652,8 @@ Please respond in the format:
 This is your conversation so far:
 {c_chat}
 """
+  system_content = system_content.replace("Pepper Robot", REPLACEMENT_NAME)
+  user_content = user_content.replace("Pepper Robot", REPLACEMENT_NAME)
 
   
   return (system_content, user_content, c_chat)
@@ -641,7 +663,10 @@ This is your conversation so far:
 
 def stream_generate_next_line(persona, inp, chat_partner, curr_chat, summarized_idea, out_q, relationship,new_env, em_state, chat, par):
   client = OpenAI(api_key=openai_api_key)
-  chat_partner_name = chat_partner.name
+  if chat_partner:
+    chat_partner_name = chat_partner.name
+  else:
+    chat_partner_name = "User"
 
   system,user, _ = create_prompt(persona, curr_chat, chat_partner, relationship, em_state, summarized_idea, par)
   #print(Fore.RED + str(system + user))
@@ -685,7 +710,8 @@ def stream_generate_next_line(persona, inp, chat_partner, curr_chat, summarized_
             if dialogue:
               current += content
 
-            pattern = "("+persona.name+r"\s*:\s*[\"\']?)"
+            #pattern = "("+persona.name+r"\s*:\s*[\"\']?)"
+            pattern = "("+REPLACEMENT_NAME+r"\s*:\s*[\"\']?)"
             m = re.search(pattern, current)
             #|([\"\'])
 
@@ -714,6 +740,7 @@ def stream_generate_next_line(persona, inp, chat_partner, curr_chat, summarized_
 
               #print("true content =" + str(true_content))
               true_content = true_content.strip(persona.name)
+              true_content = true_content.strip("Navel")
               current = true_content
               current = current.strip("\"")
             #print("CURRENT = " + str(current))
