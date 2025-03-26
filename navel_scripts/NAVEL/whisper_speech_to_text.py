@@ -12,7 +12,6 @@ import multiprocessing
 from colorama import Fore, Style
 from speech_to_text_utils import *
 
-API_KEY = "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"
 os.environ["OPENAI_API_KEY"] = API_KEY
 API_URL = "https://api.openai.com/v1/audio/transcriptions"  # Update if using another API
 
