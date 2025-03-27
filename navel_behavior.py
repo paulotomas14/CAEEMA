@@ -43,7 +43,7 @@ DEBUG_SINGLE = False
 X_MIDDLE = 300
 MAXIMUM_X_DISTANCE_WHEN_GAZING_AT_USER = 100
 MAX_EMOTION = 10
-WAIT_UNTIL_NEW_SEARCH = 120
+WAIT_UNTIL_NEW_SEARCH = 5
 
 
 
@@ -286,6 +286,7 @@ class NavelClient:
         counter = 0
         
         angle = 20
+        MAX_LOOK = 180
 
         while not found:
             ##print("Searching!!!")
@@ -309,9 +310,10 @@ class NavelClient:
                 await robot.rotate_base(angle)
                 ##print(str(time.time()-t))
 
-                if counter >= 180:
+                if counter >= MAX_LOOK:
                     angle = angle * -1
                     counter = 0
+                    MAX_LOOK +=40
                 
                 counter+= abs(angle)
                 #print(counter)
